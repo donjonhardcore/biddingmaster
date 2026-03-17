@@ -1,0 +1,13 @@
+{
+  "name": "bidding-master-backend",
+  "version": "1.0.0",
+  "description": "Central Log Dashboard for Bidding Master Extension",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "dependencies": {}
+}
