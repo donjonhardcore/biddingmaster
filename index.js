@@ -72,6 +72,7 @@ const server = http.createServer((req, res) => {
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="UTF-8">
   <title>Bidding Master - Central Logs</title>
   <style>
     body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: #0d1117; color: #c9d1d9; padding: 20px; line-height: 1.5; }
