@@ -11,6 +11,17 @@ const MAX_LOGS_PER_DAY = 5000;
 let logs = [];
 const activeClients = new Map();
 
+// ── HTML Escape (XSS prevention) ──
+function escHtml(str) {
+  if (str === null || str === undefined) return '';
+  return String(str)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;');
+}
+
 // ════════════════════════════════════════════════════════════
 // FILE-BASED PERSISTENT LOGGING
 // ════════════════════════════════════════════════════════════
@@ -121,7 +132,7 @@ const server = http.createServer((req, res) => {
       try {
         const logEntry = JSON.parse(body);
         logEntry.serverTime = new Date().toISOString();
-        logEntry.clientIp = req.socket.remoteAddress || req.headers['x-forwarded-for'] || 'Unknown';
+        logEntry.clientIp = req.headers['x-forwarded-for']?.split(',')[0]?.trim() || req.socket.remoteAddress || 'Unknown';
         
         // Track active client
         if (logEntry.clientId) {
@@ -293,8 +304,8 @@ const server = http.createServer((req, res) => {
       : `<div class="client-list">
           ${Array.from(activeClients.entries()).map(([id, data]) => `
             <div class="client-badge">
-              <div class="id">🖥️ ${id}</div>
-              <div class="ip">${data.ip}</div>
+              <div class="id">🖥️ ${escHtml(id)}</div>
+              <div class="ip">${escHtml(data.ip)}</div>
             </div>
           `).join('')}
         </div>`}
@@ -308,14 +319,14 @@ const server = http.createServer((req, res) => {
   <div id="logs-container">
     ${viewLogs.length === 0 ? '<p style="color:#8b949e; font-style: italic;">No logs for this date.</p>' : ''}
     ${viewLogs.slice().reverse().map(l => `
-      <div class="log-entry ${l.type ? l.type.toLowerCase() : ''}">
+      <div class="log-entry ${escHtml(l.type ? l.type.toLowerCase() : '')}">
         <div class="meta">
           <span>🕒 ${l.serverTime ? new Date(l.serverTime).toLocaleTimeString() : '?'}</span>
-          <span>🖥️ ${l.clientId || 'Unknown'}</span>
-          <span>🏷️ ${l.type || 'INFO'}</span>
+          <span>🖥️ ${escHtml(l.clientId || 'Unknown')}</span>
+          <span>🏷️ ${escHtml(l.type || 'INFO')}</span>
         </div>
-        <div style="font-weight:600; font-size:15px; color: ${l.type === 'DETECT' ? '#ff7b72' : '#c9d1d9'}">${l.message || ''}</div>
-        ${l.data ? `<pre>${JSON.stringify(l.data, null, 2)}</pre>` : ''}
+        <div style="font-weight:600; font-size:15px; color: ${l.type === 'DETECT' ? '#ff7b72' : '#c9d1d9'}">${escHtml(l.message || '')}</div>
+        ${l.data ? `<pre>${escHtml(JSON.stringify(l.data, null, 2))}</pre>` : ''}
       </div>
     `).join('')}
   </div>

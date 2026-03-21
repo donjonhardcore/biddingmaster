@@ -1,31 +1,41 @@
-# 📊 Bidding Master — Telemetry Backend
+# 📊 Bidding Master — Telemetry Backend (v2.1)
 
-This Node.js server acts as the central "God-Mode" dashboard for the bidding ecosystem. It is designed to run on **Render.com** and provide a real-time feed of all extension activity.
+Central monitoring dashboard and log receiver for the Bidding Master extension ecosystem. Deployed on **Render.com**.
 
 ## 📁 Key Files
-- **`index.js`**: The main server logic. Handles:
-    - Log ingestion from multiple extension clients.
-    - Real-time dashboard rendering.
-    - Endpoint: `POST /log` (Ingests JSON logs).
-    - Endpoint: `GET /` (Displays the dashboard).
-    - Endpoint: `GET /logs` (Returns raw JSON logs for analysis).
-- **`package.json`**: Project dependencies (Primary: `express`, `ejs`, `body-parser`).
+- **`index.js`**: Server logic (pure Node.js `http` module, no frameworks). Handles:
+    - Log ingestion from multiple extension clients
+    - XSS-safe real-time dashboard rendering
+    - File-based persistent logging with daily rotation
+    - Active client tracking with 30s heartbeat timeout
+- **`package.json`**: Project config (zero external dependencies).
+- **`data/`**: Log storage directory (auto-created, git-ignored).
 
-## 📡 Features
-1. **Real-time Log Aggregation**: Collects detections, network timing, and selective clicks from all connected clients.
-2. **Timing Analysis**: Automatically compares the time an API response was received vs. when the DOM was actually updated.
-3. **Connectivity Tracking**: Monitors heartbeat "pings" from extensions to ensure the bot is alive and connected before a bid starts.
-4. **Persistent History**: Keeps a rolling buffer of logs to allow for "post-mortem" analysis after a bidding session ends.
+## 📡 API Endpoints
+| Method | Endpoint | Purpose |
+|--------|----------|---------|
+| `POST` | `/log` | Ingest a JSON log entry from an extension |
+| `GET` | `/` or `/dashboard` | HTML dashboard with stats, date picker, logs |
+| `GET` | `/dashboard?date=YYYY-MM-DD` | View historical logs for a specific date |
+| `GET` | `/logs` | Today's raw JSON logs |
+| `GET` | `/logs/YYYY-MM-DD` | Historical logs for a specific date (JSON) |
+| `GET` | `/dates` | List of all dates with stored logs |
+| `GET` | `/clear` | Clear today's logs |
+| `GET` | `/healthz` | Health check for Render uptime |
+
+## 🔒 Security
+- **XSS Protection**: All user-controlled fields (clientId, message, data) are HTML-escaped before rendering on the dashboard.
+- **No credentials logged**: Only tracks page events, timing, and telemetry.
+- **Client IP**: Reads `X-Forwarded-For` header for real client IP behind Render's proxy.
+
+## 💾 Persistence
+- Logs saved to `data/logs-YYYY-MM-DD.json` daily files.
+- Loaded from disk on server startup — survives restarts and sleep.
+- ⚠️ Files are wiped on **new deploys** (Render free tier has ephemeral disk).
 
 ## ☁️ Deployment (Render.com)
-1. Hosted at: `https://biddingmaster.onrender.com`
-2. Environment: Node.js (Web Service).
-3. Build Command: `npm install`
-4. Start Command: `node index.js`
-
-## 🛡 Security
-- No user credentials (passwords/tokens) are ever sent to this server.
-- The server only tracks **public page events** and **telemetry timing**.
-
----
-**Note:** To clear historical logs for a new session, you can restart the Render service or use the `/clear` development endpoint (if enabled).
+- **URL**: https://biddingmaster.onrender.com
+- **Repo**: https://github.com/donjonhardcore/biddingmaster
+- **Build Command**: `npm install`
+- **Start Command**: `node index.js`
+- Auto-deploys on push to `main` branch.
