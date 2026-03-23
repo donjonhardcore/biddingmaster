@@ -463,5 +463,13 @@
     "data": null,
     "serverTime": "2026-03-23T07:37:54.664Z",
     "clientIp": "122.168.62.118"
+  },
+  {
+    "clientId": "PC-E6F0PV",
+    "type": "INFO",
+    "message": "ℹ️ ⛔ Stopped",
+    "data": null,
+    "serverTime": "2026-03-23T07:37:58.266Z",
+    "clientIp": "122.168.62.118"
   }
 ]
