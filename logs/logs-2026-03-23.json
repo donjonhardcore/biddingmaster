@@ -120,5 +120,29 @@
     "message": "ℹ️ ✅ Remote configuration synchronized",
     "serverTime": "2026-03-23T06:42:54.228Z",
     "clientIp": "106.219.87.83"
+  },
+  {
+    "clientId": "PC-3CVUK2",
+    "type": "INFO",
+    "message": "ℹ️ Active",
+    "data": null,
+    "serverTime": "2026-03-23T06:43:14.164Z",
+    "clientIp": "106.219.87.83"
+  },
+  {
+    "clientId": "PC-3CVUK2",
+    "type": "INFO",
+    "message": "ℹ️ Active",
+    "data": null,
+    "serverTime": "2026-03-23T06:43:34.194Z",
+    "clientIp": "106.219.87.83"
+  },
+  {
+    "clientId": "PC-3CVUK2",
+    "type": "INFO",
+    "message": "ℹ️ Active",
+    "data": null,
+    "serverTime": "2026-03-23T06:43:54.148Z",
+    "clientIp": "106.219.87.83"
   }
 ]
