@@ -6,6 +6,8 @@ const path = require('path');
 const PORT = process.env.PORT || 3000;
 const LOG_DIR = path.join(__dirname, 'data');
 const MAX_LOGS_PER_DAY = 5000;
+const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
+const GITHUB_REPO = process.env.GITHUB_REPO || 'donjonhardcore/biddingmaster';
 
 // ── State ──
 let logs = [];
@@ -377,4 +379,69 @@ server.listen(PORT, () => {
   console.log('| 📊 Dashboard: /                                    |');
   console.log('| 📜 API: /logs, /logs/YYYY-MM-DD, /dates, /clear   |');
   console.log('======================================================');
+  
+  if (GITHUB_TOKEN) {
+    console.log('✅ GitHub Auto-Backup ENABLED (Runs every 15m)');
+  } else {
+    console.log('⚠️ GitHub Auto-Backup DISABLED (No GITHUB_TOKEN found)');
+  }
 });
+
+// ════════════════════════════════════════════════════════════
+// GITHUB AUTO-BACKUP
+// ════════════════════════════════════════════════════════════
+async function backupToGithub() {
+  if (!GITHUB_TOKEN) return;
+  const today = getDateStr();
+  if (logs.length === 0) return; // Nothing to backup yet
+
+  try {
+    let txtContent = `--- Bidding Master Logs: ${today} ---\n\n`;
+    logs.forEach(l => {
+      txtContent += `[${new Date(l.serverTime).toLocaleTimeString()}] ${l.clientId || '?'} | ${l.type || 'INFO'}: ${l.message || ''}\n`;
+      if (l.data) txtContent += `${JSON.stringify(l.data, null, 2)}\n`;
+      txtContent += `---------------------------------------\n`;
+    });
+    
+    const encodedContent = Buffer.from(txtContent).toString('base64');
+    const pathInRepo = `logs/logs-${today}.txt`;
+    const branchName = 'logs'; 
+    
+    // 1. Get SHA if file exists
+    let fileSha = undefined;
+    const getRes = await fetch(`https://api.github.com/repos/${GITHUB_REPO}/contents/${pathInRepo}?ref=${branchName}`, {
+      headers: { 'Authorization': `Bearer ${GITHUB_TOKEN}`, 'User-Agent': 'BiddingMaster-Bot' }
+    });
+    if (getRes.ok) {
+      const data = await getRes.json();
+      fileSha = data.sha;
+    }
+
+    // 2. PUT file update
+    const putRes = await fetch(`https://api.github.com/repos/${GITHUB_REPO}/contents/${pathInRepo}`, {
+      method: 'PUT',
+      headers: {
+        'Authorization': `Bearer ${GITHUB_TOKEN}`,
+        'Content-Type': 'application/json',
+        'User-Agent': 'BiddingMaster-Bot'
+      },
+      body: JSON.stringify({
+        message: `Auto-backup logs for ${today}`,
+        content: encodedContent,
+        branch: branchName,
+        sha: fileSha
+      })
+    });
+
+    if (putRes.ok) {
+      console.log(`✅ System successfully backed up ${today} logs as TXT to GitHub branch '${branchName}'!`);
+    } else {
+      console.error('❌ Failed to push to GitHub', await putRes.text());
+    }
+  } catch(e) {
+    console.error('❌ GitHub Backup Error. (Are you running Node v18+ for fetch support?):', e.message);
+  }
+}
+
+// Run backup every 15 minutes (900000ms)
+setInterval(backupToGithub, 15 * 60 * 1000);
