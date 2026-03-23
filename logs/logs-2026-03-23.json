@@ -174,5 +174,13 @@
     "message": "ℹ️ ✅ Remote configuration synchronized",
     "serverTime": "2026-03-23T06:44:53.762Z",
     "clientIp": "106.219.87.83"
+  },
+  {
+    "clientId": "PC-14URT9",
+    "type": "INFO",
+    "message": "ℹ️ ⛔ Stopped",
+    "data": null,
+    "serverTime": "2026-03-23T06:44:54.926Z",
+    "clientIp": "106.219.87.83"
   }
 ]
