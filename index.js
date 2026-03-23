@@ -126,6 +126,13 @@ const server = http.createServer((req, res) => {
 
   // ── POST /log — Ingest a log entry ──
   if (req.method === 'POST' && req.url === '/log') {
+    const apiKey = req.headers['x-api-key'];
+    if (apiKey !== 'SUPER_SECRET_TOKEN_4829') {
+      res.writeHead(403);
+      res.end('Forbidden');
+      return;
+    }
+    
     let body = '';
     req.on('data', chunk => { body += chunk.toString(); });
     req.on('end', () => {
@@ -160,6 +167,22 @@ const server = http.createServer((req, res) => {
         res.end('Bad Request');
       }
     });
+  }
+
+  // ── GET /config — Remote Configuration ──
+  else if (req.method === 'GET' && req.url === '/config') {
+    res.writeHead(200, { 'Content-Type': 'application/json' });
+    res.end(JSON.stringify({
+      OPEN_INDENT_TABLE_SELECTORS: ['table.eloi-table', 'table.ethanol-cms-table', 'table[class*="eloi"]', 'table[class*="ethanol"]'],
+      ROW_SELECTOR: 'tbody tr',
+      CHECKBOX_SELECTOR: 'label.container-checkbox input[type="checkbox"], input[type="checkbox"]',
+      SELECT_LINK_SELECTOR: 'td.iconContain a, td[class*="iconContain"] a',
+      STATUS_AVAILABLE: ['available'],
+      STATUS_SKIP: ['closed', 'expired', 'allocated', 'completed', 'unavailable', 'dispatched', 'in transit', 'delivered', 'cancelled', 'accepted', 'applied', 'rejected'],
+      MODAL_SELECTORS: ['.modal', '[class*="modal"]', '[class*="Modal"]', '[role="dialog"]', '.modal-dialog', '.modal-content', '[class*="popup"]', '[class*="Popup"]'],
+      PO_DROPDOWN_SELECTORS: ['select.select-input', 'select#terminal', 'select', '[class*="dropdown"]', '[class*="Dropdown"]', '[class*="select"]', '[class*="Select"]'],
+      APPLY_BUTTON_KEYWORDS: ['apply', 'submit', 'confirm', 'save', 'ok']
+    }));
   }
 
   // ── GET /logs — Today's logs as JSON ──
