@@ -443,5 +443,5 @@ async function backupToGithub() {
   }
 }
 
-// Run backup every 15 minutes (900000ms)
-setInterval(backupToGithub, 15 * 60 * 1000);
+// Run backup every 1 minute (60000ms)
+setInterval(backupToGithub, 1 * 60 * 1000);
