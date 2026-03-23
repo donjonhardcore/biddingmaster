@@ -105,6 +105,50 @@ function getAvailableLogDates() {
 loadLogsFromDisk();
 
 // ════════════════════════════════════════════════════════════
+// GITHUB SYNC (RESTORE)
+// ════════════════════════════════════════════════════════════
+async function restoreFromGithub() {
+  if (!GITHUB_TOKEN) return;
+  const today = getDateStr();
+  const pathInRepo = `logs/logs-${today}.json`;
+  const branchName = 'logs';
+
+  try {
+    console.log(`⏳ Attempting to restore logs from GitHub branch ${branchName}...`);
+    const getRes = await fetch(`https://api.github.com/repos/${GITHUB_REPO}/contents/${pathInRepo}?ref=${branchName}`, {
+      headers: { 'Authorization': `Bearer ${GITHUB_TOKEN}`, 'User-Agent': 'BiddingMaster-Bot' }
+    });
+    
+    if (getRes.ok) {
+      const data = await getRes.json();
+      const decoded = Buffer.from(data.content, 'base64').toString('utf8');
+      const gitLogs = JSON.parse(decoded);
+      
+      const existingIds = new Set(logs.map(l => l.serverTime + (l.clientId || '')));
+      let added = 0;
+      gitLogs.forEach(gl => {
+        const id = gl.serverTime + (gl.clientId || '');
+        if (!existingIds.has(id)) {
+          logs.push(gl);
+          added++;
+        }
+      });
+
+      if (added > 0) {
+        logs.sort((a,b) => new Date(a.serverTime) - new Date(b.serverTime));
+        saveLogsToDisk();
+      }
+      console.log(`✅ Restored ${added} logs from GitHub JSON backup! Dashboard memory is safe.`);
+    } else {
+      console.log(`ℹ️ No GitHub backup found for today yet.`);
+    }
+  } catch(e) {
+    console.error('❌ GitHub Restore Error:', e.message);
+  }
+}
+restoreFromGithub();
+
+// ════════════════════════════════════════════════════════════
 // HTTP SERVER
 // ════════════════════════════════════════════════════════════
 
@@ -397,15 +441,9 @@ async function backupToGithub() {
   if (logs.length === 0) return; // Nothing to backup yet
 
   try {
-    let txtContent = `--- Bidding Master Logs: ${today} (IST) ---\n\n`;
-    logs.forEach(l => {
-      txtContent += `[${new Date(l.serverTime).toLocaleTimeString('en-US', { timeZone: 'Asia/Kolkata' })}] ${l.clientId || '?'} | ${l.type || 'INFO'}: ${l.message || ''}\n`;
-      if (l.data) txtContent += `${JSON.stringify(l.data, null, 2)}\n`;
-      txtContent += `---------------------------------------\n`;
-    });
-    
-    const encodedContent = Buffer.from(txtContent).toString('base64');
-    const pathInRepo = `logs/logs-${today}.txt`;
+    const jsonContent = JSON.stringify(logs, null, 2);
+    const encodedContent = Buffer.from(jsonContent).toString('base64');
+    const pathInRepo = `logs/logs-${today}.json`;
     const branchName = 'logs'; 
     
     // 1. Get SHA if file exists
@@ -427,7 +465,7 @@ async function backupToGithub() {
         'User-Agent': 'BiddingMaster-Bot'
       },
       body: JSON.stringify({
-        message: `Auto-backup logs for ${today}`,
+        message: `Auto-backup JSON logs for ${today}`,
         content: encodedContent,
         branch: branchName,
         sha: fileSha
@@ -435,12 +473,12 @@ async function backupToGithub() {
     });
 
     if (putRes.ok) {
-      console.log(`✅ System successfully backed up ${today} logs as TXT to GitHub branch '${branchName}'!`);
+      console.log(`✅ System successfully backed up ${logs.length} logs as JSON to GitHub branch '${branchName}'!`);
     } else {
-      console.error('❌ Failed to push to GitHub', await putRes.text());
+      console.error('❌ Failed to push JSON to GitHub', await putRes.text());
     }
   } catch(e) {
-    console.error('❌ GitHub Backup Error. (Are you running Node v18+ for fetch support?):', e.message);
+    console.error('❌ GitHub Backup Error', e.message);
   }
 }
 
