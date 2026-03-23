@@ -29,7 +29,8 @@ function escHtml(str) {
 // ════════════════════════════════════════════════════════════
 
 function getDateStr(date) {
-  return (date || new Date()).toISOString().split('T')[0]; // "2026-03-21"
+  const d = date ? new Date(date) : new Date();
+  return d.toLocaleString('sv-SE', { timeZone: 'Asia/Kolkata' }).split(' ')[0]; // "2026-03-21" in IST
 }
 
 function getLogFilePath(dateStr) {
@@ -396,9 +397,9 @@ async function backupToGithub() {
   if (logs.length === 0) return; // Nothing to backup yet
 
   try {
-    let txtContent = `--- Bidding Master Logs: ${today} ---\n\n`;
+    let txtContent = `--- Bidding Master Logs: ${today} (IST) ---\n\n`;
     logs.forEach(l => {
-      txtContent += `[${new Date(l.serverTime).toLocaleTimeString()}] ${l.clientId || '?'} | ${l.type || 'INFO'}: ${l.message || ''}\n`;
+      txtContent += `[${new Date(l.serverTime).toLocaleTimeString('en-US', { timeZone: 'Asia/Kolkata' })}] ${l.clientId || '?'} | ${l.type || 'INFO'}: ${l.message || ''}\n`;
       if (l.data) txtContent += `${JSON.stringify(l.data, null, 2)}\n`;
       txtContent += `---------------------------------------\n`;
     });
