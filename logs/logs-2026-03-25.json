@@ -2041,5 +2041,176 @@
     "message": "ℹ️ 🚀 Bidding Master v2.0 active",
     "serverTime": "2026-03-25T07:57:41.600Z",
     "clientIp": "106.201.30.224"
+  },
+  {
+    "clientId": "PC-4AIEEQ",
+    "type": "INFO",
+    "message": "ℹ️ Table appeared",
+    "serverTime": "2026-03-25T07:57:49.177Z",
+    "clientIp": "106.201.30.224"
+  },
+  {
+    "clientId": "PC-4AIEEQ",
+    "type": "INFO",
+    "message": "ℹ️ Baseline: 2 rows",
+    "serverTime": "2026-03-25T07:57:49.179Z",
+    "clientIp": "106.201.30.224"
+  },
+  {
+    "clientId": "PC-4AIEEQ",
+    "type": "INFO",
+    "message": "ℹ️ MutationObserver attached",
+    "serverTime": "2026-03-25T07:57:49.194Z",
+    "clientIp": "106.201.30.224"
+  },
+  {
+    "clientId": "PC-4AIEEQ",
+    "type": "INFO",
+    "message": "ℹ️ 🔍 Row Snapshot",
+    "data": {
+      "html": "<tr data-bm-done=\"1\" style=\"outline: rgb(63, 185, 80) solid 3px !important; background-color: rgba(63, 185, 80, 0.12) !important;\"><td><td><label class=\"container-checkbox\"><input type=\"checkbox\"><span class=\"checkmark\"></span></label></td></td><td>26-March</td><td>157927</td><td>INDORE DEPOT</td><td>HPCL</td><td>40</td><td>Available</td><td class=\"iconContain\"><a href=\"/indent\">Select</a></td></tr>"
+    },
+    "serverTime": "2026-03-25T07:57:52.173Z",
+    "clientIp": "106.201.30.224"
+  },
+  {
+    "clientId": "PC-4AIEEQ",
+    "type": "INFO",
+    "message": "ℹ️ 🔍 Row Snapshot",
+    "data": {
+      "html": "<tr data-bm-done=\"1\" style=\"outline: rgb(63, 185, 80) solid 3px !important; background-color: rgba(63, 185, 80, 0.12) !important;\"><td><label class=\"container-checkbox\"><input type=\"checkbox\"><span class=\"checkmark\"></span><span class=\"checkbox-label\">Select All</span></label></td><td>26-March</td><td>Manglia(Indore)</td><td>120</td><td>Available</td><td class=\"iconContain\"><a href=\"/indent\">Select</a></td><td class=\"row-sorting\"><i class=\"icon-arrow-left-icon\"></i></td></tr>"
+    },
+    "serverTime": "2026-03-25T07:57:52.174Z",
+    "clientIp": "106.201.30.224"
+  },
+  {
+    "clientId": "PC-4AIEEQ",
+    "type": "DETECT",
+    "message": "🚨 4 NEW INDENT(S)",
+    "data": {
+      "time": "2026-03-25T07:57:53.947Z",
+      "total": 4,
+      "source": "DOM",
+      "apiDelay": "N/A"
+    },
+    "serverTime": "2026-03-25T07:57:52.184Z",
+    "clientIp": "106.201.30.224"
+  },
+  {
+    "clientId": "PC-4AIEEQ",
+    "type": "INFO",
+    "message": "ℹ️ 🔍 Row Snapshot",
+    "data": {
+      "html": "<tr data-bm-done=\"1\" style=\"outline: rgb(63, 185, 80) solid 3px !important; background-color: rgba(63, 185, 80, 0.12) !important;\"><td><td><label class=\"container-checkbox\"><input type=\"checkbox\"><span class=\"checkmark\"></span></label></td></td><td>26-March</td><td>1180969</td><td>INDORE DEPOT</td><td>HPCL</td><td>40</td><td>Available</td><td class=\"iconContain\"><a href=\"/indent\">Select</a></td></tr>"
+    },
+    "serverTime": "2026-03-25T07:57:52.186Z",
+    "clientIp": "106.201.30.224"
+  },
+  {
+    "clientId": "PC-4AIEEQ",
+    "type": "INFO",
+    "message": "ℹ️ 🔍 Row Snapshot",
+    "data": {
+      "html": "<tr data-bm-done=\"1\" style=\"outline: rgb(63, 185, 80) solid 3px !important; background-color: rgba(63, 185, 80, 0.12) !important;\"><td><td><label class=\"container-checkbox\"><input type=\"checkbox\"><span class=\"checkmark\"></span></label></td></td><td>26-March</td><td>157715</td><td>INDORE DEPOT</td><td>HPCL</td><td>40</td><td>Available</td><td class=\"iconContain\"><a href=\"/indent\">Select</a></td></tr>"
+    },
+    "serverTime": "2026-03-25T07:57:52.190Z",
+    "clientIp": "106.201.30.224"
+  },
+  {
+    "clientId": "PC-4AIEEQ",
+    "type": "INFO",
+    "message": "ℹ️ 🤖 Assisted actions started",
+    "data": {
+      "rows": 4
+    },
+    "serverTime": "2026-03-25T07:57:52.466Z",
+    "clientIp": "106.201.30.224"
+  },
+  {
+    "clientId": "PC-4AIEEQ",
+    "type": "INFO",
+    "message": "ℹ️ ✅ Checkbox checked",
+    "serverTime": "2026-03-25T07:57:52.475Z",
+    "clientIp": "106.201.30.224"
+  },
+  {
+    "clientId": "PC-4AIEEQ",
+    "type": "INFO",
+    "message": "ℹ️ ✅ Clicking \"Select\" link",
+    "data": {
+      "text": "Select",
+      "href": "/indent"
+    },
+    "serverTime": "2026-03-25T07:57:52.555Z",
+    "clientIp": "106.201.30.224"
+  },
+  {
+    "clientId": "PC-4AIEEQ",
+    "type": "INFO",
+    "message": "ℹ️ Waiting for modal...",
+    "serverTime": "2026-03-25T07:57:52.567Z",
+    "clientIp": "106.201.30.224"
+  },
+  {
+    "clientId": "PC-4AIEEQ",
+    "type": "INFO",
+    "message": "ℹ️ ✅ Modal opened",
+    "serverTime": "2026-03-25T07:57:52.601Z",
+    "clientIp": "106.201.30.224"
+  },
+  {
+    "clientId": "PC-4AIEEQ",
+    "type": "INFO",
+    "message": "ℹ️ 🔍 Modal Snapshot",
+    "data": {
+      "html": "<header><div class=\"top-header\"><div class=\"logo-sec\"></div><h1>Integrated Ethanol Management System</h1><div class=\"header-right\"><div class=\"search-notify-sec\" style=\"margin-right: 15px;\"><div class=\"notification-main\"><button class=\"notify-sec\"><img src=\"/images/chat-wt.svg\" alt=\"Chat\" style=\"width: 22px; margin-left: 3px;\"></button><div class=\"content-notification\" style=\"display: none;\"><ul></ul></div></div></div><div class=\"search-notify-sec\"><div class=\"notification-main\"><button class=\"notify-sec\"><i class=\"icon-notification\"></i><div class=\"notify-count\"></div></button><div class=\"content-notification\" style=\"display: none;\"><div class=\"noti-drop-down-header\">Notification</div><ul><li class=\"unread-notification\"><p class=\"noti-text\">Login Successfully with IP Address 106.201.30.224</p><p class=\"noti-time\">25 March, 2026</p></li><li class=\"unread-notification\"><p class=\"noti-text\">Login Successfully with IP Address 106.201.30.224</p><p class=\"noti-time\">25 March, 2026</p></li><li class=\"unread-notification\"><p class=\"noti-text\">Login Successfully with IP Address 106.201.30.224</p><p class=\"noti-time\">25 March, 2026</p></li><li class=\"unread-notification\"><p class=\"noti-text\">Login Successfully with IP Address 152.58.58.177</p><p class=\"noti-time\">25 March, 2026</p></li><li class=\"unread-notification\"><p class=\"noti-text\">Login Successfully with IP Address 106.201.30.224</p><p class=\"noti-time\">24 March, 2026</p></li></ul></div></div></div><div class=\"right-user-sec\"><button class=\"user-icon\"><i class=\"icon-user\"></i></button><button class=\"dropdown-menu\"><i class=\"icon-down-arrow\"></i></button><div class=\"dropdown-content\" style=\"display: none;\"><div class=\"drop-user-name\"><button class=\"user-icon\"><i class=\"icon-user\"></i></button><div class=\"user-d\"><span class=\"user-name\">SMS BIOFUEL PRIVATE LIMITED</span><span class=\"role-name\">Supplier Distillery Officer</span><span class=\"mail-id\"><svg width=\"11\" height=\"10\" viewBox=\"0 0 11 10\" fill=\"none\" xmlns=\"http:"
+    },
+    "serverTime": "2026-03-25T07:57:52.613Z",
+    "clientIp": "106.201.30.224"
+  },
+  {
+    "clientId": "PC-4AIEEQ",
+    "type": "INFO",
+    "message": "ℹ️ ✅ PO dropdown selected",
+    "data": {
+      "value": "1",
+      "text": "Indent Schedule"
+    },
+    "serverTime": "2026-03-25T07:57:53.101Z",
+    "clientIp": "106.201.30.224"
+  },
+  {
+    "clientId": "PC-4AIEEQ",
+    "type": "INFO",
+    "message": "ℹ️ ✅ Auto-Submit triggered",
+    "data": {
+      "text": "apply"
+    },
+    "serverTime": "2026-03-25T07:57:53.908Z",
+    "clientIp": "106.201.30.224"
+  },
+  {
+    "clientId": "PC-4AIEEQ",
+    "type": "INFO",
+    "message": "ℹ️ Active",
+    "data": null,
+    "serverTime": "2026-03-25T07:58:01.166Z",
+    "clientIp": "106.201.30.224"
+  },
+  {
+    "clientId": "PC-4AIEEQ",
+    "type": "INFO",
+    "message": "ℹ️ Active",
+    "data": null,
+    "serverTime": "2026-03-25T07:58:21.127Z",
+    "clientIp": "106.201.30.224"
+  },
+  {
+    "clientId": "PC-4AIEEQ",
+    "type": "INFO",
+    "message": "ℹ️ Active",
+    "data": null,
+    "serverTime": "2026-03-25T07:58:41.812Z",
+    "clientIp": "106.201.30.224"
   }
 ]
