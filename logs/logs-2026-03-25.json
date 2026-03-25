@@ -1609,5 +1609,21 @@
     "data": null,
     "serverTime": "2026-03-25T07:22:46.950Z",
     "clientIp": "106.201.30.224"
+  },
+  {
+    "clientId": "PC-2QYSC6",
+    "type": "INFO",
+    "message": "ℹ️ Active",
+    "data": null,
+    "serverTime": "2026-03-25T07:23:07.495Z",
+    "clientIp": "106.201.30.224"
+  },
+  {
+    "clientId": "PC-2QYSC6",
+    "type": "INFO",
+    "message": "ℹ️ ⛔ Stopped",
+    "data": null,
+    "serverTime": "2026-03-25T07:23:14.041Z",
+    "clientIp": "106.201.30.224"
   }
 ]
