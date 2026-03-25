@@ -500,5 +500,134 @@
     "data": null,
     "serverTime": "2026-03-25T04:31:13.475Z",
     "clientIp": "152.59.27.32"
+  },
+  {
+    "clientId": "PC-MW3W1F",
+    "type": "INFO",
+    "message": "ℹ️ Active",
+    "data": null,
+    "serverTime": "2026-03-25T04:31:33.850Z",
+    "clientIp": "152.59.27.32"
+  },
+  {
+    "clientId": "PC-MW3W1F",
+    "type": "INFO",
+    "message": "ℹ️ 🤖 Assisted actions started",
+    "data": {
+      "rows": 1
+    },
+    "serverTime": "2026-03-25T04:31:48.718Z",
+    "clientIp": "152.59.27.32"
+  },
+  {
+    "clientId": "PC-MW3W1F",
+    "type": "INFO",
+    "message": "ℹ️ 🔍 Row Snapshot",
+    "data": {
+      "html": "<tr data-bm-done=\"1\" style=\"outline: rgb(63, 185, 80) solid 3px !important; background-color: rgba(63, 185, 80, 0.12) !important;\"><td><td><label class=\"container-checkbox\"><input type=\"checkbox\"><span class=\"checkmark\"></span></label></td></td><td>26-March</td><td>800241</td><td>MANGLIA RECEIPT TERMINAL</td><td>BPCL</td><td>40</td><td>Available</td><td class=\"iconContain\"><i class=\"icon-info\" title=\"\"></i>4511421602</td></tr>"
+    },
+    "serverTime": "2026-03-25T04:31:48.729Z",
+    "clientIp": "152.59.27.32"
+  },
+  {
+    "clientId": "PC-MW3W1F",
+    "type": "INFO",
+    "message": "ℹ️ ✅ Checkbox checked",
+    "serverTime": "2026-03-25T04:31:48.731Z",
+    "clientIp": "152.59.27.32"
+  },
+  {
+    "clientId": "PC-MW3W1F",
+    "type": "DETECT",
+    "message": "🚨 1 NEW INDENT(S)",
+    "data": {
+      "time": "2026-03-25T04:31:49.700Z",
+      "total": 17,
+      "source": "DOM",
+      "apiDelay": "N/A"
+    },
+    "serverTime": "2026-03-25T04:31:48.734Z",
+    "clientIp": "152.59.27.32"
+  },
+  {
+    "clientId": "PC-MW3W1F",
+    "type": "WARN",
+    "message": "⚠️ ❌ \"Select\" link not found",
+    "data": {
+      "availableClickables": ""
+    },
+    "serverTime": "2026-03-25T04:31:48.827Z",
+    "clientIp": "152.59.27.32"
+  },
+  {
+    "clientId": "PC-MW3W1F",
+    "type": "INFO",
+    "message": "ℹ️ Active",
+    "data": null,
+    "serverTime": "2026-03-25T04:31:53.490Z",
+    "clientIp": "152.59.27.32"
+  },
+  {
+    "clientId": "PC-MW3W1F",
+    "type": "INFO",
+    "message": "ℹ️ Active",
+    "data": null,
+    "serverTime": "2026-03-25T04:32:13.804Z",
+    "clientIp": "152.59.27.32"
+  },
+  {
+    "clientId": "PC-MW3W1F",
+    "type": "WARN",
+    "message": "⚠️ Checkbox not found or already checked",
+    "data": {
+      "found": true,
+      "disabled": false,
+      "checked": true
+    },
+    "serverTime": "2026-03-25T04:32:15.122Z",
+    "clientIp": "152.59.27.32"
+  },
+  {
+    "clientId": "PC-MW3W1F",
+    "type": "DETECT",
+    "message": "🚨 1 NEW INDENT(S)",
+    "data": {
+      "time": "2026-03-25T04:32:16.450Z",
+      "total": 18,
+      "source": "DOM",
+      "apiDelay": "N/A"
+    },
+    "serverTime": "2026-03-25T04:32:15.128Z",
+    "clientIp": "152.59.27.32"
+  },
+  {
+    "clientId": "PC-MW3W1F",
+    "type": "INFO",
+    "message": "ℹ️ 🔍 Row Snapshot",
+    "data": {
+      "html": "<tr data-bm-done=\"1\" style=\"outline: rgb(63, 185, 80) solid 3px !important; background-color: rgba(63, 185, 80, 0.12) !important;\"><td><td><label class=\"container-checkbox\"><input type=\"checkbox\"><span class=\"checkmark\"></span></label></td></td><td>26-March</td><td>800242</td><td>MANGLIA RECEIPT TERMINAL</td><td>BPCL</td><td>40</td><td>Available</td><td class=\"iconContain\"><i class=\"icon-info\" title=\"\"></i>4511421602</td></tr>"
+    },
+    "serverTime": "2026-03-25T04:32:15.589Z",
+    "clientIp": "152.59.27.32"
+  },
+  {
+    "clientId": "PC-MW3W1F",
+    "type": "INFO",
+    "message": "ℹ️ 🤖 Assisted actions started",
+    "data": {
+      "rows": 1
+    },
+    "serverTime": "2026-03-25T04:32:15.662Z",
+    "clientIp": "152.59.27.32"
+  },
+  {
+    "clientId": "PC-MW3W1F",
+    "type": "WARN",
+    "message": "⚠️ ❌ \"Select\" link not found",
+    "data": {
+      "availableClickables": ""
+    },
+    "serverTime": "2026-03-25T04:32:15.709Z",
+    "clientIp": "152.59.27.32"
   }
 ]
