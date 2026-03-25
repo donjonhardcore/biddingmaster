@@ -1093,5 +1093,13 @@
     "data": null,
     "serverTime": "2026-03-25T07:04:26.295Z",
     "clientIp": "106.201.30.224"
+  },
+  {
+    "clientId": "PC-7QW20P",
+    "type": "INFO",
+    "message": "ℹ️ Active",
+    "data": null,
+    "serverTime": "2026-03-25T07:05:26.405Z",
+    "clientIp": "106.201.30.224"
   }
 ]
