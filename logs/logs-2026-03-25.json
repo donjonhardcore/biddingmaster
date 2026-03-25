@@ -59,5 +59,50 @@
     "data": null,
     "serverTime": "2026-03-25T04:25:54.468Z",
     "clientIp": "152.59.27.32"
+  },
+  {
+    "clientId": "PC-MW3W1F",
+    "type": "INFO",
+    "message": "ℹ️ Active",
+    "data": null,
+    "serverTime": "2026-03-25T04:26:49.396Z",
+    "clientIp": "152.59.27.32"
+  },
+  {
+    "clientId": "PC-MW3W1F",
+    "type": "INFO",
+    "message": "ℹ️ Baseline: 2 rows",
+    "serverTime": "2026-03-25T04:26:51.606Z",
+    "clientIp": "152.59.27.32"
+  },
+  {
+    "clientId": "PC-MW3W1F",
+    "type": "INFO",
+    "message": "ℹ️ MutationObserver attached",
+    "serverTime": "2026-03-25T04:26:52.062Z",
+    "clientIp": "152.59.27.32"
+  },
+  {
+    "clientId": "PC-MW3W1F",
+    "type": "INFO",
+    "message": "ℹ️ Table appeared",
+    "serverTime": "2026-03-25T04:26:52.097Z",
+    "clientIp": "152.59.27.32"
+  },
+  {
+    "clientId": "PC-MW3W1F",
+    "type": "INFO",
+    "message": "ℹ️ Active",
+    "data": null,
+    "serverTime": "2026-03-25T04:26:53.480Z",
+    "clientIp": "152.59.27.32"
+  },
+  {
+    "clientId": "PC-MW3W1F",
+    "type": "INFO",
+    "message": "ℹ️ Active",
+    "data": null,
+    "serverTime": "2026-03-25T04:27:17.847Z",
+    "clientIp": "152.59.27.32"
   }
 ]
