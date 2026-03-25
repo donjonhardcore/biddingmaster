@@ -2292,5 +2292,21 @@
     "data": null,
     "serverTime": "2026-03-25T08:02:41.123Z",
     "clientIp": "106.201.30.224"
+  },
+  {
+    "clientId": "PC-4AIEEQ",
+    "type": "INFO",
+    "message": "ℹ️ Active",
+    "data": null,
+    "serverTime": "2026-03-25T08:03:01.152Z",
+    "clientIp": "106.201.30.224"
+  },
+  {
+    "clientId": "PC-4AIEEQ",
+    "type": "INFO",
+    "message": "ℹ️ ⛔ Stopped",
+    "data": null,
+    "serverTime": "2026-03-25T08:03:02.069Z",
+    "clientIp": "106.201.30.224"
   }
 ]
