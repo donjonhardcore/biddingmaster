@@ -2888,5 +2888,29 @@
     "data": null,
     "serverTime": "2026-03-26T11:41:04.616Z",
     "clientIp": "152.59.47.37"
+  },
+  {
+    "clientId": "PC-EMSCII",
+    "type": "INFO",
+    "message": "ℹ️ Active",
+    "data": null,
+    "serverTime": "2026-03-26T11:41:24.802Z",
+    "clientIp": "152.59.47.37"
+  },
+  {
+    "clientId": "PC-EMSCII",
+    "type": "INFO",
+    "message": "ℹ️ Active",
+    "data": null,
+    "serverTime": "2026-03-26T11:41:44.646Z",
+    "clientIp": "152.59.47.37"
+  },
+  {
+    "clientId": "PC-EMSCII",
+    "type": "INFO",
+    "message": "ℹ️ Active",
+    "data": null,
+    "serverTime": "2026-03-26T11:42:04.631Z",
+    "clientIp": "152.59.47.37"
   }
 ]
