@@ -2968,5 +2968,13 @@
     "data": null,
     "serverTime": "2026-03-26T11:46:07.553Z",
     "clientIp": "152.59.47.37"
+  },
+  {
+    "clientId": "PC-EMSCII",
+    "type": "INFO",
+    "message": "ℹ️ Active",
+    "data": null,
+    "serverTime": "2026-03-26T11:47:06.776Z",
+    "clientIp": "152.59.47.37"
   }
 ]
