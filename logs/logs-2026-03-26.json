@@ -2619,5 +2619,215 @@
     "data": null,
     "serverTime": "2026-03-26T02:29:28.200Z",
     "clientIp": "152.59.25.139"
+  },
+  {
+    "clientId": "PC-IFIXVR",
+    "type": "INFO",
+    "message": "ℹ️ ✅ Auto-Submit triggered",
+    "data": {
+      "text": "apply"
+    },
+    "serverTime": "2026-03-26T04:38:02.112Z",
+    "clientIp": "152.59.25.96"
+  },
+  {
+    "clientId": "PC-21R740",
+    "type": "INFO",
+    "message": "ℹ️ 🚀 Bidding Master v2.0 active",
+    "serverTime": "2026-03-26T04:38:02.122Z",
+    "clientIp": "152.59.25.96"
+  },
+  {
+    "clientId": "PC-IFIXVR",
+    "type": "INFO",
+    "message": "ℹ️ ✅ PO dropdown selected",
+    "data": {
+      "value": "1",
+      "text": "Indent Schedule"
+    },
+    "serverTime": "2026-03-26T04:38:02.314Z",
+    "clientIp": "152.59.25.96"
+  },
+  {
+    "clientId": "PC-IFIXVR",
+    "type": "INFO",
+    "message": "ℹ️ ✅ Remote configuration synchronized",
+    "serverTime": "2026-03-26T04:38:02.456Z",
+    "clientIp": "152.59.25.96"
+  },
+  {
+    "clientId": "PC-IFIXVR",
+    "type": "INFO",
+    "message": "ℹ️ MutationObserver attached",
+    "serverTime": "2026-03-26T04:38:02.531Z",
+    "clientIp": "152.59.25.96"
+  },
+  {
+    "clientId": "PC-IFIXVR",
+    "type": "INFO",
+    "message": "ℹ️ Baseline: 2 rows",
+    "serverTime": "2026-03-26T04:38:02.537Z",
+    "clientIp": "152.59.25.96"
+  },
+  {
+    "clientId": "PC-IFIXVR",
+    "type": "INFO",
+    "message": "ℹ️ Table appeared",
+    "serverTime": "2026-03-26T04:38:02.553Z",
+    "clientIp": "152.59.25.96"
+  },
+  {
+    "clientId": "PC-IFIXVR",
+    "type": "INFO",
+    "message": "ℹ️ ✅ Checkbox checked",
+    "serverTime": "2026-03-26T04:38:02.636Z",
+    "clientIp": "152.59.25.96"
+  },
+  {
+    "clientId": "PC-IFIXVR",
+    "type": "INFO",
+    "message": "ℹ️ 🤖 Assisted actions started",
+    "data": {
+      "rows": 6
+    },
+    "serverTime": "2026-03-26T04:38:02.638Z",
+    "clientIp": "152.59.25.96"
+  },
+  {
+    "clientId": "PC-IFIXVR",
+    "type": "INFO",
+    "message": "ℹ️ Waiting for modal...",
+    "serverTime": "2026-03-26T04:38:02.676Z",
+    "clientIp": "152.59.25.96"
+  },
+  {
+    "clientId": "PC-IFIXVR",
+    "type": "INFO",
+    "message": "ℹ️ ✅ Clicking \"Select\" link",
+    "data": {
+      "text": "Select",
+      "href": "/indent"
+    },
+    "serverTime": "2026-03-26T04:38:02.748Z",
+    "clientIp": "152.59.25.96"
+  },
+  {
+    "clientId": "PC-IFIXVR",
+    "type": "INFO",
+    "message": "ℹ️ 🚀 Bidding Master v2.0 active",
+    "serverTime": "2026-03-26T04:38:02.749Z",
+    "clientIp": "152.59.25.96"
+  },
+  {
+    "clientId": "PC-IFIXVR",
+    "type": "INFO",
+    "message": "ℹ️ ✅ Modal opened",
+    "serverTime": "2026-03-26T04:38:02.770Z",
+    "clientIp": "152.59.25.96"
+  },
+  {
+    "clientId": "PC-IFIXVR",
+    "type": "INFO",
+    "message": "ℹ️ 🔍 Modal Snapshot",
+    "data": {
+      "html": "<header><div class=\"top-header\"><div class=\"logo-sec\"></div><h1>Integrated Ethanol Management System</h1><div class=\"header-right\"><div class=\"search-notify-sec\" style=\"margin-right: 15px;\"><div class=\"notification-main\"><button class=\"notify-sec\"><img src=\"/images/chat-wt.svg\" alt=\"Chat\" style=\"width: 22px; margin-left: 3px;\"></button><div class=\"content-notification\" style=\"display: none;\"><ul></ul></div></div></div><div class=\"search-notify-sec\"><div class=\"notification-main\"><button class=\"notify-sec\"><i class=\"icon-notification\"></i><div class=\"notify-count\"></div></button><div class=\"content-notification\" style=\"display: none;\"><div class=\"noti-drop-down-header\">Notification</div><ul><li class=\"unread-notification\"><p class=\"noti-text\">Login Successfully with IP Address 152.59.25.139</p><p class=\"noti-time\">26 March, 2026</p></li><li class=\"unread-notification\"><p class=\"noti-text\">Indent number 4868061 has arrived at gate ethanol against Invoice number SMS/2025-26/2852.\r\n{{queue_number}} trucks are in queue at Plant SMS BIOFUEL PRIVATE LIMITED.</p><p class=\"noti-time\">25 March, 2026</p></li><li class=\"unread-notification\"><p class=\"noti-text\">Indent number 4868064 has arrived at gate ethanol against Invoice number SMS/2025-26/2859.\r\n{{queue_number}} trucks are in queue at Plant SMS BIOFUEL PRIVATE LIMITED.</p><p class=\"noti-time\">25 March, 2026</p></li><li class=\"unread-notification\"><p class=\"noti-text\">Login Successfully with IP Address 106.201.30.224</p><p class=\"noti-time\">25 March, 2026</p></li><li class=\"unread-notification\"><p class=\"noti-text\">Login Successfully with IP Address 106.201.30.224</p><p class=\"noti-time\">25 March, 2026</p></li></ul></div></div></div><div class=\"right-user-sec\"><button class=\"user-icon\"><i class=\"icon-user\"></i></button><button class=\"dropdown-menu\"><i class=\"icon-down-arrow\"></i></button><div class=\"dropdown-content\" style=\"display: none;\"><div class=\"drop-user-name\"><button class=\"user-icon\"><i class=\"icon-user\"></i></but"
+    },
+    "serverTime": "2026-03-26T04:38:02.809Z",
+    "clientIp": "152.59.25.96"
+  },
+  {
+    "clientId": "PC-IFIXVR",
+    "type": "INFO",
+    "message": "ℹ️ 🔍 Row Snapshot",
+    "data": {
+      "html": "<tr data-bm-done=\"1\" style=\"outline: rgb(63, 185, 80) solid 3px !important; background-color: rgba(63, 185, 80, 0.12) !important;\"><td><td><label class=\"container-checkbox\"><input type=\"checkbox\"><span class=\"checkmark\"></span></label></td></td><td>27-March</td><td>5729849</td><td>INDORE DEPOT</td><td>HPCL</td><td>40</td><td>Available</td><td class=\"iconContain\"><a href=\"/indent\">Select</a></td></tr>"
+    },
+    "serverTime": "2026-03-26T04:38:02.865Z",
+    "clientIp": "152.59.25.96"
+  },
+  {
+    "clientId": "PC-IFIXVR",
+    "type": "INFO",
+    "message": "ℹ️ 🔍 Row Snapshot",
+    "data": {
+      "html": "<tr data-bm-done=\"1\" style=\"outline: rgb(63, 185, 80) solid 3px !important; background-color: rgba(63, 185, 80, 0.12) !important;\"><td><td><label class=\"container-checkbox\"><input type=\"checkbox\"><span class=\"checkmark\"></span></label></td></td><td>26-March</td><td>157927</td><td>INDORE DEPOT</td><td>HPCL</td><td>40</td><td>Available</td><td class=\"iconContain\"><a href=\"/indent\">Select</a></td></tr>"
+    },
+    "serverTime": "2026-03-26T04:38:02.885Z",
+    "clientIp": "152.59.25.96"
+  },
+  {
+    "clientId": "PC-IFIXVR",
+    "type": "INFO",
+    "message": "ℹ️ 🔍 Row Snapshot",
+    "data": {
+      "html": "<tr data-bm-done=\"1\" style=\"outline: rgb(63, 185, 80) solid 3px !important; background-color: rgba(63, 185, 80, 0.12) !important;\"><td><td><label class=\"container-checkbox\"><input type=\"checkbox\"><span class=\"checkmark\"></span></label></td></td><td>27-March</td><td>3849122</td><td>INDORE DEPOT</td><td>HPCL</td><td>40</td><td>Available</td><td class=\"iconContain\"><a href=\"/indent\">Select</a></td></tr>"
+    },
+    "serverTime": "2026-03-26T04:38:02.887Z",
+    "clientIp": "152.59.25.96"
+  },
+  {
+    "clientId": "PC-IFIXVR",
+    "type": "INFO",
+    "message": "ℹ️ 🔍 Row Snapshot",
+    "data": {
+      "html": "<tr data-bm-done=\"1\" style=\"outline: rgb(63, 185, 80) solid 3px !important; background-color: rgba(63, 185, 80, 0.12) !important;\"><td><td><label class=\"container-checkbox\"><input type=\"checkbox\"><span class=\"checkmark\"></span></label></td></td><td>27-March</td><td>5729850</td><td>INDORE DEPOT</td><td>HPCL</td><td>40</td><td>Available</td><td class=\"iconContain\"><a href=\"/indent\">Select</a></td></tr>"
+    },
+    "serverTime": "2026-03-26T04:38:02.891Z",
+    "clientIp": "152.59.25.96"
+  },
+  {
+    "clientId": "PC-IFIXVR",
+    "type": "DETECT",
+    "message": "🚨 6 NEW INDENT(S)",
+    "data": {
+      "time": "2026-03-26T04:37:56.789Z",
+      "total": 6,
+      "source": "DOM",
+      "apiDelay": "N/A"
+    },
+    "serverTime": "2026-03-26T04:38:02.899Z",
+    "clientIp": "152.59.25.96"
+  },
+  {
+    "clientId": "PC-IFIXVR",
+    "type": "INFO",
+    "message": "ℹ️ 🔍 Row Snapshot",
+    "data": {
+      "html": "<tr data-bm-done=\"1\" style=\"outline: rgb(63, 185, 80) solid 3px !important; background-color: rgba(63, 185, 80, 0.12) !important;\"><td><label class=\"container-checkbox\"><input type=\"checkbox\"><span class=\"checkmark\"></span><span class=\"checkbox-label\">Select All</span></label></td><td>27-March</td><td>Manglia(Indore)</td><td>160</td><td>Available</td><td class=\"iconContain\"><a href=\"/indent\">Select</a></td><td class=\"row-sorting\"><i class=\"icon-arrow-left-icon\"></i></td></tr>"
+    },
+    "serverTime": "2026-03-26T04:38:02.901Z",
+    "clientIp": "152.59.25.96"
+  },
+  {
+    "clientId": "PC-IFIXVR",
+    "type": "INFO",
+    "message": "ℹ️ 🔍 Row Snapshot",
+    "data": {
+      "html": "<tr data-bm-done=\"1\" style=\"outline: rgb(63, 185, 80) solid 3px !important; background-color: rgba(63, 185, 80, 0.12) !important;\"><td><label class=\"container-checkbox\"><input type=\"checkbox\"><span class=\"checkmark\"></span><span class=\"checkbox-label\">Select All</span></label></td><td>26-March</td><td>Manglia(Indore)</td><td>40</td><td>Available</td><td class=\"iconContain\"><a href=\"/indent\">Select</a></td><td class=\"row-sorting\"><i class=\"icon-arrow-left-icon\"></i></td></tr>"
+    },
+    "serverTime": "2026-03-26T04:38:02.905Z",
+    "clientIp": "152.59.25.96"
+  },
+  {
+    "clientId": "PC-IFIXVR",
+    "type": "INFO",
+    "message": "ℹ️ Active",
+    "data": null,
+    "serverTime": "2026-03-26T04:38:03.885Z",
+    "clientIp": "152.59.25.96"
+  },
+  {
+    "clientId": "PC-9JAK5T",
+    "type": "INFO",
+    "message": "ℹ️ ✅ Remote configuration synchronized",
+    "serverTime": "2026-03-26T04:38:18.175Z",
+    "clientIp": "152.59.25.96"
+  },
+  {
+    "clientId": "PC-9JAK5T",
+    "type": "INFO",
+    "message": "ℹ️ 🚀 Bidding Master v2.0 active",
+    "serverTime": "2026-03-26T04:38:18.183Z",
+    "clientIp": "152.59.25.96"
   }
 ]
