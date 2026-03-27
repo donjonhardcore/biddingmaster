@@ -1797,5 +1797,72 @@
     "data": null,
     "serverTime": "2026-03-27T08:26:57.101Z",
     "clientIp": "106.201.30.224"
+  },
+  {
+    "clientId": "PC-PDP959",
+    "type": "INFO",
+    "message": "ℹ️ Active",
+    "data": null,
+    "serverTime": "2026-03-27T09:13:36.189Z",
+    "clientIp": "106.201.30.224"
+  },
+  {
+    "clientId": "PC-PDP959",
+    "type": "INFO",
+    "message": "ℹ️ Active",
+    "data": null,
+    "serverTime": "2026-03-27T09:13:38.567Z",
+    "clientIp": "106.201.30.224"
+  },
+  {
+    "clientId": "PC-FOAI3K",
+    "type": "INFO",
+    "message": "ℹ️ 🚀 Bidding Master v2.0 active",
+    "serverTime": "2026-03-27T09:13:43.408Z",
+    "clientIp": "106.201.30.224"
+  },
+  {
+    "clientId": "PC-FOAI3K",
+    "type": "INFO",
+    "message": "ℹ️ ✅ Remote configuration synchronized",
+    "serverTime": "2026-03-27T09:13:43.990Z",
+    "clientIp": "106.201.30.224"
+  },
+  {
+    "clientId": "PC-FOAI3K",
+    "type": "INFO",
+    "message": "ℹ️ Table appeared",
+    "serverTime": "2026-03-27T09:13:52.027Z",
+    "clientIp": "106.201.30.224"
+  },
+  {
+    "clientId": "PC-FOAI3K",
+    "type": "INFO",
+    "message": "ℹ️ Baseline: 2 rows",
+    "serverTime": "2026-03-27T09:13:52.030Z",
+    "clientIp": "106.201.30.224"
+  },
+  {
+    "clientId": "PC-FOAI3K",
+    "type": "INFO",
+    "message": "ℹ️ MutationObserver attached",
+    "serverTime": "2026-03-27T09:13:52.034Z",
+    "clientIp": "106.201.30.224"
+  },
+  {
+    "clientId": "PC-FOAI3K",
+    "type": "INFO",
+    "message": "ℹ️ Active",
+    "data": null,
+    "serverTime": "2026-03-27T09:14:03.417Z",
+    "clientIp": "106.201.30.224"
+  },
+  {
+    "clientId": "PC-FOAI3K",
+    "type": "INFO",
+    "message": "ℹ️ Active",
+    "data": null,
+    "serverTime": "2026-03-27T09:14:23.436Z",
+    "clientIp": "106.201.30.224"
   }
 ]
