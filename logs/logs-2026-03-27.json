@@ -503,5 +503,235 @@
     "message": "ℹ️ Baseline: 2 rows",
     "serverTime": "2026-03-27T04:29:23.327Z",
     "clientIp": "152.59.47.240"
+  },
+  {
+    "clientId": "PC-HB0JIQ",
+    "type": "INFO",
+    "message": "ℹ️ Active",
+    "data": null,
+    "serverTime": "2026-03-27T04:29:37.528Z",
+    "clientIp": "152.59.47.240"
+  },
+  {
+    "clientId": "PC-HB0JIQ",
+    "type": "INFO",
+    "message": "ℹ️ Active",
+    "data": null,
+    "serverTime": "2026-03-27T04:29:57.498Z",
+    "clientIp": "152.59.47.240"
+  },
+  {
+    "clientId": "PC-HB0JIQ",
+    "type": "DETECT",
+    "message": "🚨 12 NEW INDENT(S)",
+    "data": {
+      "time": "2026-03-27T04:30:12.842Z",
+      "total": 12,
+      "source": "DOM",
+      "apiDelay": "N/A"
+    },
+    "serverTime": "2026-03-27T04:30:12.006Z",
+    "clientIp": "152.59.47.240"
+  },
+  {
+    "clientId": "PC-HB0JIQ",
+    "type": "INFO",
+    "message": "ℹ️ 🔍 Row Snapshot",
+    "data": {
+      "html": "<tr data-bm-done=\"1\" style=\"outline: rgb(63, 185, 80) solid 3px !important; background-color: rgba(63, 185, 80, 0.12) !important;\"><td><td><label class=\"container-checkbox\"><input type=\"checkbox\"><span class=\"checkmark\"></span></label></td></td><td>28-March</td><td>409701</td><td>INDORE DEPOT</td><td>HPCL</td><td>40</td><td>Available</td><td class=\"iconContain\"><a href=\"/indent\">Select</a></td></tr>"
+    },
+    "serverTime": "2026-03-27T04:30:12.045Z",
+    "clientIp": "152.59.47.240"
+  },
+  {
+    "clientId": "PC-HB0JIQ",
+    "type": "INFO",
+    "message": "ℹ️ 🔍 Row Snapshot",
+    "data": {
+      "html": "<tr data-bm-done=\"1\" style=\"outline: rgb(63, 185, 80) solid 3px !important; background-color: rgba(63, 185, 80, 0.12) !important;\"><td><td><label class=\"container-checkbox\"><input type=\"checkbox\"><span class=\"checkmark\"></span></label></td></td><td>28-March</td><td>247793</td><td>INDORE DEPOT</td><td>HPCL</td><td>40</td><td>Available</td><td class=\"iconContain\"><a href=\"/indent\">Select</a></td></tr>"
+    },
+    "serverTime": "2026-03-27T04:30:12.046Z",
+    "clientIp": "152.59.47.240"
+  },
+  {
+    "clientId": "PC-HB0JIQ",
+    "type": "INFO",
+    "message": "ℹ️ 🔍 Row Snapshot",
+    "data": {
+      "html": "<tr data-bm-done=\"1\" style=\"outline: rgb(63, 185, 80) solid 3px !important; background-color: rgba(63, 185, 80, 0.12) !important;\"><td><td><label class=\"container-checkbox\"><input type=\"checkbox\"><span class=\"checkmark\"></span></label></td></td><td>28-March</td><td>800262</td><td>MANGLIA RECEIPT TERMINAL</td><td>BPCL</td><td>40</td><td>Available</td><td class=\"iconContain\"><a href=\"/indent\">Select</a></td></tr>"
+    },
+    "serverTime": "2026-03-27T04:30:12.069Z",
+    "clientIp": "152.59.47.240"
+  },
+  {
+    "clientId": "PC-HB0JIQ",
+    "type": "INFO",
+    "message": "ℹ️ 🔍 Row Snapshot",
+    "data": {
+      "html": "<tr data-bm-done=\"1\" style=\"outline: rgb(63, 185, 80) solid 3px !important; background-color: rgba(63, 185, 80, 0.12) !important;\"><td><label class=\"container-checkbox\"><input type=\"checkbox\"><span class=\"checkmark\"></span><span class=\"checkbox-label\">Select All</span></label></td><td>28-March</td><td>Manglia(Indore)</td><td>440</td><td>Available</td><td class=\"iconContain\"><a href=\"/indent\">Select</a></td><td class=\"row-sorting\"><i class=\"icon-arrow-left-icon\"></i></td></tr>"
+    },
+    "serverTime": "2026-03-27T04:30:12.207Z",
+    "clientIp": "152.59.47.240"
+  },
+  {
+    "clientId": "PC-HB0JIQ",
+    "type": "INFO",
+    "message": "ℹ️ ✅ Clicking \"Select\" link",
+    "data": {
+      "text": "Select",
+      "href": "/indent"
+    },
+    "serverTime": "2026-03-27T04:30:12.320Z",
+    "clientIp": "152.59.47.240"
+  },
+  {
+    "clientId": "PC-HB0JIQ",
+    "type": "INFO",
+    "message": "ℹ️ ✅ Modal opened",
+    "serverTime": "2026-03-27T04:30:12.333Z",
+    "clientIp": "152.59.47.240"
+  },
+  {
+    "clientId": "PC-HB0JIQ",
+    "type": "INFO",
+    "message": "ℹ️ Waiting for modal...",
+    "serverTime": "2026-03-27T04:30:12.342Z",
+    "clientIp": "152.59.47.240"
+  },
+  {
+    "clientId": "PC-HB0JIQ",
+    "type": "INFO",
+    "message": "ℹ️ 🔍 Modal Snapshot",
+    "data": {
+      "html": "<header><div class=\"top-header\"><div class=\"logo-sec\"></div><h1>Integrated Ethanol Management System</h1><div class=\"header-right\"><div class=\"search-notify-sec\" style=\"margin-right: 15px;\"><div class=\"notification-main\"><button class=\"notify-sec\"><img src=\"/images/chat-wt.svg\" alt=\"Chat\" style=\"width: 22px; margin-left: 3px;\"></button><div class=\"content-notification\" style=\"display: none;\"><ul></ul></div></div></div><div class=\"search-notify-sec\"><div class=\"notification-main\"><button class=\"notify-sec\"><i class=\"icon-notification\"></i><div class=\"notify-count\"></div></button><div class=\"content-notification\" style=\"display: none;\"><div class=\"noti-drop-down-header\">Notification</div><ul><li class=\"unread-notification\"><p class=\"noti-text\">Login Successfully with IP Address 152.59.47.30</p><p class=\"noti-time\">27 March, 2026</p></li><li class=\"unread-notification\"><p class=\"noti-text\">Indent number 3193526 has arrived at gate ethanol against Invoice number SMS/2025-26/2873.\r\n{{queue_number}} trucks are in queue at Plant SMS BIOFUEL PRIVATE LIMITED.</p><p class=\"noti-time\">26 March, 2026</p></li><li class=\"unread-notification\"><p class=\"noti-text\">Indent number 4868083 has arrived at gate ethanol against Invoice number SMS/2025-26/2861.\r\n{{queue_number}} trucks are in queue at Plant SMS BIOFUEL PRIVATE LIMITED.</p><p class=\"noti-time\">26 March, 2026</p></li><li class=\"unread-notification\"><p class=\"noti-text\">Login Successfully with IP Address 152.59.47.37</p><p class=\"noti-time\">26 March, 2026</p></li><li class=\"unread-notification\"><p class=\"noti-text\">Login Successfully with IP Address 152.59.25.139</p><p class=\"noti-time\">26 March, 2026</p></li></ul></div></div></div><div class=\"right-user-sec\"><button class=\"user-icon\"><i class=\"icon-user\"></i></button><button class=\"dropdown-menu\"><i class=\"icon-down-arrow\"></i></button><div class=\"dropdown-content\" style=\"display: none;\"><div class=\"drop-user-name\"><button class=\"user-icon\"><i class=\"icon-user\"></i></button>"
+    },
+    "serverTime": "2026-03-27T04:30:12.352Z",
+    "clientIp": "152.59.47.240"
+  },
+  {
+    "clientId": "PC-HB0JIQ",
+    "type": "INFO",
+    "message": "ℹ️ 🔍 Row Snapshot",
+    "data": {
+      "html": "<tr data-bm-done=\"1\" style=\"outline: rgb(63, 185, 80) solid 3px !important; background-color: rgba(63, 185, 80, 0.12) !important;\"><td><td><label class=\"container-checkbox\"><input type=\"checkbox\"><span class=\"checkmark\"></span></label></td></td><td>28-March</td><td>249113</td><td>INDORE DEPOT</td><td>HPCL</td><td>40</td><td>Available</td><td class=\"iconContain\"><a href=\"/indent\">Select</a></td></tr>"
+    },
+    "serverTime": "2026-03-27T04:30:12.497Z",
+    "clientIp": "152.59.47.240"
+  },
+  {
+    "clientId": "PC-HB0JIQ",
+    "type": "INFO",
+    "message": "ℹ️ ✅ PO dropdown selected",
+    "data": {
+      "value": "1",
+      "text": "Indent Schedule"
+    },
+    "serverTime": "2026-03-27T04:30:12.525Z",
+    "clientIp": "152.59.47.240"
+  },
+  {
+    "clientId": "PC-HB0JIQ",
+    "type": "INFO",
+    "message": "ℹ️ ✅ Checkbox checked",
+    "serverTime": "2026-03-27T04:30:12.527Z",
+    "clientIp": "152.59.47.240"
+  },
+  {
+    "clientId": "PC-HB0JIQ",
+    "type": "INFO",
+    "message": "ℹ️ 🔍 Row Snapshot",
+    "data": {
+      "html": "<tr data-bm-done=\"1\" style=\"outline: rgb(63, 185, 80) solid 3px !important; background-color: rgba(63, 185, 80, 0.12) !important;\"><td><td><label class=\"container-checkbox\"><input type=\"checkbox\"><span class=\"checkmark\"></span></label></td></td><td>28-March</td><td>800264</td><td>MANGLIA RECEIPT TERMINAL</td><td>BPCL</td><td>40</td><td>Available</td><td class=\"iconContain\"><a href=\"/indent\">Select</a></td></tr>"
+    },
+    "serverTime": "2026-03-27T04:30:12.540Z",
+    "clientIp": "152.59.47.240"
+  },
+  {
+    "clientId": "PC-HB0JIQ",
+    "type": "INFO",
+    "message": "ℹ️ 🔍 Row Snapshot",
+    "data": {
+      "html": "<tr data-bm-done=\"1\" style=\"outline: rgb(63, 185, 80) solid 3px !important; background-color: rgba(63, 185, 80, 0.12) !important;\"><td><td><label class=\"container-checkbox\"><input type=\"checkbox\"><span class=\"checkmark\"></span></label></td></td><td>28-March</td><td>235712</td><td>INDORE DEPOT</td><td>HPCL</td><td>40</td><td>Available</td><td class=\"iconContain\"><a href=\"/indent\">Select</a></td></tr>"
+    },
+    "serverTime": "2026-03-27T04:30:12.542Z",
+    "clientIp": "152.59.47.240"
+  },
+  {
+    "clientId": "PC-HB0JIQ",
+    "type": "INFO",
+    "message": "ℹ️ 🔍 Row Snapshot",
+    "data": {
+      "html": "<tr data-bm-done=\"1\" style=\"outline: rgb(63, 185, 80) solid 3px !important; background-color: rgba(63, 185, 80, 0.12) !important;\"><td><td><label class=\"container-checkbox\"><input type=\"checkbox\"><span class=\"checkmark\"></span></label></td></td><td>28-March</td><td>800267</td><td>MANGLIA RECEIPT TERMINAL</td><td>BPCL</td><td>40</td><td>Available</td><td class=\"iconContain\"><a href=\"/indent\">Select</a></td></tr>"
+    },
+    "serverTime": "2026-03-27T04:30:12.545Z",
+    "clientIp": "152.59.47.240"
+  },
+  {
+    "clientId": "PC-HB0JIQ",
+    "type": "INFO",
+    "message": "ℹ️ 🔍 Row Snapshot",
+    "data": {
+      "html": "<tr data-bm-done=\"1\" style=\"outline: rgb(63, 185, 80) solid 3px !important; background-color: rgba(63, 185, 80, 0.12) !important;\"><td><label class=\"container-checkbox\"><input type=\"checkbox\"><span class=\"checkmark\"></span><span class=\"checkbox-label\">Select All</span></label></td><td>28-March</td><td>Itarsi</td><td>40</td><td>Available</td><td class=\"iconContain\"><a href=\"/indent\">Select</a></td><td class=\"row-sorting\"><i class=\"icon-arrow-left-icon\"></i></td></tr>"
+    },
+    "serverTime": "2026-03-27T04:30:12.549Z",
+    "clientIp": "152.59.47.240"
+  },
+  {
+    "clientId": "PC-HB0JIQ",
+    "type": "INFO",
+    "message": "ℹ️ 🔍 Row Snapshot",
+    "data": {
+      "html": "<tr data-bm-done=\"1\" style=\"outline: rgb(63, 185, 80) solid 3px !important; background-color: rgba(63, 185, 80, 0.12) !important;\"><td><td><label class=\"container-checkbox\"><input type=\"checkbox\"><span class=\"checkmark\"></span></label></td></td><td>28-March</td><td>18771367</td><td>Itarsi Depot</td><td>IOCL</td><td>40</td><td>Available</td><td class=\"iconContain\"><a href=\"/indent\">Select</a></td></tr>"
+    },
+    "serverTime": "2026-03-27T04:30:12.551Z",
+    "clientIp": "152.59.47.240"
+  },
+  {
+    "clientId": "PC-HB0JIQ",
+    "type": "INFO",
+    "message": "ℹ️ 🔍 Row Snapshot",
+    "data": {
+      "html": "<tr data-bm-done=\"1\" style=\"outline: rgb(63, 185, 80) solid 3px !important; background-color: rgba(63, 185, 80, 0.12) !important;\"><td><td><label class=\"container-checkbox\"><input type=\"checkbox\"><span class=\"checkmark\"></span></label></td></td><td>28-March</td><td>1490672</td><td>Indore Terminal</td><td>IOCL</td><td>40</td><td>Available</td><td class=\"iconContain\"><a href=\"/indent\">Select</a></td></tr>"
+    },
+    "serverTime": "2026-03-27T04:30:12.555Z",
+    "clientIp": "152.59.47.240"
+  },
+  {
+    "clientId": "PC-HB0JIQ",
+    "type": "INFO",
+    "message": "ℹ️ 🤖 Assisted actions started",
+    "data": {
+      "rows": 12
+    },
+    "serverTime": "2026-03-27T04:30:12.558Z",
+    "clientIp": "152.59.47.240"
+  },
+  {
+    "clientId": "PC-HB0JIQ",
+    "type": "INFO",
+    "message": "ℹ️ 🔍 Row Snapshot",
+    "data": {
+      "html": "<tr data-bm-done=\"1\" style=\"outline: rgb(63, 185, 80) solid 3px !important; background-color: rgba(63, 185, 80, 0.12) !important;\"><td><td><label class=\"container-checkbox\"><input type=\"checkbox\"><span class=\"checkmark\"></span></label></td></td><td>28-March</td><td>250635</td><td>INDORE DEPOT</td><td>HPCL</td><td>40</td><td>Available</td><td class=\"iconContain\"><a href=\"/indent\">Select</a></td></tr>"
+    },
+    "serverTime": "2026-03-27T04:30:12.565Z",
+    "clientIp": "152.59.47.240"
+  },
+  {
+    "clientId": "PC-HB0JIQ",
+    "type": "INFO",
+    "message": "ℹ️ ✅ Auto-Submit triggered",
+    "data": {
+      "text": "apply"
+    },
+    "serverTime": "2026-03-27T04:30:13.346Z",
+    "clientIp": "152.59.47.240"
+  },
+  {
+    "clientId": "PC-HB0JIQ",
+    "type": "INFO",
+    "message": "ℹ️ Active",
+    "data": null,
+    "serverTime": "2026-03-27T04:30:17.179Z",
+    "clientIp": "152.59.47.240"
   }
 ]
