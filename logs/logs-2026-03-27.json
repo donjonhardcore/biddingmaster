@@ -1509,5 +1509,35 @@
     "data": null,
     "serverTime": "2026-03-27T06:56:58.454Z",
     "clientIp": "106.201.30.224"
+  },
+  {
+    "clientId": "PC-GAZS5L",
+    "type": "INFO",
+    "message": "ℹ️ Active",
+    "data": null,
+    "serverTime": "2026-03-27T06:57:18.411Z",
+    "clientIp": "106.201.30.224"
+  },
+  {
+    "clientId": "PC-GMGPC9",
+    "type": "INFO",
+    "message": "ℹ️ 🚀 Bidding Master v2.0 active",
+    "serverTime": "2026-03-27T06:57:33.496Z",
+    "clientIp": "106.201.30.224"
+  },
+  {
+    "clientId": "PC-GMGPC9",
+    "type": "INFO",
+    "message": "ℹ️ ✅ Remote configuration synchronized",
+    "serverTime": "2026-03-27T06:57:33.600Z",
+    "clientIp": "106.201.30.224"
+  },
+  {
+    "clientId": "PC-GMGPC9",
+    "type": "INFO",
+    "message": "ℹ️ ⛔ Stopped",
+    "data": null,
+    "serverTime": "2026-03-27T06:57:37.867Z",
+    "clientIp": "106.201.30.224"
   }
 ]
