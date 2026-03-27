@@ -1162,5 +1162,125 @@
     },
     "serverTime": "2026-03-27T04:33:25.119Z",
     "clientIp": "152.59.47.240"
+  },
+  {
+    "clientId": "PC-HB0JIQ",
+    "type": "INFO",
+    "message": "ℹ️ Active",
+    "data": null,
+    "serverTime": "2026-03-27T04:33:37.535Z",
+    "clientIp": "152.59.47.240"
+  },
+  {
+    "clientId": "PC-HB0JIQ",
+    "type": "INFO",
+    "message": "ℹ️ Active",
+    "data": null,
+    "serverTime": "2026-03-27T04:33:57.496Z",
+    "clientIp": "152.59.47.240"
+  },
+  {
+    "clientId": "PC-HB0JIQ",
+    "type": "INFO",
+    "message": "ℹ️ 🔍 Row Snapshot",
+    "data": {
+      "html": "<tr data-bm-done=\"1\" style=\"outline: rgb(63, 185, 80) solid 3px !important; background-color: rgba(63, 185, 80, 0.12) !important;\"><td><label class=\"container-checkbox\"><input type=\"checkbox\"><span class=\"checkmark\"></span><span class=\"checkbox-label\">Select All</span></label></td><td>28-March</td><td>Manglia(Indore)</td><td>280</td><td>Available</td><td class=\"iconContain\"><a href=\"/indent\">Select</a></td><td class=\"row-sorting\"><i class=\"icon-arrow-left-icon\"></i></td></tr>"
+    },
+    "serverTime": "2026-03-27T04:34:10.705Z",
+    "clientIp": "152.59.47.240"
+  },
+  {
+    "clientId": "PC-HB0JIQ",
+    "type": "INFO",
+    "message": "ℹ️ 🤖 Assisted actions started",
+    "data": {
+      "rows": 1
+    },
+    "serverTime": "2026-03-27T04:34:10.712Z",
+    "clientIp": "152.59.47.240"
+  },
+  {
+    "clientId": "PC-HB0JIQ",
+    "type": "DETECT",
+    "message": "🚨 1 NEW INDENT(S)",
+    "data": {
+      "time": "2026-03-27T04:34:11.528Z",
+      "total": 18,
+      "source": "DOM",
+      "apiDelay": "N/A"
+    },
+    "serverTime": "2026-03-27T04:34:10.731Z",
+    "clientIp": "152.59.47.240"
+  },
+  {
+    "clientId": "PC-HB0JIQ",
+    "type": "INFO",
+    "message": "ℹ️ Waiting for modal...",
+    "serverTime": "2026-03-27T04:34:10.841Z",
+    "clientIp": "152.59.47.240"
+  },
+  {
+    "clientId": "PC-HB0JIQ",
+    "type": "INFO",
+    "message": "ℹ️ ✅ Modal opened",
+    "serverTime": "2026-03-27T04:34:10.921Z",
+    "clientIp": "152.59.47.240"
+  },
+  {
+    "clientId": "PC-HB0JIQ",
+    "type": "INFO",
+    "message": "ℹ️ 🔍 Modal Snapshot",
+    "data": {
+      "html": "<header><div class=\"top-header\"><div class=\"logo-sec\"></div><h1>Integrated Ethanol Management System</h1><div class=\"header-right\"><div class=\"search-notify-sec\" style=\"margin-right: 15px;\"><div class=\"notification-main\"><button class=\"notify-sec\"><img src=\"/images/chat-wt.svg\" alt=\"Chat\" style=\"width: 22px; margin-left: 3px;\"></button><div class=\"content-notification\" style=\"display: none;\"><ul></ul></div></div></div><div class=\"search-notify-sec\"><div class=\"notification-main\"><button class=\"notify-sec\"><i class=\"icon-notification\"></i><div class=\"notify-count\"></div></button><div class=\"content-notification\" style=\"display: none;\"><div class=\"noti-drop-down-header\">Notification</div><ul><li class=\"unread-notification\"><p class=\"noti-text\">Login Successfully with IP Address 152.59.47.30</p><p class=\"noti-time\">27 March, 2026</p></li><li class=\"unread-notification\"><p class=\"noti-text\">Indent number 3193526 has arrived at gate ethanol against Invoice number SMS/2025-26/2873.\r\n{{queue_number}} trucks are in queue at Plant SMS BIOFUEL PRIVATE LIMITED.</p><p class=\"noti-time\">26 March, 2026</p></li><li class=\"unread-notification\"><p class=\"noti-text\">Indent number 4868083 has arrived at gate ethanol against Invoice number SMS/2025-26/2861.\r\n{{queue_number}} trucks are in queue at Plant SMS BIOFUEL PRIVATE LIMITED.</p><p class=\"noti-time\">26 March, 2026</p></li><li class=\"unread-notification\"><p class=\"noti-text\">Login Successfully with IP Address 152.59.47.37</p><p class=\"noti-time\">26 March, 2026</p></li><li class=\"unread-notification\"><p class=\"noti-text\">Login Successfully with IP Address 152.59.25.139</p><p class=\"noti-time\">26 March, 2026</p></li></ul></div></div></div><div class=\"right-user-sec\"><button class=\"user-icon\"><i class=\"icon-user\"></i></button><button class=\"dropdown-menu\"><i class=\"icon-down-arrow\"></i></button><div class=\"dropdown-content\" style=\"display: none;\"><div class=\"drop-user-name\"><button class=\"user-icon\"><i class=\"icon-user\"></i></button>"
+    },
+    "serverTime": "2026-03-27T04:34:10.926Z",
+    "clientIp": "152.59.47.240"
+  },
+  {
+    "clientId": "PC-HB0JIQ",
+    "type": "INFO",
+    "message": "ℹ️ ✅ Clicking \"Select\" link",
+    "data": {
+      "text": "Select",
+      "href": "/indent"
+    },
+    "serverTime": "2026-03-27T04:34:11.003Z",
+    "clientIp": "152.59.47.240"
+  },
+  {
+    "clientId": "PC-HB0JIQ",
+    "type": "INFO",
+    "message": "ℹ️ ✅ PO dropdown selected",
+    "data": {
+      "value": "1",
+      "text": "Indent Schedule"
+    },
+    "serverTime": "2026-03-27T04:34:11.096Z",
+    "clientIp": "152.59.47.240"
+  },
+  {
+    "clientId": "PC-HB0JIQ",
+    "type": "INFO",
+    "message": "ℹ️ ✅ Checkbox checked",
+    "serverTime": "2026-03-27T04:34:11.238Z",
+    "clientIp": "152.59.47.240"
+  },
+  {
+    "clientId": "PC-HB0JIQ",
+    "type": "INFO",
+    "message": "ℹ️ ✅ Auto-Submit triggered",
+    "data": {
+      "text": "apply"
+    },
+    "serverTime": "2026-03-27T04:34:11.913Z",
+    "clientIp": "152.59.47.240"
+  },
+  {
+    "clientId": "PC-HB0JIQ",
+    "type": "INFO",
+    "message": "ℹ️ Active",
+    "data": null,
+    "serverTime": "2026-03-27T04:34:17.566Z",
+    "clientIp": "152.59.47.240"
   }
 ]
