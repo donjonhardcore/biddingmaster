@@ -1872,5 +1872,13 @@
     "data": null,
     "serverTime": "2026-03-30T09:10:44.252Z",
     "clientIp": "122.168.214.110"
+  },
+  {
+    "clientId": "PC-NEW3PN",
+    "type": "INFO",
+    "message": "ℹ️ Active",
+    "data": null,
+    "serverTime": "2026-03-30T09:11:43.737Z",
+    "clientIp": "122.168.214.110"
   }
 ]
