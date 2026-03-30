@@ -88,5 +88,27 @@
     "data": null,
     "serverTime": "2026-03-30T01:53:50.878Z",
     "clientIp": "152.59.62.94"
+  },
+  {
+    "clientId": "PC-26U71B",
+    "type": "INFO",
+    "message": "ℹ️ ✅ Remote configuration synchronized",
+    "serverTime": "2026-03-30T01:53:56.559Z",
+    "clientIp": "152.59.62.94"
+  },
+  {
+    "clientId": "PC-26U71B",
+    "type": "INFO",
+    "message": "ℹ️ 🚀 Bidding Master v2.0 active",
+    "serverTime": "2026-03-30T01:53:56.593Z",
+    "clientIp": "152.59.62.94"
+  },
+  {
+    "clientId": "PC-26U71B",
+    "type": "INFO",
+    "message": "ℹ️ ⛔ Stopped",
+    "data": null,
+    "serverTime": "2026-03-30T01:54:01.542Z",
+    "clientIp": "152.59.62.94"
   }
 ]
