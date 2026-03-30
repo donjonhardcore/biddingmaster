@@ -2628,5 +2628,13 @@
     "data": null,
     "serverTime": "2026-03-30T10:25:43.733Z",
     "clientIp": "122.168.214.110"
+  },
+  {
+    "clientId": "PC-0DFT4S",
+    "type": "INFO",
+    "message": "ℹ️ Active",
+    "data": null,
+    "serverTime": "2026-03-30T10:26:43.697Z",
+    "clientIp": "122.168.214.110"
   }
 ]
