@@ -962,5 +962,37 @@
     "data": null,
     "serverTime": "2026-03-30T06:12:44.677Z",
     "clientIp": "122.168.214.110"
+  },
+  {
+    "clientId": "PC-DQ4Y5Q",
+    "type": "INFO",
+    "message": "ℹ️ Active",
+    "data": null,
+    "serverTime": "2026-03-30T06:13:43.967Z",
+    "clientIp": "122.168.214.110"
+  },
+  {
+    "clientId": "PC-DQ4Y5Q",
+    "type": "INFO",
+    "message": "ℹ️ Active",
+    "data": null,
+    "serverTime": "2026-03-30T06:14:31.020Z",
+    "clientIp": "122.168.214.110"
+  },
+  {
+    "clientId": "PC-DQ4Y5Q",
+    "type": "INFO",
+    "message": "ℹ️ Active",
+    "data": null,
+    "serverTime": "2026-03-30T06:14:33.187Z",
+    "clientIp": "122.168.214.110"
+  },
+  {
+    "clientId": "PC-DQ4Y5Q",
+    "type": "INFO",
+    "message": "ℹ️ ⛔ Stopped",
+    "data": null,
+    "serverTime": "2026-03-30T06:14:36.907Z",
+    "clientIp": "122.168.214.110"
   }
 ]
