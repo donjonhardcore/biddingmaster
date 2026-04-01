@@ -1703,5 +1703,139 @@
     "data": null,
     "serverTime": "2026-04-01T04:35:13.205Z",
     "clientIp": "152.59.27.6"
+  },
+  {
+    "clientId": "PC-MUPFTF",
+    "type": "INFO",
+    "message": "ℹ️ Active",
+    "data": null,
+    "serverTime": "2026-04-01T04:35:33.288Z",
+    "clientIp": "152.59.27.6"
+  },
+  {
+    "clientId": "PC-MUPFTF",
+    "type": "INFO",
+    "message": "ℹ️ 🤖 Assisted actions started",
+    "data": {
+      "rows": 1
+    },
+    "serverTime": "2026-04-01T04:35:39.424Z",
+    "clientIp": "152.59.27.6"
+  },
+  {
+    "clientId": "PC-MUPFTF",
+    "type": "DETECT",
+    "message": "🚨 1 NEW INDENT(S)",
+    "data": {
+      "time": "2026-04-01T04:35:38.735Z",
+      "total": 113,
+      "source": "DOM",
+      "apiDelay": "N/A"
+    },
+    "serverTime": "2026-04-01T04:35:39.430Z",
+    "clientIp": "152.59.27.6"
+  },
+  {
+    "clientId": "PC-MUPFTF",
+    "type": "INFO",
+    "message": "ℹ️ 🔍 Row Snapshot",
+    "data": {
+      "html": "<tr data-bm-done=\"1\" style=\"outline: rgb(63, 185, 80) solid 3px !important; background-color: rgba(63, 185, 80, 0.12) !important;\"><td><label class=\"container-checkbox\"><input type=\"checkbox\"><span class=\"checkmark\"></span><span class=\"checkbox-label\">Select All</span></label></td><td>9-April</td><td>Manglia(Indore)</td><td>160</td><td>Available</td><td class=\"iconContain\"><a href=\"/indent\">Select</a></td><td class=\"row-sorting\"><i class=\"icon-arrow-left-icon\"></i></td></tr>"
+    },
+    "serverTime": "2026-04-01T04:35:39.441Z",
+    "clientIp": "152.59.27.6"
+  },
+  {
+    "clientId": "PC-MUPFTF",
+    "type": "INFO",
+    "message": "ℹ️ ✅ Checkbox checked",
+    "serverTime": "2026-04-01T04:35:39.477Z",
+    "clientIp": "152.59.27.6"
+  },
+  {
+    "clientId": "PC-MUPFTF",
+    "type": "INFO",
+    "message": "ℹ️ 🔍 Modal Snapshot",
+    "data": {
+      "html": "<header><div class=\"top-header\"><div class=\"logo-sec\"></div><h1>Integrated Ethanol Management System</h1><div class=\"header-right\"><div class=\"search-notify-sec\" style=\"margin-right: 15px;\"><div class=\"notification-main\"><button class=\"notify-sec\"><img src=\"/images/chat-wt.svg\" alt=\"Chat\" style=\"width: 22px; margin-left: 3px;\"></button><div class=\"content-notification\" style=\"display: none;\"><ul></ul></div></div></div><div class=\"search-notify-sec\"><div class=\"notification-main\"><button class=\"notify-sec\"><i class=\"icon-notification\"></i><div class=\"notify-count\"></div></button><div class=\"content-notification\" style=\"display: none;\"><div class=\"noti-drop-down-header\">Notification</div><ul><li class=\"unread-notification\"><p class=\"noti-text\">Login Successfully with IP Address 152.59.27.6</p><p class=\"noti-time\">01 April, 2026</p></li><li class=\"unread-notification\"><p class=\"noti-text\">Indent number 9900509 has arrived at gate ethanol against Invoice number SMS/2025-26/2899.\r\n{{queue_number}} trucks are in queue at Plant SMS BIOFUEL PRIVATE LIMITED.</p><p class=\"noti-time\">01 April, 2026</p></li><li class=\"unread-notification\"><p class=\"noti-text\">Login Successfully with IP Address 182.68.11.201</p><p class=\"noti-time\">31 March, 2026</p></li><li class=\"unread-notification\"><p class=\"noti-text\">Indent number 5920660 has arrived at gate ethanol against Invoice number SMS/2025-26/2902.\r\n{{queue_number}} trucks are in queue at Plant SMS BIOFUEL PRIVATE LIMITED.</p><p class=\"noti-time\">31 March, 2026</p></li><li class=\"unread-notification\"><p class=\"noti-text\">Login Successfully with IP Address 182.68.11.201</p><p class=\"noti-time\">31 March, 2026</p></li></ul></div></div></div><div class=\"right-user-sec\"><button class=\"user-icon\"><i class=\"icon-user\"></i></button><button class=\"dropdown-menu\"><i class=\"icon-down-arrow\"></i></button><div class=\"dropdown-content\" style=\"display: none;\"><div class=\"drop-user-name\"><button class=\"user-icon\"><i class=\"icon-user\"></i></button>"
+    },
+    "serverTime": "2026-04-01T04:35:39.546Z",
+    "clientIp": "152.59.27.6"
+  },
+  {
+    "clientId": "PC-MUPFTF",
+    "type": "INFO",
+    "message": "ℹ️ ✅ Clicking \"Select\" link",
+    "data": {
+      "text": "Select",
+      "href": "/indent"
+    },
+    "serverTime": "2026-04-01T04:35:39.549Z",
+    "clientIp": "152.59.27.6"
+  },
+  {
+    "clientId": "PC-MUPFTF",
+    "type": "INFO",
+    "message": "ℹ️ ✅ Modal opened",
+    "serverTime": "2026-04-01T04:35:39.554Z",
+    "clientIp": "152.59.27.6"
+  },
+  {
+    "clientId": "PC-MUPFTF",
+    "type": "INFO",
+    "message": "ℹ️ Waiting for modal...",
+    "serverTime": "2026-04-01T04:35:39.562Z",
+    "clientIp": "152.59.27.6"
+  },
+  {
+    "clientId": "PC-MUPFTF",
+    "type": "INFO",
+    "message": "ℹ️ ✅ PO dropdown selected",
+    "data": {
+      "value": "1",
+      "text": "Indent Schedule"
+    },
+    "serverTime": "2026-04-01T04:35:39.744Z",
+    "clientIp": "152.59.27.6"
+  },
+  {
+    "clientId": "PC-MUPFTF",
+    "type": "INFO",
+    "message": "ℹ️ ✅ Apply button highlighted (manual click required)",
+    "data": {
+      "text": "apply"
+    },
+    "serverTime": "2026-04-01T04:35:40.558Z",
+    "clientIp": "152.59.27.6"
+  },
+  {
+    "clientId": "PC-MUPFTF",
+    "type": "INFO",
+    "message": "ℹ️ Active",
+    "data": null,
+    "serverTime": "2026-04-01T04:35:53.264Z",
+    "clientIp": "152.59.27.6"
+  },
+  {
+    "clientId": "PC-MUPFTF",
+    "type": "INFO",
+    "message": "ℹ️ ⛔ Stopped",
+    "data": null,
+    "serverTime": "2026-04-01T04:35:53.532Z",
+    "clientIp": "152.59.27.6"
+  },
+  {
+    "clientId": "PC-FRKGRP",
+    "type": "INFO",
+    "message": "ℹ️ 🚀 Bidding Master v2.0 active",
+    "serverTime": "2026-04-01T04:36:03.527Z",
+    "clientIp": "152.59.27.6"
+  },
+  {
+    "clientId": "PC-FRKGRP",
+    "type": "INFO",
+    "message": "ℹ️ ✅ Remote configuration synchronized",
+    "serverTime": "2026-04-01T04:36:03.533Z",
+    "clientIp": "152.59.27.6"
   }
 ]
