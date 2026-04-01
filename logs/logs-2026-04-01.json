@@ -2104,5 +2104,50 @@
     "data": null,
     "serverTime": "2026-04-01T06:42:21.050Z",
     "clientIp": "182.68.11.201"
+  },
+  {
+    "clientId": "BOT-9L0XH5",
+    "type": "INFO",
+    "message": "🚀 Bot started",
+    "data": {
+      "po": {
+        "omc": "IOCL",
+        "terminal": "Itarsi",
+        "feedstock": "SFG",
+        "quarter": "Quarter 2",
+        "poNumber": "",
+        "loaded": true,
+        "savedAt": 1775040874378
+      },
+      "autoApply": false
+    },
+    "serverTime": "2026-04-01T11:39:40.977Z",
+    "clientIp": "106.219.86.173"
+  },
+  {
+    "clientId": "BOT-9L0XH5",
+    "type": "INFO",
+    "message": "Storage loaded",
+    "data": {
+      "po": {
+        "omc": "IOCL",
+        "terminal": "Itarsi",
+        "feedstock": "SFG",
+        "quarter": "Quarter 2",
+        "poNumber": "",
+        "loaded": true,
+        "savedAt": 1775040874378
+      },
+      "autoApply": false
+    },
+    "serverTime": "2026-04-01T11:39:40.982Z",
+    "clientIp": "106.219.86.173"
+  },
+  {
+    "clientId": "BOT-9L0XH5",
+    "type": "INFO",
+    "message": "⛔ Bot stopped",
+    "serverTime": "2026-04-01T11:39:41.263Z",
+    "clientIp": "106.219.86.173"
   }
 ]
