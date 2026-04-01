@@ -2149,5 +2149,27 @@
     "message": "⛔ Bot stopped",
     "serverTime": "2026-04-01T11:39:41.263Z",
     "clientIp": "106.219.86.173"
+  },
+  {
+    "clientId": "BOT-SV7CV9",
+    "type": "INFO",
+    "message": "Storage loaded",
+    "data": {
+      "configsCount": 1,
+      "autoApply": true
+    },
+    "serverTime": "2026-04-01T12:48:04.784Z",
+    "clientIp": "182.68.11.201"
+  },
+  {
+    "clientId": "BOT-I8RCBW",
+    "type": "INFO",
+    "message": "Storage loaded",
+    "data": {
+      "configsCount": 1,
+      "autoApply": true
+    },
+    "serverTime": "2026-04-01T12:48:07.717Z",
+    "clientIp": "182.68.11.201"
   }
 ]
