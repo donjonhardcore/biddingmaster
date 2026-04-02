@@ -3103,5 +3103,23 @@
     "message": "Auto-Apply: false",
     "serverTime": "2026-04-02T12:28:21.779Z",
     "clientIp": "106.219.86.61"
+  },
+  {
+    "clientId": "BOT-169V2L",
+    "type": "INFO",
+    "message": "⛔ Bot stopped",
+    "serverTime": "2026-04-02T12:29:22.789Z",
+    "clientIp": "106.219.86.61"
+  },
+  {
+    "clientId": "BOT-VJGKVS",
+    "type": "INFO",
+    "message": "Storage loaded",
+    "data": {
+      "configsCount": 1,
+      "autoApply": false
+    },
+    "serverTime": "2026-04-02T12:29:32.381Z",
+    "clientIp": "106.219.86.61"
   }
 ]
