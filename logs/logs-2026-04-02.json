@@ -2171,5 +2171,866 @@
     },
     "serverTime": "2026-04-01T12:48:07.717Z",
     "clientIp": "182.68.11.201"
+  },
+  {
+    "clientId": "BOT-H64RM8",
+    "type": "INFO",
+    "message": "Storage loaded",
+    "data": {
+      "configsCount": 1,
+      "autoApply": true
+    },
+    "serverTime": "2026-04-02T04:16:40.099Z",
+    "clientIp": "152.59.27.147"
+  },
+  {
+    "clientId": "BOT-H64RM8",
+    "type": "APPLY",
+    "message": "Processing 105 row(s) — Configs: 1",
+    "serverTime": "2026-04-02T04:16:40.311Z",
+    "clientIp": "152.59.27.147"
+  },
+  {
+    "clientId": "BOT-H64RM8",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-ma: Terminal ≠ \"ma\", OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-02T04:16:40.316Z",
+    "clientIp": "152.59.27.147"
+  },
+  {
+    "clientId": "BOT-H64RM8",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-ma: Terminal ≠ \"ma\", OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-02T04:16:40.318Z",
+    "clientIp": "152.59.27.147"
+  },
+  {
+    "clientId": "BOT-H64RM8",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-ma: Terminal ≠ \"ma\", OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-02T04:16:40.320Z",
+    "clientIp": "152.59.27.147"
+  },
+  {
+    "clientId": "BOT-H64RM8",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-ma: Terminal ≠ \"ma\", OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-02T04:16:40.323Z",
+    "clientIp": "152.59.27.147"
+  },
+  {
+    "clientId": "BOT-H64RM8",
+    "type": "INFO",
+    "message": "MutationObserver attached",
+    "serverTime": "2026-04-02T04:16:40.403Z",
+    "clientIp": "152.59.27.147"
+  },
+  {
+    "clientId": "BOT-H64RM8",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-ma: Terminal ≠ \"ma\", OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-02T04:16:40.565Z",
+    "clientIp": "152.59.27.147"
+  },
+  {
+    "clientId": "BOT-H64RM8",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-ma: Terminal ≠ \"ma\", OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-02T04:16:40.577Z",
+    "clientIp": "152.59.27.147"
+  },
+  {
+    "clientId": "BOT-H64RM8",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-ma: Terminal ≠ \"ma\", OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-02T04:16:40.588Z",
+    "clientIp": "152.59.27.147"
+  },
+  {
+    "clientId": "BOT-H64RM8",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-ma: Terminal ≠ \"ma\", OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-02T04:16:40.599Z",
+    "clientIp": "152.59.27.147"
+  },
+  {
+    "clientId": "BOT-H64RM8",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-ma: OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-02T04:16:40.602Z",
+    "clientIp": "152.59.27.147"
+  },
+  {
+    "clientId": "BOT-H64RM8",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-ma: Terminal ≠ \"ma\", OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-02T04:16:40.603Z",
+    "clientIp": "152.59.27.147"
+  },
+  {
+    "clientId": "BOT-H64RM8",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-ma: Terminal ≠ \"ma\", OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-02T04:16:40.615Z",
+    "clientIp": "152.59.27.147"
+  },
+  {
+    "clientId": "BOT-H64RM8",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-ma: OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-02T04:16:40.618Z",
+    "clientIp": "152.59.27.147"
+  },
+  {
+    "clientId": "BOT-H64RM8",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-ma: Terminal ≠ \"ma\", OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-02T04:16:40.621Z",
+    "clientIp": "152.59.27.147"
+  },
+  {
+    "clientId": "BOT-H64RM8",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-ma: Terminal ≠ \"ma\", OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-02T04:16:40.623Z",
+    "clientIp": "152.59.27.147"
+  },
+  {
+    "clientId": "BOT-H64RM8",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-ma: Terminal ≠ \"ma\", OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-02T04:16:40.624Z",
+    "clientIp": "152.59.27.147"
+  },
+  {
+    "clientId": "BOT-H64RM8",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-ma: Terminal ≠ \"ma\", OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-02T04:16:40.626Z",
+    "clientIp": "152.59.27.147"
+  },
+  {
+    "clientId": "BOT-H64RM8",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-ma: OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-02T04:16:40.686Z",
+    "clientIp": "152.59.27.147"
+  },
+  {
+    "clientId": "BOT-H64RM8",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-ma: Terminal ≠ \"ma\", OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-02T04:16:40.687Z",
+    "clientIp": "152.59.27.147"
+  },
+  {
+    "clientId": "BOT-H64RM8",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-ma: OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-02T04:16:40.688Z",
+    "clientIp": "152.59.27.147"
+  },
+  {
+    "clientId": "BOT-H64RM8",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-ma: OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-02T04:16:40.690Z",
+    "clientIp": "152.59.27.147"
+  },
+  {
+    "clientId": "BOT-H64RM8",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-ma: OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-02T04:16:40.691Z",
+    "clientIp": "152.59.27.147"
+  },
+  {
+    "clientId": "BOT-H64RM8",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-ma: Terminal ≠ \"ma\", OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-02T04:16:40.693Z",
+    "clientIp": "152.59.27.147"
+  },
+  {
+    "clientId": "BOT-H64RM8",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-ma: OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-02T04:16:40.694Z",
+    "clientIp": "152.59.27.147"
+  },
+  {
+    "clientId": "BOT-H64RM8",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-ma: OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-02T04:16:40.695Z",
+    "clientIp": "152.59.27.147"
+  },
+  {
+    "clientId": "BOT-H64RM8",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-ma: OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-02T04:16:40.697Z",
+    "clientIp": "152.59.27.147"
+  },
+  {
+    "clientId": "BOT-H64RM8",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-ma: Terminal ≠ \"ma\", OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-02T04:16:40.789Z",
+    "clientIp": "152.59.27.147"
+  },
+  {
+    "clientId": "BOT-H64RM8",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-ma: OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-02T04:16:40.791Z",
+    "clientIp": "152.59.27.147"
+  },
+  {
+    "clientId": "BOT-H64RM8",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-ma: OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-02T04:16:40.793Z",
+    "clientIp": "152.59.27.147"
+  },
+  {
+    "clientId": "BOT-H64RM8",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-ma: Terminal ≠ \"ma\", OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-02T04:16:40.796Z",
+    "clientIp": "152.59.27.147"
+  },
+  {
+    "clientId": "BOT-H64RM8",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-ma: Terminal ≠ \"ma\", OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-02T04:16:40.798Z",
+    "clientIp": "152.59.27.147"
+  },
+  {
+    "clientId": "BOT-H64RM8",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-ma: OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-02T04:16:40.801Z",
+    "clientIp": "152.59.27.147"
+  },
+  {
+    "clientId": "BOT-H64RM8",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-ma: OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-02T04:16:40.803Z",
+    "clientIp": "152.59.27.147"
+  },
+  {
+    "clientId": "BOT-H64RM8",
+    "type": "INFO",
+    "message": "Table appeared — observer started",
+    "serverTime": "2026-04-02T04:16:40.805Z",
+    "clientIp": "152.59.27.147"
+  },
+  {
+    "clientId": "BOT-H64RM8",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-ma: Terminal ≠ \"ma\", OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-02T04:16:40.886Z",
+    "clientIp": "152.59.27.147"
+  },
+  {
+    "clientId": "BOT-H64RM8",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-ma: Terminal ≠ \"ma\", OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-02T04:16:40.888Z",
+    "clientIp": "152.59.27.147"
+  },
+  {
+    "clientId": "BOT-H64RM8",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-ma: OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-02T04:16:40.889Z",
+    "clientIp": "152.59.27.147"
+  },
+  {
+    "clientId": "BOT-H64RM8",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-ma: Terminal ≠ \"ma\", OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-02T04:16:40.891Z",
+    "clientIp": "152.59.27.147"
+  },
+  {
+    "clientId": "BOT-H64RM8",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-ma: OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-02T04:16:40.892Z",
+    "clientIp": "152.59.27.147"
+  },
+  {
+    "clientId": "BOT-H64RM8",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-ma: Terminal ≠ \"ma\", OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-02T04:16:40.893Z",
+    "clientIp": "152.59.27.147"
+  },
+  {
+    "clientId": "BOT-H64RM8",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-ma: OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-02T04:16:40.894Z",
+    "clientIp": "152.59.27.147"
+  },
+  {
+    "clientId": "BOT-H64RM8",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-ma: Terminal ≠ \"ma\", OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-02T04:16:40.896Z",
+    "clientIp": "152.59.27.147"
+  },
+  {
+    "clientId": "BOT-H64RM8",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-ma: Terminal ≠ \"ma\", OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-02T04:16:40.897Z",
+    "clientIp": "152.59.27.147"
+  },
+  {
+    "clientId": "BOT-H64RM8",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-ma: Terminal ≠ \"ma\", OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-02T04:16:40.898Z",
+    "clientIp": "152.59.27.147"
+  },
+  {
+    "clientId": "BOT-H64RM8",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-ma: Terminal ≠ \"ma\", OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-02T04:16:40.900Z",
+    "clientIp": "152.59.27.147"
+  },
+  {
+    "clientId": "BOT-H64RM8",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-ma: Terminal ≠ \"ma\", OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-02T04:16:40.987Z",
+    "clientIp": "152.59.27.147"
+  },
+  {
+    "clientId": "BOT-H64RM8",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-ma: OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-02T04:16:40.988Z",
+    "clientIp": "152.59.27.147"
+  },
+  {
+    "clientId": "BOT-H64RM8",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-ma: Terminal ≠ \"ma\", OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-02T04:16:40.989Z",
+    "clientIp": "152.59.27.147"
+  },
+  {
+    "clientId": "BOT-H64RM8",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-ma: Terminal ≠ \"ma\", OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-02T04:16:40.991Z",
+    "clientIp": "152.59.27.147"
+  },
+  {
+    "clientId": "BOT-H64RM8",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-ma: Terminal ≠ \"ma\", OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-02T04:16:40.992Z",
+    "clientIp": "152.59.27.147"
+  },
+  {
+    "clientId": "BOT-H64RM8",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-ma: Terminal ≠ \"ma\", OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-02T04:16:40.993Z",
+    "clientIp": "152.59.27.147"
+  },
+  {
+    "clientId": "BOT-H64RM8",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-ma: Terminal ≠ \"ma\", OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-02T04:16:40.995Z",
+    "clientIp": "152.59.27.147"
+  },
+  {
+    "clientId": "BOT-H64RM8",
+    "type": "DETECT",
+    "message": "105 NEW INDENT(S)",
+    "data": {
+      "count": 105,
+      "total": 105,
+      "t": "2026-04-02T04:16:37.326Z"
+    },
+    "serverTime": "2026-04-02T04:16:40.996Z",
+    "clientIp": "152.59.27.147"
+  },
+  {
+    "clientId": "BOT-H64RM8",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-ma: Terminal ≠ \"ma\", OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-02T04:16:40.997Z",
+    "clientIp": "152.59.27.147"
+  },
+  {
+    "clientId": "BOT-H64RM8",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-ma: Terminal ≠ \"ma\", OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-02T04:16:40.999Z",
+    "clientIp": "152.59.27.147"
+  },
+  {
+    "clientId": "BOT-H64RM8",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-ma: Terminal ≠ \"ma\", OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-02T04:16:41.086Z",
+    "clientIp": "152.59.27.147"
+  },
+  {
+    "clientId": "BOT-H64RM8",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-ma: Terminal ≠ \"ma\", OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-02T04:16:41.088Z",
+    "clientIp": "152.59.27.147"
+  },
+  {
+    "clientId": "BOT-H64RM8",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-ma: Terminal ≠ \"ma\", OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-02T04:16:41.089Z",
+    "clientIp": "152.59.27.147"
+  },
+  {
+    "clientId": "BOT-H64RM8",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-ma: Terminal ≠ \"ma\", OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-02T04:16:41.090Z",
+    "clientIp": "152.59.27.147"
+  },
+  {
+    "clientId": "BOT-H64RM8",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-ma: Terminal ≠ \"ma\", OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-02T04:16:41.092Z",
+    "clientIp": "152.59.27.147"
+  },
+  {
+    "clientId": "BOT-H64RM8",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-ma: OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-02T04:16:41.093Z",
+    "clientIp": "152.59.27.147"
+  },
+  {
+    "clientId": "BOT-H64RM8",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-ma: Terminal ≠ \"ma\", OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-02T04:16:41.095Z",
+    "clientIp": "152.59.27.147"
+  },
+  {
+    "clientId": "BOT-H64RM8",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-ma: Terminal ≠ \"ma\", OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-02T04:16:41.096Z",
+    "clientIp": "152.59.27.147"
+  },
+  {
+    "clientId": "BOT-H64RM8",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-ma: OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-02T04:16:41.097Z",
+    "clientIp": "152.59.27.147"
+  },
+  {
+    "clientId": "BOT-H64RM8",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-ma: Terminal ≠ \"ma\"]"
+    ],
+    "serverTime": "2026-04-02T04:16:41.187Z",
+    "clientIp": "152.59.27.147"
+  },
+  {
+    "clientId": "BOT-H64RM8",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-ma: Terminal ≠ \"ma\"]"
+    ],
+    "serverTime": "2026-04-02T04:16:41.188Z",
+    "clientIp": "152.59.27.147"
+  },
+  {
+    "clientId": "BOT-H64RM8",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-ma: OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-02T04:16:41.190Z",
+    "clientIp": "152.59.27.147"
+  },
+  {
+    "clientId": "BOT-H64RM8",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-ma: Terminal ≠ \"ma\", OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-02T04:16:41.191Z",
+    "clientIp": "152.59.27.147"
+  },
+  {
+    "clientId": "BOT-H64RM8",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-ma: Terminal ≠ \"ma\", OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-02T04:16:41.193Z",
+    "clientIp": "152.59.27.147"
+  },
+  {
+    "clientId": "BOT-H64RM8",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-ma: Terminal ≠ \"ma\", OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-02T04:16:41.194Z",
+    "clientIp": "152.59.27.147"
+  },
+  {
+    "clientId": "BOT-H64RM8",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-ma: Terminal ≠ \"ma\", OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-02T04:16:41.196Z",
+    "clientIp": "152.59.27.147"
+  },
+  {
+    "clientId": "BOT-H64RM8",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-ma: Terminal ≠ \"ma\"]"
+    ],
+    "serverTime": "2026-04-02T04:16:41.197Z",
+    "clientIp": "152.59.27.147"
+  },
+  {
+    "clientId": "BOT-H64RM8",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-ma: Terminal ≠ \"ma\", OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-02T04:16:41.199Z",
+    "clientIp": "152.59.27.147"
+  },
+  {
+    "clientId": "BOT-H64RM8",
+    "type": "INFO",
+    "message": "Baseline: 2 row signatures",
+    "serverTime": "2026-04-02T04:16:41.287Z",
+    "clientIp": "152.59.27.147"
+  },
+  {
+    "clientId": "BOT-H64RM8",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-ma: OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-02T04:16:41.288Z",
+    "clientIp": "152.59.27.147"
+  },
+  {
+    "clientId": "BOT-H64RM8",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-ma: OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-02T04:16:41.290Z",
+    "clientIp": "152.59.27.147"
+  },
+  {
+    "clientId": "BOT-H64RM8",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-ma: Terminal ≠ \"ma\", OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-02T04:16:41.292Z",
+    "clientIp": "152.59.27.147"
+  },
+  {
+    "clientId": "BOT-H64RM8",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-ma: OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-02T04:16:41.294Z",
+    "clientIp": "152.59.27.147"
+  },
+  {
+    "clientId": "BOT-H64RM8",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-ma: Terminal ≠ \"ma\", OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-02T04:16:41.296Z",
+    "clientIp": "152.59.27.147"
+  },
+  {
+    "clientId": "BOT-H64RM8",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-ma: OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-02T04:16:41.299Z",
+    "clientIp": "152.59.27.147"
+  },
+  {
+    "clientId": "BOT-H64RM8",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-ma: Terminal ≠ \"ma\"]"
+    ],
+    "serverTime": "2026-04-02T04:16:41.387Z",
+    "clientIp": "152.59.27.147"
+  },
+  {
+    "clientId": "BOT-H64RM8",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-ma: Terminal ≠ \"ma\", OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-02T04:16:41.389Z",
+    "clientIp": "152.59.27.147"
+  },
+  {
+    "clientId": "BOT-H64RM8",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-ma: OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-02T04:16:41.391Z",
+    "clientIp": "152.59.27.147"
+  },
+  {
+    "clientId": "BOT-H64RM8",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-ma: OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-02T04:16:41.392Z",
+    "clientIp": "152.59.27.147"
+  },
+  {
+    "clientId": "BOT-H64RM8",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-ma: Terminal ≠ \"ma\"]"
+    ],
+    "serverTime": "2026-04-02T04:16:41.394Z",
+    "clientIp": "152.59.27.147"
   }
 ]
