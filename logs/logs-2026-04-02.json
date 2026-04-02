@@ -3174,5 +3174,55 @@
     "message": "⛔ Bot stopped",
     "serverTime": "2026-04-02T12:30:25.894Z",
     "clientIp": "106.219.86.61"
+  },
+  {
+    "clientId": "BOT-Q7CYQ7",
+    "type": "INFO",
+    "message": "Storage loaded",
+    "data": {
+      "configsCount": 1,
+      "autoApply": false
+    },
+    "serverTime": "2026-04-02T12:30:55.858Z",
+    "clientIp": "106.219.86.61"
+  },
+  {
+    "clientId": "BOT-Q7CYQ7",
+    "type": "INFO",
+    "message": "Auto-Apply: true",
+    "serverTime": "2026-04-02T12:31:00.074Z",
+    "clientIp": "106.219.86.61"
+  },
+  {
+    "clientId": "BOT-Q7CYQ7",
+    "type": "INFO",
+    "message": "⛔ Bot stopped",
+    "serverTime": "2026-04-02T12:31:04.293Z",
+    "clientIp": "106.219.86.61"
+  },
+  {
+    "clientId": "BOT-Q7CYQ7",
+    "type": "INFO",
+    "message": "Auto-Apply: false",
+    "serverTime": "2026-04-02T12:31:12.852Z",
+    "clientIp": "106.219.86.61"
+  },
+  {
+    "clientId": "BOT-J3DAGB",
+    "type": "INFO",
+    "message": "Storage loaded",
+    "data": {
+      "configsCount": 1,
+      "autoApply": false
+    },
+    "serverTime": "2026-04-02T12:31:18.628Z",
+    "clientIp": "106.219.86.61"
+  },
+  {
+    "clientId": "BOT-J3DAGB",
+    "type": "INFO",
+    "message": "⛔ Bot stopped",
+    "serverTime": "2026-04-02T12:31:34.601Z",
+    "clientIp": "106.219.86.61"
   }
 ]
