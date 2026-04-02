@@ -3039,5 +3039,23 @@
     "message": "⏰ Slot trigger: 10:00 AM",
     "serverTime": "2026-04-02T04:30:02.615Z",
     "clientIp": "152.59.27.147"
+  },
+  {
+    "clientId": "BOT-X6D1OW",
+    "type": "INFO",
+    "message": "Storage loaded",
+    "data": {
+      "configsCount": 3,
+      "autoApply": false
+    },
+    "serverTime": "2026-04-02T12:26:03.702Z",
+    "clientIp": "106.219.86.61"
+  },
+  {
+    "clientId": "BOT-X6D1OW",
+    "type": "INFO",
+    "message": "Auto-Apply: true",
+    "serverTime": "2026-04-02T12:26:25.666Z",
+    "clientIp": "106.219.86.61"
   }
 ]
