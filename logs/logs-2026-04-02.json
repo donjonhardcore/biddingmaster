@@ -3057,5 +3057,16 @@
     "message": "Auto-Apply: true",
     "serverTime": "2026-04-02T12:26:25.666Z",
     "clientIp": "106.219.86.61"
+  },
+  {
+    "clientId": "BOT-169V2L",
+    "type": "INFO",
+    "message": "Storage loaded",
+    "data": {
+      "configsCount": 1,
+      "autoApply": true
+    },
+    "serverTime": "2026-04-02T12:27:30.449Z",
+    "clientIp": "106.219.86.61"
   }
 ]
