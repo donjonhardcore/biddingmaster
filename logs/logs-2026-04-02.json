@@ -3121,5 +3121,58 @@
     },
     "serverTime": "2026-04-02T12:29:32.381Z",
     "clientIp": "106.219.86.61"
+  },
+  {
+    "clientId": "BOT-VJGKVS",
+    "type": "INFO",
+    "message": "Auto-Apply: true",
+    "serverTime": "2026-04-02T12:30:01.056Z",
+    "clientIp": "106.219.86.61"
+  },
+  {
+    "clientId": "BOT-VJGKVS",
+    "type": "INFO",
+    "message": "Auto-Apply: false",
+    "serverTime": "2026-04-02T12:30:09.396Z",
+    "clientIp": "106.219.86.61"
+  },
+  {
+    "clientId": "BOT-VJGKVS",
+    "type": "INFO",
+    "message": "⛔ Bot stopped",
+    "serverTime": "2026-04-02T12:30:11.060Z",
+    "clientIp": "106.219.86.61"
+  },
+  {
+    "clientId": "BOT-VJGKVS",
+    "type": "INFO",
+    "message": "Storage loaded",
+    "data": {
+      "configsCount": 1,
+      "autoApply": false
+    },
+    "serverTime": "2026-04-02T12:30:12.171Z",
+    "clientIp": "106.219.86.61"
+  },
+  {
+    "clientId": "BOT-VJGKVS",
+    "type": "INFO",
+    "message": "Auto-Apply: true",
+    "serverTime": "2026-04-02T12:30:17.919Z",
+    "clientIp": "106.219.86.61"
+  },
+  {
+    "clientId": "BOT-VJGKVS",
+    "type": "INFO",
+    "message": "Auto-Apply: false",
+    "serverTime": "2026-04-02T12:30:21.737Z",
+    "clientIp": "106.219.86.61"
+  },
+  {
+    "clientId": "BOT-VJGKVS",
+    "type": "INFO",
+    "message": "⛔ Bot stopped",
+    "serverTime": "2026-04-02T12:30:25.894Z",
+    "clientIp": "106.219.86.61"
   }
 ]
