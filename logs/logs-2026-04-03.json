@@ -41,5 +41,26 @@
     "message": "MutationObserver attached",
     "serverTime": "2026-04-03T04:18:26.037Z",
     "clientIp": "152.58.56.53"
+  },
+  {
+    "clientId": "BOT-6SE0VJ",
+    "type": "INFO",
+    "message": "Auto-Apply: false",
+    "serverTime": "2026-04-03T04:21:52.980Z",
+    "clientIp": "152.58.56.53"
+  },
+  {
+    "clientId": "BOT-6SE0VJ",
+    "type": "INFO",
+    "message": "Auto-Apply: true",
+    "serverTime": "2026-04-03T04:21:53.160Z",
+    "clientIp": "152.58.56.53"
+  },
+  {
+    "clientId": "BOT-6SE0VJ",
+    "type": "INFO",
+    "message": "Auto-Apply: false",
+    "serverTime": "2026-04-03T04:22:01.959Z",
+    "clientIp": "152.58.56.53"
   }
 ]
