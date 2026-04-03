@@ -1,0 +1,45 @@
+[
+  {
+    "clientId": "BOT-OL81VC",
+    "type": "INFO",
+    "message": "Storage loaded",
+    "data": {
+      "configsCount": 1,
+      "autoApply": true
+    },
+    "serverTime": "2026-04-03T04:18:10.705Z",
+    "clientIp": "152.58.56.53"
+  },
+  {
+    "clientId": "BOT-6SE0VJ",
+    "type": "INFO",
+    "message": "Storage loaded",
+    "data": {
+      "configsCount": 1,
+      "autoApply": true
+    },
+    "serverTime": "2026-04-03T04:18:11.210Z",
+    "clientIp": "152.58.56.53"
+  },
+  {
+    "clientId": "BOT-6SE0VJ",
+    "type": "INFO",
+    "message": "Table appeared — observer started",
+    "serverTime": "2026-04-03T04:18:26.024Z",
+    "clientIp": "152.58.56.53"
+  },
+  {
+    "clientId": "BOT-6SE0VJ",
+    "type": "INFO",
+    "message": "Baseline: 2 row signatures",
+    "serverTime": "2026-04-03T04:18:26.035Z",
+    "clientIp": "152.58.56.53"
+  },
+  {
+    "clientId": "BOT-6SE0VJ",
+    "type": "INFO",
+    "message": "MutationObserver attached",
+    "serverTime": "2026-04-03T04:18:26.037Z",
+    "clientIp": "152.58.56.53"
+  }
+]
