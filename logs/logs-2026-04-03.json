@@ -715,5 +715,48 @@
     ],
     "serverTime": "2026-04-03T04:30:20.492Z",
     "clientIp": "152.58.56.53"
+  },
+  {
+    "clientId": "BOT-4KFJYX",
+    "type": "INFO",
+    "message": "Storage loaded",
+    "data": {
+      "configsCount": 2,
+      "autoApply": true
+    },
+    "serverTime": "2026-04-03T06:05:07.274Z",
+    "clientIp": "182.68.11.201"
+  },
+  {
+    "clientId": "BOT-IVRSNG",
+    "type": "INFO",
+    "message": "Storage loaded",
+    "data": {
+      "configsCount": 2,
+      "autoApply": true
+    },
+    "serverTime": "2026-04-03T06:05:09.334Z",
+    "clientIp": "182.68.11.201"
+  },
+  {
+    "clientId": "BOT-IVRSNG",
+    "type": "INFO",
+    "message": "MutationObserver attached",
+    "serverTime": "2026-04-03T06:05:43.457Z",
+    "clientIp": "182.68.11.201"
+  },
+  {
+    "clientId": "BOT-IVRSNG",
+    "type": "INFO",
+    "message": "Table appeared — observer started",
+    "serverTime": "2026-04-03T06:05:43.942Z",
+    "clientIp": "182.68.11.201"
+  },
+  {
+    "clientId": "BOT-IVRSNG",
+    "type": "INFO",
+    "message": "Baseline: 2 row signatures",
+    "serverTime": "2026-04-03T06:05:43.962Z",
+    "clientIp": "182.68.11.201"
   }
 ]
