@@ -69,5 +69,651 @@
     "message": "Auto-Apply: true",
     "serverTime": "2026-04-03T04:22:08.006Z",
     "clientIp": "152.58.56.53"
+  },
+  {
+    "clientId": "BOT-6SE0VJ",
+    "type": "INFO",
+    "message": "⏰ Slot trigger: 10:00 AM",
+    "serverTime": "2026-04-03T04:30:04.815Z",
+    "clientIp": "152.58.56.53"
+  },
+  {
+    "clientId": "BOT-6SE0VJ",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-MANGLIA: Terminal ≠ \"MANGLIA RECEIPT TERMINAL\", OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-03T04:30:19.688Z",
+    "clientIp": "152.58.56.53"
+  },
+  {
+    "clientId": "BOT-6SE0VJ",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-MANGLIA: Terminal ≠ \"MANGLIA RECEIPT TERMINAL\", OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-03T04:30:19.756Z",
+    "clientIp": "152.58.56.53"
+  },
+  {
+    "clientId": "BOT-6SE0VJ",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-MANGLIA: Terminal ≠ \"MANGLIA RECEIPT TERMINAL\", OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-03T04:30:19.790Z",
+    "clientIp": "152.58.56.53"
+  },
+  {
+    "clientId": "BOT-6SE0VJ",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-MANGLIA: Terminal ≠ \"MANGLIA RECEIPT TERMINAL\", OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-03T04:30:19.804Z",
+    "clientIp": "152.58.56.53"
+  },
+  {
+    "clientId": "BOT-6SE0VJ",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-MANGLIA: Terminal ≠ \"MANGLIA RECEIPT TERMINAL\", OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-03T04:30:19.872Z",
+    "clientIp": "152.58.56.53"
+  },
+  {
+    "clientId": "BOT-6SE0VJ",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-MANGLIA: Terminal ≠ \"MANGLIA RECEIPT TERMINAL\", OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-03T04:30:19.878Z",
+    "clientIp": "152.58.56.53"
+  },
+  {
+    "clientId": "BOT-6SE0VJ",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-MANGLIA: Terminal ≠ \"MANGLIA RECEIPT TERMINAL\", OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-03T04:30:19.888Z",
+    "clientIp": "152.58.56.53"
+  },
+  {
+    "clientId": "BOT-6SE0VJ",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-MANGLIA: Terminal ≠ \"MANGLIA RECEIPT TERMINAL\", OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-03T04:30:19.892Z",
+    "clientIp": "152.58.56.53"
+  },
+  {
+    "clientId": "BOT-6SE0VJ",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-MANGLIA: Terminal ≠ \"MANGLIA RECEIPT TERMINAL\", OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-03T04:30:19.894Z",
+    "clientIp": "152.58.56.53"
+  },
+  {
+    "clientId": "BOT-6SE0VJ",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-MANGLIA: Terminal ≠ \"MANGLIA RECEIPT TERMINAL\", OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-03T04:30:19.895Z",
+    "clientIp": "152.58.56.53"
+  },
+  {
+    "clientId": "BOT-6SE0VJ",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-MANGLIA: Terminal ≠ \"MANGLIA RECEIPT TERMINAL\", OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-03T04:30:19.895Z",
+    "clientIp": "152.58.56.53"
+  },
+  {
+    "clientId": "BOT-6SE0VJ",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-MANGLIA: Terminal ≠ \"MANGLIA RECEIPT TERMINAL\", OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-03T04:30:19.896Z",
+    "clientIp": "152.58.56.53"
+  },
+  {
+    "clientId": "BOT-6SE0VJ",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-MANGLIA: Terminal ≠ \"MANGLIA RECEIPT TERMINAL\", OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-03T04:30:19.897Z",
+    "clientIp": "152.58.56.53"
+  },
+  {
+    "clientId": "BOT-6SE0VJ",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-MANGLIA: Terminal ≠ \"MANGLIA RECEIPT TERMINAL\", OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-03T04:30:19.900Z",
+    "clientIp": "152.58.56.53"
+  },
+  {
+    "clientId": "BOT-6SE0VJ",
+    "type": "DETECT",
+    "message": "77 NEW INDENT(S)",
+    "data": {
+      "count": 77,
+      "total": 77,
+      "t": "2026-04-03T04:30:18.161Z"
+    },
+    "serverTime": "2026-04-03T04:30:20.025Z",
+    "clientIp": "152.58.56.53"
+  },
+  {
+    "clientId": "BOT-6SE0VJ",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-MANGLIA: Terminal ≠ \"MANGLIA RECEIPT TERMINAL\", OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-03T04:30:20.029Z",
+    "clientIp": "152.58.56.53"
+  },
+  {
+    "clientId": "BOT-6SE0VJ",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-MANGLIA: Terminal ≠ \"MANGLIA RECEIPT TERMINAL\", OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-03T04:30:20.043Z",
+    "clientIp": "152.58.56.53"
+  },
+  {
+    "clientId": "BOT-6SE0VJ",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-MANGLIA: Terminal ≠ \"MANGLIA RECEIPT TERMINAL\", OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-03T04:30:20.156Z",
+    "clientIp": "152.58.56.53"
+  },
+  {
+    "clientId": "BOT-6SE0VJ",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-MANGLIA: Terminal ≠ \"MANGLIA RECEIPT TERMINAL\", OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-03T04:30:20.178Z",
+    "clientIp": "152.58.56.53"
+  },
+  {
+    "clientId": "BOT-6SE0VJ",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-MANGLIA: Terminal ≠ \"MANGLIA RECEIPT TERMINAL\", OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-03T04:30:20.231Z",
+    "clientIp": "152.58.56.53"
+  },
+  {
+    "clientId": "BOT-6SE0VJ",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-MANGLIA: Terminal ≠ \"MANGLIA RECEIPT TERMINAL\", OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-03T04:30:20.232Z",
+    "clientIp": "152.58.56.53"
+  },
+  {
+    "clientId": "BOT-6SE0VJ",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-MANGLIA: Terminal ≠ \"MANGLIA RECEIPT TERMINAL\", OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-03T04:30:20.234Z",
+    "clientIp": "152.58.56.53"
+  },
+  {
+    "clientId": "BOT-6SE0VJ",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-MANGLIA: Terminal ≠ \"MANGLIA RECEIPT TERMINAL\", OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-03T04:30:20.239Z",
+    "clientIp": "152.58.56.53"
+  },
+  {
+    "clientId": "BOT-6SE0VJ",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-MANGLIA: Terminal ≠ \"MANGLIA RECEIPT TERMINAL\", OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-03T04:30:20.240Z",
+    "clientIp": "152.58.56.53"
+  },
+  {
+    "clientId": "BOT-6SE0VJ",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-MANGLIA: Terminal ≠ \"MANGLIA RECEIPT TERMINAL\", OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-03T04:30:20.242Z",
+    "clientIp": "152.58.56.53"
+  },
+  {
+    "clientId": "BOT-6SE0VJ",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-MANGLIA: Terminal ≠ \"MANGLIA RECEIPT TERMINAL\", OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-03T04:30:20.244Z",
+    "clientIp": "152.58.56.53"
+  },
+  {
+    "clientId": "BOT-6SE0VJ",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-MANGLIA: Terminal ≠ \"MANGLIA RECEIPT TERMINAL\", OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-03T04:30:20.247Z",
+    "clientIp": "152.58.56.53"
+  },
+  {
+    "clientId": "BOT-6SE0VJ",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-MANGLIA: Terminal ≠ \"MANGLIA RECEIPT TERMINAL\", OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-03T04:30:20.249Z",
+    "clientIp": "152.58.56.53"
+  },
+  {
+    "clientId": "BOT-6SE0VJ",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-MANGLIA: Terminal ≠ \"MANGLIA RECEIPT TERMINAL\", OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-03T04:30:20.253Z",
+    "clientIp": "152.58.56.53"
+  },
+  {
+    "clientId": "BOT-6SE0VJ",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-MANGLIA: Terminal ≠ \"MANGLIA RECEIPT TERMINAL\", OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-03T04:30:20.254Z",
+    "clientIp": "152.58.56.53"
+  },
+  {
+    "clientId": "BOT-6SE0VJ",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-MANGLIA: Terminal ≠ \"MANGLIA RECEIPT TERMINAL\", OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-03T04:30:20.262Z",
+    "clientIp": "152.58.56.53"
+  },
+  {
+    "clientId": "BOT-6SE0VJ",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-MANGLIA: Terminal ≠ \"MANGLIA RECEIPT TERMINAL\", OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-03T04:30:20.263Z",
+    "clientIp": "152.58.56.53"
+  },
+  {
+    "clientId": "BOT-6SE0VJ",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-MANGLIA: Terminal ≠ \"MANGLIA RECEIPT TERMINAL\", OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-03T04:30:20.264Z",
+    "clientIp": "152.58.56.53"
+  },
+  {
+    "clientId": "BOT-6SE0VJ",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-MANGLIA: Terminal ≠ \"MANGLIA RECEIPT TERMINAL\", OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-03T04:30:20.265Z",
+    "clientIp": "152.58.56.53"
+  },
+  {
+    "clientId": "BOT-6SE0VJ",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-MANGLIA: Terminal ≠ \"MANGLIA RECEIPT TERMINAL\", OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-03T04:30:20.265Z",
+    "clientIp": "152.58.56.53"
+  },
+  {
+    "clientId": "BOT-6SE0VJ",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-MANGLIA: Terminal ≠ \"MANGLIA RECEIPT TERMINAL\", OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-03T04:30:20.272Z",
+    "clientIp": "152.58.56.53"
+  },
+  {
+    "clientId": "BOT-6SE0VJ",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-MANGLIA: Terminal ≠ \"MANGLIA RECEIPT TERMINAL\", OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-03T04:30:20.274Z",
+    "clientIp": "152.58.56.53"
+  },
+  {
+    "clientId": "BOT-6SE0VJ",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-MANGLIA: Terminal ≠ \"MANGLIA RECEIPT TERMINAL\", OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-03T04:30:20.275Z",
+    "clientIp": "152.58.56.53"
+  },
+  {
+    "clientId": "BOT-6SE0VJ",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-MANGLIA: Terminal ≠ \"MANGLIA RECEIPT TERMINAL\", OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-03T04:30:20.285Z",
+    "clientIp": "152.58.56.53"
+  },
+  {
+    "clientId": "BOT-6SE0VJ",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-MANGLIA: Terminal ≠ \"MANGLIA RECEIPT TERMINAL\", OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-03T04:30:20.286Z",
+    "clientIp": "152.58.56.53"
+  },
+  {
+    "clientId": "BOT-6SE0VJ",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-MANGLIA: Terminal ≠ \"MANGLIA RECEIPT TERMINAL\", OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-03T04:30:20.290Z",
+    "clientIp": "152.58.56.53"
+  },
+  {
+    "clientId": "BOT-6SE0VJ",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-MANGLIA: Terminal ≠ \"MANGLIA RECEIPT TERMINAL\", OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-03T04:30:20.291Z",
+    "clientIp": "152.58.56.53"
+  },
+  {
+    "clientId": "BOT-6SE0VJ",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-MANGLIA: Terminal ≠ \"MANGLIA RECEIPT TERMINAL\", OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-03T04:30:20.292Z",
+    "clientIp": "152.58.56.53"
+  },
+  {
+    "clientId": "BOT-6SE0VJ",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-MANGLIA: Terminal ≠ \"MANGLIA RECEIPT TERMINAL\", OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-03T04:30:20.293Z",
+    "clientIp": "152.58.56.53"
+  },
+  {
+    "clientId": "BOT-6SE0VJ",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-MANGLIA: Terminal ≠ \"MANGLIA RECEIPT TERMINAL\", OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-03T04:30:20.311Z",
+    "clientIp": "152.58.56.53"
+  },
+  {
+    "clientId": "BOT-6SE0VJ",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-MANGLIA: Terminal ≠ \"MANGLIA RECEIPT TERMINAL\", OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-03T04:30:20.320Z",
+    "clientIp": "152.58.56.53"
+  },
+  {
+    "clientId": "BOT-6SE0VJ",
+    "type": "APPLY",
+    "message": "Processing 77 row(s) — Configs: 1",
+    "serverTime": "2026-04-03T04:30:20.331Z",
+    "clientIp": "152.58.56.53"
+  },
+  {
+    "clientId": "BOT-6SE0VJ",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-MANGLIA: Terminal ≠ \"MANGLIA RECEIPT TERMINAL\", OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-03T04:30:20.385Z",
+    "clientIp": "152.58.56.53"
+  },
+  {
+    "clientId": "BOT-6SE0VJ",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-MANGLIA: Terminal ≠ \"MANGLIA RECEIPT TERMINAL\", OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-03T04:30:20.394Z",
+    "clientIp": "152.58.56.53"
+  },
+  {
+    "clientId": "BOT-6SE0VJ",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-MANGLIA: Terminal ≠ \"MANGLIA RECEIPT TERMINAL\", OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-03T04:30:20.395Z",
+    "clientIp": "152.58.56.53"
+  },
+  {
+    "clientId": "BOT-6SE0VJ",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-MANGLIA: Terminal ≠ \"MANGLIA RECEIPT TERMINAL\", OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-03T04:30:20.414Z",
+    "clientIp": "152.58.56.53"
+  },
+  {
+    "clientId": "BOT-6SE0VJ",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-MANGLIA: Terminal ≠ \"MANGLIA RECEIPT TERMINAL\", OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-03T04:30:20.416Z",
+    "clientIp": "152.58.56.53"
+  },
+  {
+    "clientId": "BOT-6SE0VJ",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-MANGLIA: Terminal ≠ \"MANGLIA RECEIPT TERMINAL\", OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-03T04:30:20.426Z",
+    "clientIp": "152.58.56.53"
+  },
+  {
+    "clientId": "BOT-6SE0VJ",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-MANGLIA: Terminal ≠ \"MANGLIA RECEIPT TERMINAL\", OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-03T04:30:20.428Z",
+    "clientIp": "152.58.56.53"
+  },
+  {
+    "clientId": "BOT-6SE0VJ",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-MANGLIA: Terminal ≠ \"MANGLIA RECEIPT TERMINAL\", OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-03T04:30:20.431Z",
+    "clientIp": "152.58.56.53"
+  },
+  {
+    "clientId": "BOT-6SE0VJ",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-MANGLIA: Terminal ≠ \"MANGLIA RECEIPT TERMINAL\", OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-03T04:30:20.432Z",
+    "clientIp": "152.58.56.53"
+  },
+  {
+    "clientId": "BOT-6SE0VJ",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-MANGLIA: Terminal ≠ \"MANGLIA RECEIPT TERMINAL\", OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-03T04:30:20.433Z",
+    "clientIp": "152.58.56.53"
+  },
+  {
+    "clientId": "BOT-6SE0VJ",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-MANGLIA: Terminal ≠ \"MANGLIA RECEIPT TERMINAL\", OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-03T04:30:20.434Z",
+    "clientIp": "152.58.56.53"
+  },
+  {
+    "clientId": "BOT-6SE0VJ",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-MANGLIA: Terminal ≠ \"MANGLIA RECEIPT TERMINAL\", OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-03T04:30:20.435Z",
+    "clientIp": "152.58.56.53"
+  },
+  {
+    "clientId": "BOT-6SE0VJ",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-MANGLIA: Terminal ≠ \"MANGLIA RECEIPT TERMINAL\", OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-03T04:30:20.436Z",
+    "clientIp": "152.58.56.53"
+  },
+  {
+    "clientId": "BOT-6SE0VJ",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-MANGLIA: Terminal ≠ \"MANGLIA RECEIPT TERMINAL\", OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-03T04:30:20.437Z",
+    "clientIp": "152.58.56.53"
+  },
+  {
+    "clientId": "BOT-6SE0VJ",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-MANGLIA: Terminal ≠ \"MANGLIA RECEIPT TERMINAL\", OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-03T04:30:20.448Z",
+    "clientIp": "152.58.56.53"
+  },
+  {
+    "clientId": "BOT-6SE0VJ",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-MANGLIA: Terminal ≠ \"MANGLIA RECEIPT TERMINAL\", OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-03T04:30:20.491Z",
+    "clientIp": "152.58.56.53"
+  },
+  {
+    "clientId": "BOT-6SE0VJ",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-MANGLIA: Terminal ≠ \"MANGLIA RECEIPT TERMINAL\", OMC ≠ \"BPCL\"]"
+    ],
+    "serverTime": "2026-04-03T04:30:20.492Z",
+    "clientIp": "152.58.56.53"
   }
 ]
