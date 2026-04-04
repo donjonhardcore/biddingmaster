@@ -1,0 +1,334 @@
+[
+  {
+    "clientId": "BOT-J008H4",
+    "type": "INFO",
+    "message": "Baseline: 2 row signatures",
+    "serverTime": "2026-04-04T04:30:27.910Z",
+    "clientIp": "157.34.59.167"
+  },
+  {
+    "clientId": "BOT-D5047E",
+    "type": "INFO",
+    "message": "Storage loaded",
+    "data": {
+      "configsCount": 2,
+      "autoApply": true
+    },
+    "serverTime": "2026-04-04T04:30:27.912Z",
+    "clientIp": "157.34.59.167"
+  },
+  {
+    "clientId": "BOT-J008H4",
+    "type": "INFO",
+    "message": "Table appeared — observer started",
+    "serverTime": "2026-04-04T04:30:27.913Z",
+    "clientIp": "157.34.59.167"
+  },
+  {
+    "clientId": "BOT-J008H4",
+    "type": "INFO",
+    "message": "Storage loaded",
+    "data": {
+      "configsCount": 2,
+      "autoApply": true
+    },
+    "serverTime": "2026-04-04T04:30:27.917Z",
+    "clientIp": "157.34.59.167"
+  },
+  {
+    "clientId": "BOT-J008H4",
+    "type": "INFO",
+    "message": "MutationObserver attached",
+    "serverTime": "2026-04-04T04:30:28.110Z",
+    "clientIp": "157.34.59.167"
+  },
+  {
+    "clientId": "BOT-D5047E",
+    "type": "INFO",
+    "message": "⏰ Slot trigger: 10:00 AM",
+    "serverTime": "2026-04-04T04:30:28.199Z",
+    "clientIp": "157.34.59.167"
+  },
+  {
+    "clientId": "BOT-7OHK9P",
+    "type": "INFO",
+    "message": "Storage loaded",
+    "data": {
+      "configsCount": 2,
+      "autoApply": true
+    },
+    "serverTime": "2026-04-04T04:30:42.247Z",
+    "clientIp": "157.34.59.167"
+  },
+  {
+    "clientId": "BOT-QXJYE5",
+    "type": "INFO",
+    "message": "Storage loaded",
+    "data": {
+      "configsCount": 2,
+      "autoApply": true
+    },
+    "serverTime": "2026-04-04T04:30:42.683Z",
+    "clientIp": "157.34.59.167"
+  },
+  {
+    "clientId": "BOT-QXJYE5",
+    "type": "INFO",
+    "message": "Table appeared — observer started",
+    "serverTime": "2026-04-04T04:30:45.278Z",
+    "clientIp": "157.34.59.167"
+  },
+  {
+    "clientId": "BOT-QXJYE5",
+    "type": "INFO",
+    "message": "MutationObserver attached",
+    "serverTime": "2026-04-04T04:30:45.280Z",
+    "clientIp": "157.34.59.167"
+  },
+  {
+    "clientId": "BOT-QXJYE5",
+    "type": "INFO",
+    "message": "Baseline: 2 row signatures",
+    "serverTime": "2026-04-04T04:30:45.280Z",
+    "clientIp": "157.34.59.167"
+  },
+  {
+    "clientId": "BOT-QXJYE5",
+    "type": "DETECT",
+    "message": "34 NEW INDENT(S)",
+    "data": {
+      "count": 34,
+      "total": 34,
+      "t": "2026-04-04T04:30:54.446Z"
+    },
+    "serverTime": "2026-04-04T04:30:55.583Z",
+    "clientIp": "157.34.59.167"
+  },
+  {
+    "clientId": "BOT-QXJYE5",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-MANGLIA: Terminal ≠ \"MANGLIA RECEIPT TERMINAL\", OMC ≠ \"BPCL\"]",
+      "[IOCL-ITARSI: Terminal ≠ \"ITARSI\", OMC ≠ \"IOCL\"]"
+    ],
+    "serverTime": "2026-04-04T04:30:55.904Z",
+    "clientIp": "157.34.59.167"
+  },
+  {
+    "clientId": "BOT-QXJYE5",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-MANGLIA: Terminal ≠ \"MANGLIA RECEIPT TERMINAL\", OMC ≠ \"BPCL\"]",
+      "[IOCL-ITARSI: Terminal ≠ \"ITARSI\", OMC ≠ \"IOCL\"]"
+    ],
+    "serverTime": "2026-04-04T04:30:55.905Z",
+    "clientIp": "157.34.59.167"
+  },
+  {
+    "clientId": "BOT-QXJYE5",
+    "type": "APPLY",
+    "message": "Processing 34 row(s) — Configs: 2",
+    "serverTime": "2026-04-04T04:30:55.906Z",
+    "clientIp": "157.34.59.167"
+  },
+  {
+    "clientId": "BOT-QXJYE5",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-MANGLIA: Terminal ≠ \"MANGLIA RECEIPT TERMINAL\", OMC ≠ \"BPCL\"]",
+      "[IOCL-ITARSI: Terminal ≠ \"ITARSI\", OMC ≠ \"IOCL\"]"
+    ],
+    "serverTime": "2026-04-04T04:30:55.908Z",
+    "clientIp": "157.34.59.167"
+  },
+  {
+    "clientId": "BOT-QXJYE5",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-MANGLIA: Terminal ≠ \"MANGLIA RECEIPT TERMINAL\", OMC ≠ \"BPCL\"]",
+      "[IOCL-ITARSI: Terminal ≠ \"ITARSI\", OMC ≠ \"IOCL\"]"
+    ],
+    "serverTime": "2026-04-04T04:30:55.909Z",
+    "clientIp": "157.34.59.167"
+  },
+  {
+    "clientId": "BOT-QXJYE5",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-MANGLIA: Terminal ≠ \"MANGLIA RECEIPT TERMINAL\", OMC ≠ \"BPCL\"]",
+      "[IOCL-ITARSI: Terminal ≠ \"ITARSI\", OMC ≠ \"IOCL\"]"
+    ],
+    "serverTime": "2026-04-04T04:30:55.911Z",
+    "clientIp": "157.34.59.167"
+  },
+  {
+    "clientId": "BOT-QXJYE5",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-MANGLIA: Terminal ≠ \"MANGLIA RECEIPT TERMINAL\", OMC ≠ \"BPCL\"]",
+      "[IOCL-ITARSI: Terminal ≠ \"ITARSI\", OMC ≠ \"IOCL\"]"
+    ],
+    "serverTime": "2026-04-04T04:30:55.913Z",
+    "clientIp": "157.34.59.167"
+  },
+  {
+    "clientId": "BOT-QXJYE5",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-MANGLIA: Terminal ≠ \"MANGLIA RECEIPT TERMINAL\", OMC ≠ \"BPCL\"]",
+      "[IOCL-ITARSI: Terminal ≠ \"ITARSI\", OMC ≠ \"IOCL\"]"
+    ],
+    "serverTime": "2026-04-04T04:30:55.914Z",
+    "clientIp": "157.34.59.167"
+  },
+  {
+    "clientId": "BOT-QXJYE5",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-MANGLIA: Terminal ≠ \"MANGLIA RECEIPT TERMINAL\", OMC ≠ \"BPCL\"]",
+      "[IOCL-ITARSI: Terminal ≠ \"ITARSI\", OMC ≠ \"IOCL\"]"
+    ],
+    "serverTime": "2026-04-04T04:30:55.915Z",
+    "clientIp": "157.34.59.167"
+  },
+  {
+    "clientId": "BOT-QXJYE5",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-MANGLIA: Terminal ≠ \"MANGLIA RECEIPT TERMINAL\", OMC ≠ \"BPCL\"]",
+      "[IOCL-ITARSI: Terminal ≠ \"ITARSI\", OMC ≠ \"IOCL\"]"
+    ],
+    "serverTime": "2026-04-04T04:30:55.916Z",
+    "clientIp": "157.34.59.167"
+  },
+  {
+    "clientId": "BOT-QXJYE5",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-MANGLIA: Terminal ≠ \"MANGLIA RECEIPT TERMINAL\", OMC ≠ \"BPCL\"]",
+      "[IOCL-ITARSI: Terminal ≠ \"ITARSI\", OMC ≠ \"IOCL\"]"
+    ],
+    "serverTime": "2026-04-04T04:30:55.917Z",
+    "clientIp": "157.34.59.167"
+  },
+  {
+    "clientId": "BOT-QXJYE5",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-MANGLIA: Terminal ≠ \"MANGLIA RECEIPT TERMINAL\", OMC ≠ \"BPCL\"]",
+      "[IOCL-ITARSI: Terminal ≠ \"ITARSI\", OMC ≠ \"IOCL\"]"
+    ],
+    "serverTime": "2026-04-04T04:30:55.918Z",
+    "clientIp": "157.34.59.167"
+  },
+  {
+    "clientId": "BOT-QXJYE5",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-MANGLIA: Terminal ≠ \"MANGLIA RECEIPT TERMINAL\", OMC ≠ \"BPCL\"]",
+      "[IOCL-ITARSI: Terminal ≠ \"ITARSI\", OMC ≠ \"IOCL\"]"
+    ],
+    "serverTime": "2026-04-04T04:30:55.919Z",
+    "clientIp": "157.34.59.167"
+  },
+  {
+    "clientId": "BOT-QXJYE5",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-MANGLIA: Terminal ≠ \"MANGLIA RECEIPT TERMINAL\", OMC ≠ \"BPCL\"]",
+      "[IOCL-ITARSI: Terminal ≠ \"ITARSI\"]"
+    ],
+    "serverTime": "2026-04-04T04:30:55.919Z",
+    "clientIp": "157.34.59.167"
+  },
+  {
+    "clientId": "BOT-QXJYE5",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-MANGLIA: Terminal ≠ \"MANGLIA RECEIPT TERMINAL\", OMC ≠ \"BPCL\"]",
+      "[IOCL-ITARSI: Terminal ≠ \"ITARSI\", OMC ≠ \"IOCL\"]"
+    ],
+    "serverTime": "2026-04-04T04:30:55.921Z",
+    "clientIp": "157.34.59.167"
+  },
+  {
+    "clientId": "BOT-QXJYE5",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-MANGLIA: Terminal ≠ \"MANGLIA RECEIPT TERMINAL\", OMC ≠ \"BPCL\"]",
+      "[IOCL-ITARSI: Terminal ≠ \"ITARSI\", OMC ≠ \"IOCL\"]"
+    ],
+    "serverTime": "2026-04-04T04:30:55.922Z",
+    "clientIp": "157.34.59.167"
+  },
+  {
+    "clientId": "BOT-QXJYE5",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-MANGLIA: Terminal ≠ \"MANGLIA RECEIPT TERMINAL\", OMC ≠ \"BPCL\"]",
+      "[IOCL-ITARSI: Terminal ≠ \"ITARSI\", OMC ≠ \"IOCL\"]"
+    ],
+    "serverTime": "2026-04-04T04:30:55.923Z",
+    "clientIp": "157.34.59.167"
+  },
+  {
+    "clientId": "BOT-QXJYE5",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-MANGLIA: Terminal ≠ \"MANGLIA RECEIPT TERMINAL\", OMC ≠ \"BPCL\"]",
+      "[IOCL-ITARSI: Terminal ≠ \"ITARSI\"]"
+    ],
+    "serverTime": "2026-04-04T04:30:55.925Z",
+    "clientIp": "157.34.59.167"
+  },
+  {
+    "clientId": "BOT-QXJYE5",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-MANGLIA: Terminal ≠ \"MANGLIA RECEIPT TERMINAL\", OMC ≠ \"BPCL\"]",
+      "[IOCL-ITARSI: Terminal ≠ \"ITARSI\", OMC ≠ \"IOCL\"]"
+    ],
+    "serverTime": "2026-04-04T04:30:56.376Z",
+    "clientIp": "157.34.59.167"
+  },
+  {
+    "clientId": "BOT-QXJYE5",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-MANGLIA: Terminal ≠ \"MANGLIA RECEIPT TERMINAL\", OMC ≠ \"BPCL\"]",
+      "[IOCL-ITARSI: Terminal ≠ \"ITARSI\", OMC ≠ \"IOCL\"]"
+    ],
+    "serverTime": "2026-04-04T04:30:56.404Z",
+    "clientIp": "157.34.59.167"
+  },
+  {
+    "clientId": "BOT-QXJYE5",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[BPCL-MANGLIA: Terminal ≠ \"MANGLIA RECEIPT TERMINAL\", OMC ≠ \"BPCL\"]",
+      "[IOCL-ITARSI: Terminal ≠ \"ITARSI\"]"
+    ],
+    "serverTime": "2026-04-04T04:30:56.419Z",
+    "clientIp": "157.34.59.167"
+  }
+]
