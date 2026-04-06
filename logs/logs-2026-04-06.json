@@ -20,5 +20,114 @@
     },
     "serverTime": "2026-04-06T11:27:27.243Z",
     "clientIp": "152.58.56.76"
+  },
+  {
+    "clientId": "BOT-2VC8YS",
+    "type": "INFO",
+    "message": "⛔ Bot stopped",
+    "serverTime": "2026-04-06T11:28:42.004Z",
+    "clientIp": "152.58.56.76"
+  },
+  {
+    "clientId": "BOT-2VC8YS",
+    "type": "INFO",
+    "message": "Storage loaded",
+    "data": {
+      "configsCount": 2,
+      "autoApply": true
+    },
+    "serverTime": "2026-04-06T11:28:44.262Z",
+    "clientIp": "152.58.56.76"
+  },
+  {
+    "clientId": "BOT-2VC8YS",
+    "type": "INFO",
+    "message": "Table appeared — observer started",
+    "serverTime": "2026-04-06T11:28:48.943Z",
+    "clientIp": "152.58.56.76"
+  },
+  {
+    "clientId": "BOT-2VC8YS",
+    "type": "INFO",
+    "message": "MutationObserver attached",
+    "serverTime": "2026-04-06T11:28:48.953Z",
+    "clientIp": "152.58.56.76"
+  },
+  {
+    "clientId": "BOT-2VC8YS",
+    "type": "INFO",
+    "message": "Baseline: 2 row signatures",
+    "serverTime": "2026-04-06T11:28:49.367Z",
+    "clientIp": "152.58.56.76"
+  },
+  {
+    "clientId": "BOT-2VC8YS",
+    "type": "DETECT",
+    "message": "4 NEW INDENT(S)",
+    "data": {
+      "count": 4,
+      "total": 4,
+      "t": "2026-04-06T11:28:53.143Z"
+    },
+    "serverTime": "2026-04-06T11:28:52.339Z",
+    "clientIp": "152.58.56.76"
+  },
+  {
+    "clientId": "BOT-2VC8YS",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[IOCL-ITARSI: Terminal ≠ \"ITARSI\"]",
+      "[IOCL-ITARSI: Terminal ≠ \"ITARSI\"]"
+    ],
+    "serverTime": "2026-04-06T11:28:52.835Z",
+    "clientIp": "152.58.56.76"
+  },
+  {
+    "clientId": "BOT-2VC8YS",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[IOCL-ITARSI: Terminal ≠ \"ITARSI\"]",
+      "[IOCL-ITARSI: Terminal ≠ \"ITARSI\"]"
+    ],
+    "serverTime": "2026-04-06T11:28:52.844Z",
+    "clientIp": "152.58.56.76"
+  },
+  {
+    "clientId": "BOT-2VC8YS",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[IOCL-ITARSI: Terminal ≠ \"ITARSI\", OMC ≠ \"IOCL\"]",
+      "[IOCL-ITARSI: Terminal ≠ \"ITARSI\", OMC ≠ \"IOCL\"]"
+    ],
+    "serverTime": "2026-04-06T11:28:52.845Z",
+    "clientIp": "152.58.56.76"
+  },
+  {
+    "clientId": "BOT-2VC8YS",
+    "type": "WARN",
+    "message": "No rows passed validation",
+    "serverTime": "2026-04-06T11:28:52.847Z",
+    "clientIp": "152.58.56.76"
+  },
+  {
+    "clientId": "BOT-2VC8YS",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[IOCL-ITARSI: Terminal ≠ \"ITARSI\", OMC ≠ \"IOCL\"]",
+      "[IOCL-ITARSI: Terminal ≠ \"ITARSI\", OMC ≠ \"IOCL\"]"
+    ],
+    "serverTime": "2026-04-06T11:28:52.850Z",
+    "clientIp": "152.58.56.76"
+  },
+  {
+    "clientId": "BOT-2VC8YS",
+    "type": "APPLY",
+    "message": "Processing 4 row(s) — Configs: 2",
+    "serverTime": "2026-04-06T11:28:53.297Z",
+    "clientIp": "152.58.56.76"
   }
 ]
