@@ -1,0 +1,77 @@
+[
+  {
+    "clientId": "BOT-6T3C75",
+    "type": "INFO",
+    "message": "Storage loaded",
+    "data": {
+      "configsCount": 2,
+      "autoApply": true
+    },
+    "serverTime": "2026-04-07T04:47:25.192Z",
+    "clientIp": "49.32.249.127"
+  },
+  {
+    "clientId": "BOT-QMBMBB",
+    "type": "INFO",
+    "message": "MutationObserver attached",
+    "serverTime": "2026-04-07T04:47:25.210Z",
+    "clientIp": "49.32.249.127"
+  },
+  {
+    "clientId": "BOT-QMBMBB",
+    "type": "INFO",
+    "message": "Baseline: 2 row signatures",
+    "serverTime": "2026-04-07T04:47:25.212Z",
+    "clientIp": "49.32.249.127"
+  },
+  {
+    "clientId": "BOT-QMBMBB",
+    "type": "INFO",
+    "message": "Storage loaded",
+    "data": {
+      "configsCount": 2,
+      "autoApply": true
+    },
+    "serverTime": "2026-04-07T04:47:25.312Z",
+    "clientIp": "49.32.249.127"
+  },
+  {
+    "clientId": "BOT-QMBMBB",
+    "type": "INFO",
+    "message": "Table appeared — observer started",
+    "serverTime": "2026-04-07T04:47:25.677Z",
+    "clientIp": "49.32.249.127"
+  },
+  {
+    "clientId": "BOT-TI4XA9",
+    "type": "INFO",
+    "message": "MutationObserver attached",
+    "serverTime": "2026-04-07T04:47:51.914Z",
+    "clientIp": "49.32.249.127"
+  },
+  {
+    "clientId": "BOT-TI4XA9",
+    "type": "INFO",
+    "message": "Storage loaded",
+    "data": {
+      "configsCount": 2,
+      "autoApply": true
+    },
+    "serverTime": "2026-04-07T04:47:51.915Z",
+    "clientIp": "49.32.249.127"
+  },
+  {
+    "clientId": "BOT-TI4XA9",
+    "type": "INFO",
+    "message": "Table appeared — observer started",
+    "serverTime": "2026-04-07T04:47:51.926Z",
+    "clientIp": "49.32.249.127"
+  },
+  {
+    "clientId": "BOT-TI4XA9",
+    "type": "INFO",
+    "message": "Baseline: 2 row signatures",
+    "serverTime": "2026-04-07T04:47:52.387Z",
+    "clientIp": "49.32.249.127"
+  }
+]
