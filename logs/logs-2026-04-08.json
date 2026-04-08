@@ -122,5 +122,37 @@
     "message": "No rows passed validation",
     "serverTime": "2026-04-08T04:02:13.982Z",
     "clientIp": "49.32.137.56"
+  },
+  {
+    "clientId": "BOT-ITOHPI",
+    "type": "INFO",
+    "message": "Storage loaded",
+    "data": {
+      "configsCount": 2,
+      "autoApply": true
+    },
+    "serverTime": "2026-04-08T04:03:04.967Z",
+    "clientIp": "49.32.137.56"
+  },
+  {
+    "clientId": "BOT-ITOHPI",
+    "type": "INFO",
+    "message": "Table appeared — observer started",
+    "serverTime": "2026-04-08T04:03:05.265Z",
+    "clientIp": "49.32.137.56"
+  },
+  {
+    "clientId": "BOT-ITOHPI",
+    "type": "INFO",
+    "message": "MutationObserver attached",
+    "serverTime": "2026-04-08T04:03:05.269Z",
+    "clientIp": "49.32.137.56"
+  },
+  {
+    "clientId": "BOT-ITOHPI",
+    "type": "INFO",
+    "message": "Baseline: 2 row signatures",
+    "serverTime": "2026-04-08T04:03:05.270Z",
+    "clientIp": "49.32.137.56"
   }
 ]
