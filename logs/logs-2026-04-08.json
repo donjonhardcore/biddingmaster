@@ -161,5 +161,75 @@
     "message": "⏰ Slot trigger: 10:00 AM",
     "serverTime": "2026-04-08T04:30:25.782Z",
     "clientIp": "49.32.137.56"
+  },
+  {
+    "clientId": "BOT-ITOHPI",
+    "type": "WARN",
+    "message": "No rows passed validation",
+    "serverTime": "2026-04-08T04:34:36.982Z",
+    "clientIp": "49.32.137.56"
+  },
+  {
+    "clientId": "BOT-ITOHPI",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[IOCL-ITARSI: Terminal ≠ \"ITARSI\"]",
+      "[IOCL-ITARSI: Terminal ≠ \"ITARSI\"]"
+    ],
+    "serverTime": "2026-04-08T04:34:37.371Z",
+    "clientIp": "49.32.137.56"
+  },
+  {
+    "clientId": "BOT-ITOHPI",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[IOCL-ITARSI: Terminal ≠ \"ITARSI\"]",
+      "[IOCL-ITARSI: Terminal ≠ \"ITARSI\"]"
+    ],
+    "serverTime": "2026-04-08T04:34:37.382Z",
+    "clientIp": "49.32.137.56"
+  },
+  {
+    "clientId": "BOT-ITOHPI",
+    "type": "APPLY",
+    "message": "Processing 4 row(s) — Configs: 2",
+    "serverTime": "2026-04-08T04:34:37.421Z",
+    "clientIp": "49.32.137.56"
+  },
+  {
+    "clientId": "BOT-ITOHPI",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[IOCL-ITARSI: Terminal ≠ \"ITARSI\", OMC ≠ \"IOCL\"]",
+      "[IOCL-ITARSI: Terminal ≠ \"ITARSI\", OMC ≠ \"IOCL\"]"
+    ],
+    "serverTime": "2026-04-08T04:34:37.426Z",
+    "clientIp": "49.32.137.56"
+  },
+  {
+    "clientId": "BOT-ITOHPI",
+    "type": "DETECT",
+    "message": "4 NEW INDENT(S)",
+    "data": {
+      "count": 4,
+      "total": 4,
+      "t": "2026-04-08T04:34:37.008Z"
+    },
+    "serverTime": "2026-04-08T04:34:37.448Z",
+    "clientIp": "49.32.137.56"
+  },
+  {
+    "clientId": "BOT-ITOHPI",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[IOCL-ITARSI: Terminal ≠ \"ITARSI\", OMC ≠ \"IOCL\"]",
+      "[IOCL-ITARSI: Terminal ≠ \"ITARSI\", OMC ≠ \"IOCL\"]"
+    ],
+    "serverTime": "2026-04-08T04:34:37.478Z",
+    "clientIp": "49.32.137.56"
   }
 ]
