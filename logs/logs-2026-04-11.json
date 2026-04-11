@@ -128,5 +128,41 @@
     "message": "No rows passed validation",
     "serverTime": "2026-04-11T11:21:47.453Z",
     "clientIp": "171.60.142.193"
+  },
+  {
+    "clientId": "BOT-LX6ER9",
+    "type": "INFO",
+    "message": "⏰ Slot trigger: 5:00 PM",
+    "serverTime": "2026-04-11T11:29:59.383Z",
+    "clientIp": "171.60.142.193"
+  },
+  {
+    "clientId": "BOT-LX6ER9",
+    "type": "APPLY",
+    "message": "Processing 2 row(s) — Configs: 1",
+    "serverTime": "2026-04-11T11:30:07.657Z",
+    "clientIp": "171.60.142.193"
+  },
+  {
+    "clientId": "BOT-LX6ER9",
+    "type": "DETECT",
+    "message": "2 NEW INDENT(S)",
+    "data": {
+      "count": 2,
+      "total": 6,
+      "t": "2026-04-11T11:30:08.567Z"
+    },
+    "serverTime": "2026-04-11T11:30:07.660Z",
+    "clientIp": "171.60.142.193"
+  },
+  {
+    "clientId": "BOT-LX6ER9",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[HPCL-INDORE: Terminal ≠ \"INDORE DEPOT\", OMC ≠ \"HPCL\"]"
+    ],
+    "serverTime": "2026-04-11T11:30:07.661Z",
+    "clientIp": "171.60.142.193"
   }
 ]
