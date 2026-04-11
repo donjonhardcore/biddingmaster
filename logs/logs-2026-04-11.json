@@ -30,5 +30,103 @@
     "message": "Table appeared — observer started",
     "serverTime": "2026-04-11T11:19:33.643Z",
     "clientIp": "171.60.142.193"
+  },
+  {
+    "clientId": "BOT-LX6ER9",
+    "type": "INFO",
+    "message": "⛔ Bot stopped",
+    "serverTime": "2026-04-11T11:21:21.932Z",
+    "clientIp": "171.60.142.193"
+  },
+  {
+    "clientId": "BOT-LX6ER9",
+    "type": "INFO",
+    "message": "Baseline: 41 row signatures",
+    "serverTime": "2026-04-11T11:21:23.995Z",
+    "clientIp": "171.60.142.193"
+  },
+  {
+    "clientId": "BOT-LX6ER9",
+    "type": "INFO",
+    "message": "MutationObserver attached",
+    "serverTime": "2026-04-11T11:21:24.008Z",
+    "clientIp": "171.60.142.193"
+  },
+  {
+    "clientId": "BOT-LX6ER9",
+    "type": "INFO",
+    "message": "Storage loaded",
+    "data": {
+      "configsCount": 1,
+      "autoApply": true
+    },
+    "serverTime": "2026-04-11T11:21:24.476Z",
+    "clientIp": "171.60.142.193"
+  },
+  {
+    "clientId": "BOT-LX6ER9",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[HPCL-INDORE: Terminal ≠ \"INDORE DEPOT\", OMC ≠ \"HPCL\"]"
+    ],
+    "serverTime": "2026-04-11T11:21:46.926Z",
+    "clientIp": "171.60.142.193"
+  },
+  {
+    "clientId": "BOT-LX6ER9",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[HPCL-INDORE: Terminal ≠ \"INDORE DEPOT\", OMC ≠ \"HPCL\"]"
+    ],
+    "serverTime": "2026-04-11T11:21:46.937Z",
+    "clientIp": "171.60.142.193"
+  },
+  {
+    "clientId": "BOT-LX6ER9",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[HPCL-INDORE: Terminal ≠ \"INDORE DEPOT\", OMC ≠ \"HPCL\"]"
+    ],
+    "serverTime": "2026-04-11T11:21:46.938Z",
+    "clientIp": "171.60.142.193"
+  },
+  {
+    "clientId": "BOT-LX6ER9",
+    "type": "SKIP",
+    "message": "Row failed validation",
+    "data": [
+      "[HPCL-INDORE: Terminal ≠ \"INDORE DEPOT\", OMC ≠ \"HPCL\"]"
+    ],
+    "serverTime": "2026-04-11T11:21:46.941Z",
+    "clientIp": "171.60.142.193"
+  },
+  {
+    "clientId": "BOT-LX6ER9",
+    "type": "APPLY",
+    "message": "Processing 4 row(s) — Configs: 1",
+    "serverTime": "2026-04-11T11:21:46.959Z",
+    "clientIp": "171.60.142.193"
+  },
+  {
+    "clientId": "BOT-LX6ER9",
+    "type": "DETECT",
+    "message": "4 NEW INDENT(S)",
+    "data": {
+      "count": 4,
+      "total": 4,
+      "t": "2026-04-11T11:21:47.631Z"
+    },
+    "serverTime": "2026-04-11T11:21:47.105Z",
+    "clientIp": "171.60.142.193"
+  },
+  {
+    "clientId": "BOT-LX6ER9",
+    "type": "WARN",
+    "message": "No rows passed validation",
+    "serverTime": "2026-04-11T11:21:47.453Z",
+    "clientIp": "171.60.142.193"
   }
 ]
