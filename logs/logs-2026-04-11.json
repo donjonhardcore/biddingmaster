@@ -1,0 +1,34 @@
+[
+  {
+    "clientId": "BOT-LX6ER9",
+    "type": "INFO",
+    "message": "Storage loaded",
+    "data": {
+      "configsCount": 2,
+      "autoApply": true
+    },
+    "serverTime": "2026-04-11T11:19:23.815Z",
+    "clientIp": "171.60.142.193"
+  },
+  {
+    "clientId": "BOT-LX6ER9",
+    "type": "INFO",
+    "message": "MutationObserver attached",
+    "serverTime": "2026-04-11T11:19:33.211Z",
+    "clientIp": "171.60.142.193"
+  },
+  {
+    "clientId": "BOT-LX6ER9",
+    "type": "INFO",
+    "message": "Baseline: 2 row signatures",
+    "serverTime": "2026-04-11T11:19:33.225Z",
+    "clientIp": "171.60.142.193"
+  },
+  {
+    "clientId": "BOT-LX6ER9",
+    "type": "INFO",
+    "message": "Table appeared — observer started",
+    "serverTime": "2026-04-11T11:19:33.643Z",
+    "clientIp": "171.60.142.193"
+  }
+]
