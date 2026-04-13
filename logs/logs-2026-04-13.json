@@ -64,5 +64,25 @@
     },
     "serverTime": "2026-04-13T11:18:28.465Z",
     "clientIp": "103.101.110.164"
+  },
+  {
+    "clientId": "BOT-9D62PL",
+    "type": "INFO",
+    "message": "PO Configs updated live",
+    "data": {
+      "count": 1
+    },
+    "serverTime": "2026-04-13T11:20:14.939Z",
+    "clientIp": "103.101.110.164"
+  },
+  {
+    "clientId": "BOT-SG8KLG",
+    "type": "INFO",
+    "message": "PO Configs updated live",
+    "data": {
+      "count": 1
+    },
+    "serverTime": "2026-04-13T11:20:14.954Z",
+    "clientIp": "103.101.110.164"
   }
 ]
