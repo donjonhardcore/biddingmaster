@@ -84,5 +84,27 @@
     },
     "serverTime": "2026-04-13T11:20:14.954Z",
     "clientIp": "103.101.110.164"
+  },
+  {
+    "clientId": "BOT-T2SBK3",
+    "type": "INFO",
+    "message": "Storage loaded",
+    "data": {
+      "configsCount": 0,
+      "autoApply": false
+    },
+    "serverTime": "2026-04-14T02:06:46.972Z",
+    "clientIp": "152.58.25.113"
+  },
+  {
+    "clientId": "BOT-T2SBK3",
+    "type": "INFO",
+    "message": "🚀 Bot started",
+    "data": {
+      "configs": 0,
+      "autoApply": false
+    },
+    "serverTime": "2026-04-14T02:06:47.027Z",
+    "clientIp": "152.58.25.113"
   }
 ]
