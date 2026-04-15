@@ -202,5 +202,29 @@
     "timestamp": "15 Apr 2026 03:03:45 pm IST",
     "type": "INFO",
     "clientIp": "106.219.86.3"
+  },
+  {
+    "clientId": "BOT-Z8BFUT",
+    "data": {
+      "autoApply": true,
+      "configs": 1
+    },
+    "message": "🚀 Bot started",
+    "serverTime": "2026-04-15T09:42:56.098Z",
+    "timestamp": "15 Apr 2026 03:12:55 pm IST",
+    "type": "INFO",
+    "clientIp": "106.219.86.3"
+  },
+  {
+    "clientId": "BOT-Z8BFUT",
+    "data": {
+      "autoApply": true,
+      "configs": 1
+    },
+    "message": "🚀 Bot started",
+    "serverTime": "2026-04-15T09:42:56.159Z",
+    "timestamp": "15 Apr 2026 03:12:55 pm IST",
+    "type": "INFO",
+    "clientIp": "106.219.86.3"
   }
 ]
