@@ -106,5 +106,53 @@
     },
     "serverTime": "2026-04-14T02:06:47.027Z",
     "clientIp": "152.58.25.113"
+  },
+  {
+    "clientId": "BOT-J6CK65",
+    "data": {
+      "autoApply": true,
+      "configs": 1
+    },
+    "message": "🚀 Bot started",
+    "timestamp": "2026-04-15T09:29:24.415Z",
+    "type": "INFO",
+    "serverTime": "2026-04-15T09:29:25.514Z",
+    "clientIp": "106.219.86.3"
+  },
+  {
+    "clientId": "BOT-J6CK65",
+    "data": {
+      "autoApply": true,
+      "configs": 1
+    },
+    "message": "🚀 Bot started",
+    "timestamp": "2026-04-15T09:29:24.415Z",
+    "type": "INFO",
+    "serverTime": "2026-04-15T09:29:25.523Z",
+    "clientIp": "106.219.86.3"
+  },
+  {
+    "clientId": "BOT-XJWP5S",
+    "data": {
+      "autoApply": true,
+      "configs": 1
+    },
+    "message": "🚀 Bot started",
+    "timestamp": "2026-04-15T09:29:30.477Z",
+    "type": "INFO",
+    "serverTime": "2026-04-15T09:29:30.930Z",
+    "clientIp": "106.219.86.3"
+  },
+  {
+    "clientId": "BOT-XJWP5S",
+    "data": {
+      "autoApply": true,
+      "configs": 1
+    },
+    "message": "🚀 Bot started",
+    "timestamp": "2026-04-15T09:29:30.477Z",
+    "type": "INFO",
+    "serverTime": "2026-04-15T09:29:31.409Z",
+    "clientIp": "106.219.86.3"
   }
 ]
