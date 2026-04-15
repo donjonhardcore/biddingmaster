@@ -391,7 +391,7 @@ const server = http.createServer((req, res) => {
     ${viewLogs.slice().reverse().map(l => `
       <div class="log-entry ${escHtml(l.type ? l.type.toLowerCase() : '')}">
         <div class="meta">
-          <span>🕒 ${l.serverTime ? new Date(l.serverTime).toLocaleTimeString('en-US', { timeZone: 'Asia/Kolkata' }) : '?'}</span>
+          <span>🕒 ${l.timestamp || (l.serverTime ? new Date(l.serverTime).toLocaleString('en-IN', { timeZone: 'Asia/Kolkata', day: '2-digit', month: 'short', year: 'numeric', hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: true }) + ' IST' : '?')}</span>
           <span>🖥️ ${escHtml(l.clientId || 'Unknown')}</span>
           <span>🏷️ ${escHtml(l.type || 'INFO')}</span>
         </div>
