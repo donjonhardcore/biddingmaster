@@ -178,5 +178,29 @@
     "type": "INFO",
     "serverTime": "2026-04-15T09:30:03.805Z",
     "clientIp": "106.219.86.3"
+  },
+  {
+    "clientId": "BOT-CQ1WVF",
+    "data": {
+      "autoApply": true,
+      "configs": 1
+    },
+    "message": "🚀 Bot started",
+    "serverTime": "2026-04-15T09:33:45.844Z",
+    "timestamp": "15 Apr 2026 03:03:45 pm IST",
+    "type": "INFO",
+    "clientIp": "106.219.86.3"
+  },
+  {
+    "clientId": "BOT-CQ1WVF",
+    "data": {
+      "autoApply": true,
+      "configs": 1
+    },
+    "message": "🚀 Bot started",
+    "serverTime": "2026-04-15T09:33:46.107Z",
+    "timestamp": "15 Apr 2026 03:03:45 pm IST",
+    "type": "INFO",
+    "clientIp": "106.219.86.3"
   }
 ]
