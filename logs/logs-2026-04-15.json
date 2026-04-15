@@ -154,5 +154,29 @@
     "type": "INFO",
     "serverTime": "2026-04-15T09:29:31.409Z",
     "clientIp": "106.219.86.3"
+  },
+  {
+    "clientId": "BOT-9Z4QD9",
+    "data": {
+      "autoApply": true,
+      "configs": 1
+    },
+    "message": "🚀 Bot started",
+    "timestamp": "2026-04-15T09:30:03.256Z",
+    "type": "INFO",
+    "serverTime": "2026-04-15T09:30:03.798Z",
+    "clientIp": "106.219.86.3"
+  },
+  {
+    "clientId": "BOT-9Z4QD9",
+    "data": {
+      "autoApply": true,
+      "configs": 1
+    },
+    "message": "🚀 Bot started",
+    "timestamp": "2026-04-15T09:30:03.256Z",
+    "type": "INFO",
+    "serverTime": "2026-04-15T09:30:03.805Z",
+    "clientIp": "106.219.86.3"
   }
 ]
