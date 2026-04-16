@@ -247,5 +247,14 @@
     "timestamp": "16 Apr 2026 09:58:56 am IST",
     "type": "APPLY",
     "clientIp": "152.56.160.142"
+  },
+  {
+    "clientId": "BOT-5K3CAG",
+    "data": null,
+    "message": "⏰ Slot trigger: 10:00 AM",
+    "serverTime": "2026-04-16T04:30:00.527Z",
+    "timestamp": "16 Apr 2026 10:00:00 am IST",
+    "type": "INFO",
+    "clientIp": "152.56.160.142"
   }
 ]
