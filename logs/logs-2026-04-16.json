@@ -256,5 +256,29 @@
     "timestamp": "16 Apr 2026 10:00:00 am IST",
     "type": "INFO",
     "clientIp": "152.56.160.142"
+  },
+  {
+    "clientId": "BOT-WMW34W",
+    "data": {
+      "autoApply": true,
+      "configs": 0
+    },
+    "message": "🚀 Bot started",
+    "serverTime": "2026-04-16T05:55:34.982Z",
+    "timestamp": "16 Apr 2026 11:25:21 am IST",
+    "type": "INFO",
+    "clientIp": "182.70.140.58"
+  },
+  {
+    "clientId": "BOT-WMW34W",
+    "data": {
+      "autoApply": true,
+      "configs": 0
+    },
+    "message": "🚀 Bot started",
+    "serverTime": "2026-04-16T05:55:34.995Z",
+    "timestamp": "16 Apr 2026 11:25:21 am IST",
+    "type": "INFO",
+    "clientIp": "182.70.140.58"
   }
 ]
