@@ -37,5 +37,27 @@
     "timestamp": "21 Apr 2026 11:55:23 am IST",
     "type": "INFO",
     "clientIp": "106.219.86.206"
+  },
+  {
+    "clientId": "BOT-Y21JA3",
+    "data": {
+      "count": 1
+    },
+    "logId": "e747bd8e-6aac-448d-96d1-6640a0b3edbd",
+    "message": "PO Configs updated live",
+    "serverTime": "2026-04-21T06:25:27.023Z",
+    "timestamp": "21 Apr 2026 11:55:26 am IST",
+    "type": "INFO",
+    "clientIp": "106.219.86.206"
+  },
+  {
+    "clientId": "BOT-Y21JA3",
+    "data": null,
+    "logId": "da7eb191-5789-412c-a899-72764e8eaa94",
+    "message": "⛔ Bot stopped",
+    "serverTime": "2026-04-21T06:25:34.343Z",
+    "timestamp": "21 Apr 2026 11:55:33 am IST",
+    "type": "INFO",
+    "clientIp": "106.219.86.206"
   }
 ]
