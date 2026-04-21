@@ -36947,5 +36947,80 @@
     "timestamp": "21 Apr 2026 10:02:46 am IST",
     "type": "INFO",
     "clientIp": "152.59.24.75"
+  },
+  {
+    "clientId": "BOT-MJFI9S",
+    "data": {
+      "autoApply": true,
+      "configs": 1
+    },
+    "message": "🚀 Bot started",
+    "serverTime": "2026-04-21T04:33:15.689Z",
+    "timestamp": "21 Apr 2026 10:03:15 am IST",
+    "type": "INFO",
+    "clientIp": "152.59.24.75"
+  },
+  {
+    "clientId": "BOT-MJFI9S",
+    "data": {
+      "autoApply": true,
+      "configs": 1
+    },
+    "message": "🚀 Bot started",
+    "serverTime": "2026-04-21T04:33:15.708Z",
+    "timestamp": "21 Apr 2026 10:03:15 am IST",
+    "type": "INFO",
+    "clientIp": "152.59.24.75"
+  },
+  {
+    "clientId": "BOT-C57GQ9",
+    "data": {
+      "autoApply": true,
+      "configs": 1
+    },
+    "message": "🚀 Bot started",
+    "serverTime": "2026-04-21T04:33:17.950Z",
+    "timestamp": "21 Apr 2026 10:03:18 am IST",
+    "type": "INFO",
+    "clientIp": "152.59.24.75"
+  },
+  {
+    "clientId": "BOT-C57GQ9",
+    "data": {
+      "autoApply": true,
+      "configs": 1
+    },
+    "message": "🚀 Bot started",
+    "serverTime": "2026-04-21T04:33:17.958Z",
+    "timestamp": "21 Apr 2026 10:03:18 am IST",
+    "type": "INFO",
+    "clientIp": "152.59.24.75"
+  },
+  {
+    "clientId": "BOT-C57GQ9",
+    "data": null,
+    "message": "Table appeared — observer started",
+    "serverTime": "2026-04-21T04:33:21.811Z",
+    "timestamp": "21 Apr 2026 10:03:22 am IST",
+    "type": "INFO",
+    "clientIp": "152.59.24.75"
+  },
+  {
+    "clientId": "BOT-C57GQ9",
+    "data": null,
+    "message": "Table appeared — observer started",
+    "serverTime": "2026-04-21T04:33:21.819Z",
+    "timestamp": "21 Apr 2026 10:03:22 am IST",
+    "type": "INFO",
+    "clientIp": "152.59.24.75"
+  },
+  {
+    "clientId": "BOT-C57GQ9",
+    "data": null,
+    "message": "Table appeared — observer started",
+    "serverTime": "2026-04-21T04:33:21.826Z",
+    "timestamp": "21 Apr 2026 10:03:22 am IST",
+    "type": "INFO",
+    "clientIp": "152.59.24.75"
   }
 ]
