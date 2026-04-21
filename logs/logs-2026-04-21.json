@@ -2315,5 +2315,152 @@
     "timestamp": "21 Apr 2026 01:03:56 pm IST",
     "type": "INFO",
     "clientIp": "110.227.169.141"
+  },
+  {
+    "clientId": "BOT-8PGIB3",
+    "data": {
+      "snapshot": {
+        "applied": [],
+        "appliedCount": 0,
+        "competed": [],
+        "competedCount": 0,
+        "failed": [],
+        "failedCount": 0,
+        "sessionStart": 1776756587776,
+        "skipped": [
+          {
+            "cells": [
+              "Select All",
+              "30-April",
+              "Pakni(Solapur)",
+              "40",
+              "Available",
+              "Select",
+              ""
+            ],
+            "deliveryDate": null,
+            "feedstock": null,
+            "omc": null,
+            "poNumber": null,
+            "qty": 40,
+            "raw": "Select All | 30-April | Pakni(Solapur) | 40 | Available | Select | ",
+            "reason": "No keywords matched. Tried: IOCL, INDORE, TERMINAL, 0071927349, Surplus, rice, sourced, from, FCI",
+            "status": null,
+            "terminal": null,
+            "ts": "21 Apr 2026 01:00:01 pm IST"
+          },
+          {
+            "cells": [
+              "Select All",
+              "20-April",
+              "Itarsi",
+              "80",
+              "Available",
+              "Select",
+              ""
+            ],
+            "deliveryDate": null,
+            "feedstock": null,
+            "omc": null,
+            "poNumber": null,
+            "qty": 80,
+            "raw": "Select All | 20-April | Itarsi | 80 | Available | Select | ",
+            "reason": "No keywords matched. Tried: IOCL, INDORE, TERMINAL, 0071927349, Surplus, rice, sourced, from, FCI",
+            "status": null,
+            "terminal": null,
+            "ts": "21 Apr 2026 01:00:01 pm IST"
+          },
+          {
+            "cells": [
+              "Select All",
+              "20-April",
+              "Pakni(Solapur)",
+              "160",
+              "Available",
+              "Select",
+              ""
+            ],
+            "deliveryDate": null,
+            "feedstock": null,
+            "omc": null,
+            "poNumber": null,
+            "qty": 160,
+            "raw": "Select All | 20-April | Pakni(Solapur) | 160 | Available | Select | ",
+            "reason": "No keywords matched. Tried: IOCL, INDORE, TERMINAL, 0071927349, Surplus, rice, sourced, from, FCI",
+            "status": null,
+            "terminal": null,
+            "ts": "21 Apr 2026 01:00:01 pm IST"
+          },
+          {
+            "cells": [
+              "Select All",
+              "21-April",
+              "Pakni(Solapur)",
+              "80",
+              "Available",
+              "Select",
+              ""
+            ],
+            "deliveryDate": null,
+            "feedstock": null,
+            "omc": null,
+            "poNumber": null,
+            "qty": 80,
+            "raw": "Select All | 21-April | Pakni(Solapur) | 80 | Available | Select | ",
+            "reason": "No keywords matched. Tried: IOCL, INDORE, TERMINAL, 0071927349, Surplus, rice, sourced, from, FCI",
+            "status": null,
+            "terminal": null,
+            "ts": "21 Apr 2026 01:00:01 pm IST"
+          },
+          {
+            "cells": [
+              "Select All",
+              "22-April",
+              "Pakni(Solapur)",
+              "160",
+              "Available",
+              "Select",
+              ""
+            ],
+            "deliveryDate": null,
+            "feedstock": null,
+            "omc": null,
+            "poNumber": null,
+            "qty": 160,
+            "raw": "Select All | 22-April | Pakni(Solapur) | 160 | Available | Select | ",
+            "reason": "No keywords matched. Tried: IOCL, INDORE, TERMINAL, 0071927349, Surplus, rice, sourced, from, FCI",
+            "status": null,
+            "terminal": null,
+            "ts": "21 Apr 2026 01:00:01 pm IST"
+          }
+        ],
+        "skippedCount": 5,
+        "successRate": 0,
+        "totalAppliedKL": 0,
+        "totalSkippedKL": 520,
+        "uptime": 300897
+      },
+      "summary": "📊 Session: 5m | Applied: 0 (0 KL) | Failed: 0 | Competed: 0 | Skipped: 5 | Rate: 0%"
+    },
+    "logId": "dbfc36fa-e582-4c36-b3cc-ba500c1d613f",
+    "message": "📊 SESSION UPDATE",
+    "serverTime": "2026-04-21T07:34:48.581Z",
+    "timestamp": "21 Apr 2026 01:04:48 pm IST",
+    "type": "INFO",
+    "clientIp": "110.227.169.141"
+  },
+  {
+    "clientId": "BOT-8PGIB3",
+    "data": {
+      "cfg": "IOCL",
+      "desiredQty": 35,
+      "rowQty": null
+    },
+    "logId": "70e895d3-deec-4222-9d7a-6a5d31101cf2",
+    "message": "✅ Flexible match: [IOCL, TERMINAL] found in row",
+    "serverTime": "2026-04-21T07:34:55.985Z",
+    "timestamp": "21 Apr 2026 01:04:56 pm IST",
+    "type": "INFO",
+    "clientIp": "110.227.169.141"
   }
 ]
