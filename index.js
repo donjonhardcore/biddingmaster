@@ -309,6 +309,8 @@ const server = http.createServer((req, res) => {
     .log-entry { margin-bottom: 15px; padding: 12px; background: #161b22; border-left: 4px solid #58a6ff; border-radius: 6px; box-shadow: 0 1px 3px rgba(0,0,0,0.3); }
     .log-entry.error, .log-entry.detect { border-left-color: #f85149; background: rgba(248,81,73,0.05); }
     .log-entry.warn { border-left-color: #d29922; }
+    .log-entry.apply { border-left-color: #3fb950; background: rgba(63,185,80,0.05); }
+    .log-entry.skip { border-left-color: #f0883e; background: rgba(240,136,62,0.04); }
     .meta { color: #8b949e; font-size: 0.85em; margin-bottom: 8px; display: flex; gap: 15px; flex-wrap: wrap; }
     pre { margin: 8px 0 0; color: #a5d6ff; background: #010409; padding: 10px; border-radius: 6px; font-family: monospace; font-size: 0.9em; overflow-x: auto; }
     .btn { padding: 8px 16px; background: #238636; color: white; border: none; border-radius: 6px; cursor: pointer; font-weight: 600; font-size: 14px; text-decoration: none; display: inline-block; }
@@ -369,6 +371,18 @@ const server = http.createServer((req, res) => {
     <div class="stat-card">
       <div class="val">${viewLogs.filter(l => l.type === 'DETECT').length}</div>
       <div class="lbl">🚨 Detections</div>
+    </div>
+    <div class="stat-card">
+      <div class="val" style="color: #3fb950">${viewLogs.filter(l => l.type === 'APPLY' && l.message && l.message.includes('SUCCESS')).length}</div>
+      <div class="lbl">✅ Applied</div>
+    </div>
+    <div class="stat-card">
+      <div class="val" style="color: #79c0ff">${viewLogs.filter(l => l.type === 'APPLY' && l.data && l.data.totalKL).reduce((s, l) => s + (l.data.totalKL || 0), 0)}</div>
+      <div class="lbl">📦 Total KL</div>
+    </div>
+    <div class="stat-card">
+      <div class="val" style="color: #f85149">${viewLogs.filter(l => (l.type === 'WARN' && l.message && (l.message.includes('competed') || l.message.includes('Confirmation dialog')))).length}</div>
+      <div class="lbl">🏃 Failed/Competed</div>
     </div>
     <div class="stat-card">
       <div class="val">${activeClients.size}</div>
@@ -449,8 +463,12 @@ const server = http.createServer((req, res) => {
           <span title="Client IP Address">🌐 ${escHtml(l.clientIp || 'Unknown IP')}</span>
           ${l.logId ? `<span title="Unique Log ID">🔑 ID: ${escHtml(l.logId.split('-')[0])}...</span>` : ''}
         </div>
-        <div style="font-weight:600; font-size:15px; color: ${l.type === 'DETECT' ? '#ff7b72' : '#c9d1d9'}">${escHtml(l.message || '')}</div>
-        ${l.data ? `<pre>${escHtml(JSON.stringify(l.data, null, 2))}</pre>` : ''}
+        <div style="font-weight:600; font-size:15px; color: ${l.type === 'DETECT' ? '#ff7b72' : l.type === 'APPLY' ? '#7ee787' : '#c9d1d9'}">${escHtml(l.message || '')}</div>
+        ${l.type === 'APPLY' && l.data && l.data.rows ? `<div style="margin-top:6px;padding:6px 8px;background:#0d1117;border-radius:4px;font-size:12px;">
+          ${l.data.rows.map(r => `<span style="color:#7ee787">✅ ${escHtml(r.omc||'?')} • ${escHtml(r.terminal||'?')} • ${r.qty||0} KL</span>`).join('<br>')}
+          <div style="color:#8b949e;margin-top:4px;font-size:11px">📊 ${escHtml(l.data.stats || '')}</div>
+        </div>` : ''}
+        ${l.data && !l.data.rows ? `<pre>${escHtml(JSON.stringify(l.data, null, 2))}</pre>` : ''}
       </div>
     `}).join('')}
   </div>
