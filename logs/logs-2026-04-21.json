@@ -620,5 +620,75 @@
     "timestamp": "21 Apr 2026 12:53:20 pm IST",
     "type": "INFO",
     "clientIp": "110.227.169.141"
+  },
+  {
+    "clientId": "BOT-Z41AI1",
+    "data": {
+      "cfg": "IOCL",
+      "desiredQty": 35,
+      "rowQty": null
+    },
+    "logId": "bb3c6f23-0617-481d-867d-551af157620f",
+    "message": "✅ Flexible match: [IOCL, TERMINAL] found in row",
+    "serverTime": "2026-04-21T07:26:20.380Z",
+    "timestamp": "21 Apr 2026 12:56:20 pm IST",
+    "type": "INFO",
+    "clientIp": "110.227.169.141"
+  },
+  {
+    "clientId": "BOT-Z41AI1",
+    "data": {
+      "cfg": "IOCL",
+      "desiredQty": 35,
+      "rowQty": null
+    },
+    "logId": "4ce3fca8-3659-47eb-9dfc-55a2da80bebe",
+    "message": "✅ Flexible match: [IOCL, TERMINAL] found in row",
+    "serverTime": "2026-04-21T07:26:22.118Z",
+    "timestamp": "21 Apr 2026 12:56:23 pm IST",
+    "type": "INFO",
+    "clientIp": "110.227.169.141"
+  },
+  {
+    "clientId": "BOT-Z41AI1",
+    "data": {
+      "cfg": "IOCL",
+      "desiredQty": 35,
+      "rowQty": null
+    },
+    "logId": "3fc5de51-bc66-4062-b425-7a2dad895fa7",
+    "message": "✅ Flexible match: [IOCL, TERMINAL] found in row",
+    "serverTime": "2026-04-21T07:26:25.568Z",
+    "timestamp": "21 Apr 2026 12:56:26 pm IST",
+    "type": "INFO",
+    "clientIp": "110.227.169.141"
+  },
+  {
+    "clientId": "BOT-Z41AI1",
+    "data": {
+      "cfg": "IOCL",
+      "desiredQty": 35,
+      "rowQty": null
+    },
+    "logId": "02c352ac-df4d-4fd9-8037-01a298859115",
+    "message": "✅ Flexible match: [IOCL, TERMINAL] found in row",
+    "serverTime": "2026-04-21T07:26:28.519Z",
+    "timestamp": "21 Apr 2026 12:56:29 pm IST",
+    "type": "INFO",
+    "clientIp": "110.227.169.141"
+  },
+  {
+    "clientId": "BOT-Z41AI1",
+    "data": {
+      "cfg": "IOCL",
+      "desiredQty": 35,
+      "rowQty": null
+    },
+    "logId": "72b1d9ed-a715-4386-9120-ceb36a887fb0",
+    "message": "✅ Flexible match: [IOCL, TERMINAL] found in row",
+    "serverTime": "2026-04-21T07:26:31.112Z",
+    "timestamp": "21 Apr 2026 12:56:32 pm IST",
+    "type": "INFO",
+    "clientIp": "110.227.169.141"
   }
 ]
