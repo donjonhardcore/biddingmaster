@@ -59,5 +59,40 @@
     "timestamp": "21 Apr 2026 11:55:33 am IST",
     "type": "INFO",
     "clientIp": "106.219.86.206"
+  },
+  {
+    "clientId": "BOT-Z41AI1",
+    "data": {
+      "autoApply": false,
+      "configs": 0
+    },
+    "logId": "b9d7973a-392c-4fe7-8b1d-d4caba81b6d1",
+    "message": "🚀 Bot started",
+    "serverTime": "2026-04-21T07:08:35.165Z",
+    "timestamp": "21 Apr 2026 12:38:20 pm IST",
+    "type": "INFO",
+    "clientIp": "110.227.169.141"
+  },
+  {
+    "clientId": "BOT-Z41AI1",
+    "data": {
+      "count": 1
+    },
+    "logId": "8c76f94c-1eb0-4acf-9ba8-820965eecaa6",
+    "message": "PO Configs updated live",
+    "serverTime": "2026-04-21T07:09:24.562Z",
+    "timestamp": "21 Apr 2026 12:39:25 pm IST",
+    "type": "INFO",
+    "clientIp": "110.227.169.141"
+  },
+  {
+    "clientId": "BOT-Z41AI1",
+    "data": null,
+    "logId": "c97930f4-dd37-45c3-9797-5498e0cd6a4d",
+    "message": "Auto-Apply: true",
+    "serverTime": "2026-04-21T07:09:26.784Z",
+    "timestamp": "21 Apr 2026 12:39:27 pm IST",
+    "type": "INFO",
+    "clientIp": "110.227.169.141"
   }
 ]
