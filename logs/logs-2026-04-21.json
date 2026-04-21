@@ -37073,5 +37073,53 @@
     "timestamp": "21 Apr 2026 11:09:58 am IST",
     "type": "INFO",
     "clientIp": "106.219.86.206"
+  },
+  {
+    "clientId": "BOT-OJG18A",
+    "data": {
+      "autoApply": true,
+      "configs": 1
+    },
+    "message": "🚀 Bot started",
+    "serverTime": "2026-04-21T05:54:42.898Z",
+    "timestamp": "21 Apr 2026 11:24:42 am IST",
+    "type": "INFO",
+    "clientIp": "110.227.169.141"
+  },
+  {
+    "clientId": "BOT-OJG18A",
+    "data": {
+      "autoApply": true,
+      "configs": 1
+    },
+    "message": "🚀 Bot started",
+    "serverTime": "2026-04-21T05:54:42.909Z",
+    "timestamp": "21 Apr 2026 11:24:42 am IST",
+    "type": "INFO",
+    "clientIp": "110.227.169.141"
+  },
+  {
+    "clientId": "BOT-QYNBKP",
+    "data": {
+      "autoApply": true,
+      "configs": 1
+    },
+    "message": "🚀 Bot started",
+    "serverTime": "2026-04-21T05:54:44.397Z",
+    "timestamp": "21 Apr 2026 11:24:45 am IST",
+    "type": "INFO",
+    "clientIp": "110.227.169.141"
+  },
+  {
+    "clientId": "BOT-QYNBKP",
+    "data": {
+      "autoApply": true,
+      "configs": 1
+    },
+    "message": "🚀 Bot started",
+    "serverTime": "2026-04-21T05:54:44.406Z",
+    "timestamp": "21 Apr 2026 11:24:45 am IST",
+    "type": "INFO",
+    "clientIp": "110.227.169.141"
   }
 ]
