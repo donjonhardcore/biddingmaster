@@ -29150,5 +29150,14 @@
     "timestamp": "21 Apr 2026 09:58:13 am IST",
     "type": "INFO",
     "clientIp": "152.59.24.75"
+  },
+  {
+    "clientId": "BOT-JOWK6P",
+    "data": null,
+    "message": "⏰ Slot trigger: 10:00 AM",
+    "serverTime": "2026-04-21T04:30:00.445Z",
+    "timestamp": "21 Apr 2026 10:00:00 am IST",
+    "type": "INFO",
+    "clientIp": "152.59.24.75"
   }
 ]
