@@ -1881,5 +1881,271 @@
     "timestamp": "21 Apr 2026 01:00:32 pm IST",
     "type": "INFO",
     "clientIp": "110.227.169.141"
+  },
+  {
+    "clientId": "BOT-8PGIB3",
+    "data": {
+      "cfg": "IOCL",
+      "desiredQty": 35,
+      "rowQty": null
+    },
+    "logId": "b5123e64-3082-439d-ac80-ffe84dabfb88",
+    "message": "✅ Flexible match: [IOCL, TERMINAL] found in row",
+    "serverTime": "2026-04-21T07:30:34.960Z",
+    "timestamp": "21 Apr 2026 01:00:35 pm IST",
+    "type": "INFO",
+    "clientIp": "110.227.169.141"
+  },
+  {
+    "clientId": "BOT-8PGIB3",
+    "data": {
+      "cfg": "IOCL",
+      "desiredQty": 35,
+      "rowQty": null
+    },
+    "logId": "f4de2795-b490-48a3-a101-38020738d8f3",
+    "message": "✅ Flexible match: [IOCL, TERMINAL] found in row",
+    "serverTime": "2026-04-21T07:30:37.638Z",
+    "timestamp": "21 Apr 2026 01:00:38 pm IST",
+    "type": "INFO",
+    "clientIp": "110.227.169.141"
+  },
+  {
+    "clientId": "BOT-8PGIB3",
+    "data": {
+      "cfg": "IOCL",
+      "desiredQty": 35,
+      "rowQty": null
+    },
+    "logId": "3b1d312c-67cb-4bd5-ac6b-941b2583d779",
+    "message": "✅ Flexible match: [IOCL, TERMINAL] found in row",
+    "serverTime": "2026-04-21T07:30:41.015Z",
+    "timestamp": "21 Apr 2026 01:00:41 pm IST",
+    "type": "INFO",
+    "clientIp": "110.227.169.141"
+  },
+  {
+    "clientId": "BOT-8PGIB3",
+    "data": {
+      "cfg": "IOCL",
+      "desiredQty": 35,
+      "rowQty": null
+    },
+    "logId": "c7cfc28e-05e1-48b1-bfc8-6bb7fbbacff9",
+    "message": "✅ Flexible match: [IOCL, TERMINAL] found in row",
+    "serverTime": "2026-04-21T07:30:43.650Z",
+    "timestamp": "21 Apr 2026 01:00:44 pm IST",
+    "type": "INFO",
+    "clientIp": "110.227.169.141"
+  },
+  {
+    "clientId": "BOT-8PGIB3",
+    "data": {
+      "cfg": "IOCL",
+      "desiredQty": 35,
+      "rowQty": null
+    },
+    "logId": "dec1e76a-a92b-4ef3-87b2-bb6d4d7e5456",
+    "message": "✅ Flexible match: [IOCL, TERMINAL] found in row",
+    "serverTime": "2026-04-21T07:30:47.040Z",
+    "timestamp": "21 Apr 2026 01:00:47 pm IST",
+    "type": "INFO",
+    "clientIp": "110.227.169.141"
+  },
+  {
+    "clientId": "BOT-8PGIB3",
+    "data": {
+      "cfg": "IOCL",
+      "desiredQty": 35,
+      "rowQty": null
+    },
+    "logId": "5edd1566-c5e7-41dd-b86f-b872af0bd431",
+    "message": "✅ Flexible match: [IOCL, TERMINAL] found in row",
+    "serverTime": "2026-04-21T07:30:49.660Z",
+    "timestamp": "21 Apr 2026 01:00:50 pm IST",
+    "type": "INFO",
+    "clientIp": "110.227.169.141"
+  },
+  {
+    "clientId": "BOT-8PGIB3",
+    "data": {
+      "cfg": "IOCL",
+      "desiredQty": 35,
+      "rowQty": null
+    },
+    "logId": "52898f0d-a61a-42db-9719-67ad7a2f17b6",
+    "message": "✅ Flexible match: [IOCL, TERMINAL] found in row",
+    "serverTime": "2026-04-21T07:30:52.990Z",
+    "timestamp": "21 Apr 2026 01:00:53 pm IST",
+    "type": "INFO",
+    "clientIp": "110.227.169.141"
+  },
+  {
+    "clientId": "BOT-8PGIB3",
+    "data": {
+      "cfg": "IOCL",
+      "desiredQty": 35,
+      "rowQty": null
+    },
+    "logId": "fdba2310-4c50-4c7f-8e00-3b889ec6719f",
+    "message": "✅ Flexible match: [IOCL, TERMINAL] found in row",
+    "serverTime": "2026-04-21T07:30:55.662Z",
+    "timestamp": "21 Apr 2026 01:00:56 pm IST",
+    "type": "INFO",
+    "clientIp": "110.227.169.141"
+  },
+  {
+    "clientId": "BOT-8PGIB3",
+    "data": {
+      "cfg": "IOCL",
+      "desiredQty": 35,
+      "rowQty": null
+    },
+    "logId": "1621693a-07c5-4c07-bc99-621f4cf6b012",
+    "message": "✅ Flexible match: [IOCL, TERMINAL] found in row",
+    "serverTime": "2026-04-21T07:30:58.933Z",
+    "timestamp": "21 Apr 2026 01:00:59 pm IST",
+    "type": "INFO",
+    "clientIp": "110.227.169.141"
+  },
+  {
+    "clientId": "BOT-8PGIB3",
+    "data": {
+      "cfg": "IOCL",
+      "desiredQty": 35,
+      "rowQty": null
+    },
+    "logId": "c458f87d-1cae-4563-afc8-2af3cb3ae643",
+    "message": "✅ Flexible match: [IOCL, TERMINAL] found in row",
+    "serverTime": "2026-04-21T07:31:01.797Z",
+    "timestamp": "21 Apr 2026 01:01:02 pm IST",
+    "type": "INFO",
+    "clientIp": "110.227.169.141"
+  },
+  {
+    "clientId": "BOT-8PGIB3",
+    "data": {
+      "cfg": "IOCL",
+      "desiredQty": 35,
+      "rowQty": null
+    },
+    "logId": "6639215b-22a2-4494-90c7-d2a9a6f16e11",
+    "message": "✅ Flexible match: [IOCL, TERMINAL] found in row",
+    "serverTime": "2026-04-21T07:31:05.837Z",
+    "timestamp": "21 Apr 2026 01:01:06 pm IST",
+    "type": "INFO",
+    "clientIp": "110.227.169.141"
+  },
+  {
+    "clientId": "BOT-8PGIB3",
+    "data": {
+      "cfg": "IOCL",
+      "desiredQty": 35,
+      "rowQty": null
+    },
+    "logId": "b4a75dbe-b4c6-41e9-84f6-98841fe05b79",
+    "message": "✅ Flexible match: [IOCL, TERMINAL] found in row",
+    "serverTime": "2026-04-21T07:31:08.559Z",
+    "timestamp": "21 Apr 2026 01:01:09 pm IST",
+    "type": "INFO",
+    "clientIp": "110.227.169.141"
+  },
+  {
+    "clientId": "BOT-8PGIB3",
+    "data": {
+      "cfg": "IOCL",
+      "desiredQty": 35,
+      "rowQty": null
+    },
+    "logId": "7f037d10-0b83-4b39-b02a-b5a6ab6ed15d",
+    "message": "✅ Flexible match: [IOCL, TERMINAL] found in row",
+    "serverTime": "2026-04-21T07:31:11.924Z",
+    "timestamp": "21 Apr 2026 01:01:12 pm IST",
+    "type": "INFO",
+    "clientIp": "110.227.169.141"
+  },
+  {
+    "clientId": "BOT-8PGIB3",
+    "data": {
+      "cfg": "IOCL",
+      "desiredQty": 35,
+      "rowQty": null
+    },
+    "logId": "f13691fb-bd09-4d9d-9af1-885eb135b9ca",
+    "message": "✅ Flexible match: [IOCL, TERMINAL] found in row",
+    "serverTime": "2026-04-21T07:31:14.584Z",
+    "timestamp": "21 Apr 2026 01:01:15 pm IST",
+    "type": "INFO",
+    "clientIp": "110.227.169.141"
+  },
+  {
+    "clientId": "BOT-8PGIB3",
+    "data": {
+      "cfg": "IOCL",
+      "desiredQty": 35,
+      "rowQty": null
+    },
+    "logId": "ab2cab92-62ae-49cb-9d45-b9b70fe1c301",
+    "message": "✅ Flexible match: [IOCL, TERMINAL] found in row",
+    "serverTime": "2026-04-21T07:31:17.878Z",
+    "timestamp": "21 Apr 2026 01:01:18 pm IST",
+    "type": "INFO",
+    "clientIp": "110.227.169.141"
+  },
+  {
+    "clientId": "BOT-8PGIB3",
+    "data": {
+      "cfg": "IOCL",
+      "desiredQty": 35,
+      "rowQty": null
+    },
+    "logId": "2de98bee-2844-45f8-bac5-fcd8093cc016",
+    "message": "✅ Flexible match: [IOCL, TERMINAL] found in row",
+    "serverTime": "2026-04-21T07:31:20.550Z",
+    "timestamp": "21 Apr 2026 01:01:21 pm IST",
+    "type": "INFO",
+    "clientIp": "110.227.169.141"
+  },
+  {
+    "clientId": "BOT-8PGIB3",
+    "data": {
+      "cfg": "IOCL",
+      "desiredQty": 35,
+      "rowQty": null
+    },
+    "logId": "0e2af418-ff13-4a4e-a6f1-2a7d69af4ef6",
+    "message": "✅ Flexible match: [IOCL, TERMINAL] found in row",
+    "serverTime": "2026-04-21T07:31:23.897Z",
+    "timestamp": "21 Apr 2026 01:01:24 pm IST",
+    "type": "INFO",
+    "clientIp": "110.227.169.141"
+  },
+  {
+    "clientId": "BOT-8PGIB3",
+    "data": {
+      "cfg": "IOCL",
+      "desiredQty": 35,
+      "rowQty": null
+    },
+    "logId": "27c1ca08-7ca8-42fb-bc2b-b72f57470a27",
+    "message": "✅ Flexible match: [IOCL, TERMINAL] found in row",
+    "serverTime": "2026-04-21T07:31:26.541Z",
+    "timestamp": "21 Apr 2026 01:01:27 pm IST",
+    "type": "INFO",
+    "clientIp": "110.227.169.141"
+  },
+  {
+    "clientId": "BOT-8PGIB3",
+    "data": {
+      "cfg": "IOCL",
+      "desiredQty": 35,
+      "rowQty": null
+    },
+    "logId": "5b0dc5b5-6cb2-40bb-9b87-ac7367eb3abb",
+    "message": "✅ Flexible match: [IOCL, TERMINAL] found in row",
+    "serverTime": "2026-04-21T07:31:29.835Z",
+    "timestamp": "21 Apr 2026 01:01:30 pm IST",
+    "type": "INFO",
+    "clientIp": "110.227.169.141"
   }
 ]
