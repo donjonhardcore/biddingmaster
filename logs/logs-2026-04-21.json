@@ -2476,5 +2476,19 @@
     "timestamp": "21 Apr 2026 01:05:56 pm IST",
     "type": "INFO",
     "clientIp": "110.227.169.141"
+  },
+  {
+    "clientId": "BOT-8PGIB3",
+    "data": {
+      "cfg": "IOCL",
+      "desiredQty": 35,
+      "rowQty": null
+    },
+    "logId": "5dc352a2-25e4-4f49-aa76-96da9c83e28c",
+    "message": "✅ Flexible match: [IOCL, TERMINAL] found in row",
+    "serverTime": "2026-04-21T07:36:56.355Z",
+    "timestamp": "21 Apr 2026 01:06:56 pm IST",
+    "type": "INFO",
+    "clientIp": "110.227.169.141"
   }
 ]
