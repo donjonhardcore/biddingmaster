@@ -24,5 +24,18 @@
     "timestamp": "21 Apr 2026 11:48:39 am IST",
     "type": "INFO",
     "clientIp": "106.219.86.206"
+  },
+  {
+    "clientId": "BOT-Y21JA3",
+    "data": {
+      "autoApply": true,
+      "configs": 1
+    },
+    "logId": "08ba9d35-9a94-40ae-abed-0dd14acd4314",
+    "message": "🚀 Bot started",
+    "serverTime": "2026-04-21T06:25:24.454Z",
+    "timestamp": "21 Apr 2026 11:55:23 am IST",
+    "type": "INFO",
+    "clientIp": "106.219.86.206"
   }
 ]
