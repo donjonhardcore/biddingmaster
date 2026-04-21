@@ -349,9 +349,9 @@ const server = http.createServer((req, res) => {
     <div>
       <h1>Bidding Master Dashboard</h1>
       <div style="color: #8b949e; font-size: 14px;">
-        📅 Viewing: <strong style="color: #58a6ff;">\${viewDate}</strong>
-        \${viewDate === getDateStr() ? ' (Today — Live)' : ' (Historical)'}
-        &nbsp;|&nbsp; Port: \${PORT}
+        📅 Viewing: <strong style="color: #58a6ff;">${viewDate}</strong>
+        ${viewDate === getDateStr() ? ' (Today — Live)' : ' (Historical)'}
+        &nbsp;|&nbsp; Port: ${PORT}
       </div>
     </div>
     <div style="display: flex; gap: 8px;">
@@ -363,19 +363,19 @@ const server = http.createServer((req, res) => {
   <!-- Stats -->
   <div class="stats-row">
     <div class="stat-card">
-      <div class="val">\${viewLogs.length}</div>
+      <div class="val">${viewLogs.length}</div>
       <div class="lbl">Log Entries</div>
     </div>
     <div class="stat-card">
-      <div class="val">\${viewLogs.filter(l => l.type === 'DETECT').length}</div>
+      <div class="val">${viewLogs.filter(l => l.type === 'DETECT').length}</div>
       <div class="lbl">🚨 Detections</div>
     </div>
     <div class="stat-card">
-      <div class="val">\${activeClients.size}</div>
+      <div class="val">${activeClients.size}</div>
       <div class="lbl">🖥️ Active Now</div>
     </div>
     <div class="stat-card">
-      <div class="val">\${availableDates.length}</div>
+      <div class="val">${availableDates.length}</div>
       <div class="lbl">📁 Days Stored</div>
     </div>
   </div>
@@ -384,27 +384,27 @@ const server = http.createServer((req, res) => {
   <div class="date-panel">
     <h3>📅 Log History</h3>
     <div class="date-links">
-      \${availableDates.length === 0
+      ${availableDates.length === 0
         ? '<span style="color: #8b949e;">No historical logs yet. Logs will appear here after the first detection.</span>'
-        : availableDates.map(d => \`
-          <a href="/dashboard?date=\${d}" class="btn btn-sm btn-outline \${d === viewDate ? 'active' : ''}">\${d}\${d === getDateStr() ? ' (Today)' : ''}</a>
-        \`).join('')}
+        : availableDates.map(d => `
+          <a href="/dashboard?date=${d}" class="btn btn-sm btn-outline ${d === viewDate ? 'active' : ''}">${d}${d === getDateStr() ? ' (Today)' : ''}</a>
+        `).join('')}
     </div>
   </div>
 
   <!-- Active Clients -->
   <div class="clients-panel">
-    <h3><span class="dot"></span> Active Extensions (\${activeClients.size})</h3>
-    \${activeClients.size === 0
+    <h3><span class="dot"></span> Active Extensions (${activeClients.size})</h3>
+    ${activeClients.size === 0
       ? '<div style="color: #8b949e; font-size: 14px;">No extensions connected. Ensure Bidding Master is running on the portal.</div>'
-      : \`<div class="client-list">
-          \${Array.from(activeClients.entries()).map(([id, data]) => \`
+      : `<div class="client-list">
+          ${Array.from(activeClients.entries()).map(([id, data]) => `
             <div class="client-badge">
-              <div class="id">🖥️ \${escHtml(id)}</div>
-              <div class="ip">\${escHtml(data.ip)}</div>
+              <div class="id">🖥️ ${escHtml(id)}</div>
+              <div class="ip">${escHtml(data.ip)}</div>
             </div>
-          \`).join('')}
-        </div>\`}
+          `).join('')}
+        </div>`}
   </div>
 
   <!-- Time Filters -->
@@ -419,12 +419,12 @@ const server = http.createServer((req, res) => {
 
   <!-- Logs -->
   <h3 style="color: #c9d1d9; margin-bottom: 15px;">
-    \${viewDate === getDateStr() ? '📡 Recent Event Logs' : '📜 Logs for ' + viewDate}
-    <span style="color: #8b949e; font-size: 14px; font-weight: normal;"> (<span id="visible-count">\${viewLogs.length}</span> entries)</span>
+    ${viewDate === getDateStr() ? '📡 Recent Event Logs' : '📜 Logs for ' + viewDate}
+    <span style="color: #8b949e; font-size: 14px; font-weight: normal;"> (<span id="visible-count">${viewLogs.length}</span> entries)</span>
   </h3>
   <div id="logs-container">
-    \${viewLogs.length === 0 ? '<p style="color:#8b949e; font-style: italic;">No logs for this date.</p>' : ''}
-    \${viewLogs.slice().reverse().map(l => {
+    ${viewLogs.length === 0 ? '<p style="color:#8b949e; font-style: italic;">No logs for this date.</p>' : ''}
+    ${viewLogs.slice().reverse().map(l => {
       // Determine time slot based on IST hour (0-23)
       let slotClass = 'other';
       if (l.serverTime) {
@@ -440,19 +440,19 @@ const server = http.createServer((req, res) => {
         else if (hour >= 15 && hour < 18) slotClass = 'slot-3';
       }
 
-      return \`
-      <div class="log-entry \${escHtml(l.type ? l.type.toLowerCase() : '')}" data-slot="\${slotClass}">
+      return `
+      <div class="log-entry ${escHtml(l.type ? l.type.toLowerCase() : '')}" data-slot="${slotClass}">
         <div class="meta">
-          <span>🕒 \${l.timestamp || (l.serverTime ? new Date(l.serverTime).toLocaleString('en-IN', { timeZone: 'Asia/Kolkata', day: '2-digit', month: 'short', year: 'numeric', hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: true }) + ' IST' : '?')}</span>
-          <span title="Client ID">🖥️ \${escHtml(l.clientId || 'Unknown')}</span>
-          <span title="Event Type">🏷️ \${escHtml(l.type || 'INFO')}</span>
-          <span title="Client IP Address">🌐 \${escHtml(l.clientIp || 'Unknown IP')}</span>
-          \${l.logId ? \`<span title="Unique Log ID">🔑 ID: \${escHtml(l.logId.split('-')[0])}...</span>\` : ''}
+          <span>🕒 ${l.timestamp || (l.serverTime ? new Date(l.serverTime).toLocaleString('en-IN', { timeZone: 'Asia/Kolkata', day: '2-digit', month: 'short', year: 'numeric', hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: true }) + ' IST' : '?')}</span>
+          <span title="Client ID">🖥️ ${escHtml(l.clientId || 'Unknown')}</span>
+          <span title="Event Type">🏷️ ${escHtml(l.type || 'INFO')}</span>
+          <span title="Client IP Address">🌐 ${escHtml(l.clientIp || 'Unknown IP')}</span>
+          ${l.logId ? `<span title="Unique Log ID">🔑 ID: ${escHtml(l.logId.split('-')[0])}...</span>` : ''}
         </div>
-        <div style="font-weight:600; font-size:15px; color: \${l.type === 'DETECT' ? '#ff7b72' : '#c9d1d9'}">\${escHtml(l.message || '')}</div>
-        \${l.data ? \`<pre>\${escHtml(JSON.stringify(l.data, null, 2))}</pre>\` : ''}
+        <div style="font-weight:600; font-size:15px; color: ${l.type === 'DETECT' ? '#ff7b72' : '#c9d1d9'}">${escHtml(l.message || '')}</div>
+        ${l.data ? `<pre>${escHtml(JSON.stringify(l.data, null, 2))}</pre>` : ''}
       </div>
-    \`}).join('')}
+    `}).join('')}
   </div>
 
   <script>
@@ -477,7 +477,7 @@ const server = http.createServer((req, res) => {
     }
 
     // Auto-refresh only on today's view if "all" is selected
-    const isToday = \${viewDate === getDateStr() ? 'true' : 'false'};
+    const isToday = ${viewDate === getDateStr() ? 'true' : 'false'};
     if (isToday) {
       setInterval(() => {
         const activeSlot = document.querySelector('.filter-btn.active').getAttribute('data-slot');
@@ -490,7 +490,7 @@ const server = http.createServer((req, res) => {
   </script>
 </body>
 </html>
-    \`);
+    `);
   }
   else {
     res.writeHead(404);
@@ -501,9 +501,9 @@ const server = http.createServer((req, res) => {
 server.listen(PORT, () => {
   console.log('======================================================');
   console.log('| 🚀 Bidding Master Backend v2.1 — Persistent Logs  |');
-  console.log(\`| 📡 Port: \${PORT}                                     |\`);
-  console.log(\`| 📁 Log Dir: \${LOG_DIR}\`);
-  console.log(\`| 📅 Today: \${getDateStr()}                            |\`);
+  console.log(`| 📡 Port: ${PORT}                                     |`);
+  console.log(`| 📁 Log Dir: ${LOG_DIR}`);
+  console.log(`| 📅 Today: ${getDateStr()}                            |`);
   console.log('| 📊 Dashboard: /                                    |');
   console.log('| 📜 API: /logs, /logs/YYYY-MM-DD, /dates, /clear   |');
   console.log('======================================================');
@@ -526,13 +526,13 @@ async function backupToGithub() {
   try {
     const jsonContent = JSON.stringify(logs, null, 2);
     const encodedContent = Buffer.from(jsonContent).toString('base64');
-    const pathInRepo = \`logs/logs-\${today}.json\`;
+    const pathInRepo = `logs/logs-${today}.json`;
     const branchName = 'logs'; 
     
     // 1. Get SHA if file exists
     let fileSha = undefined;
-    const getRes = await fetch(\`https://api.github.com/repos/\${GITHUB_REPO}/contents/\${pathInRepo}?ref=\${branchName}\`, {
-      headers: { 'Authorization': \`Bearer \${GITHUB_TOKEN}\`, 'User-Agent': 'BiddingMaster-Bot' }
+    const getRes = await fetch(`https://api.github.com/repos/${GITHUB_REPO}/contents/${pathInRepo}?ref=${branchName}`, {
+      headers: { 'Authorization': `Bearer ${GITHUB_TOKEN}`, 'User-Agent': 'BiddingMaster-Bot' }
     });
     if (getRes.ok) {
       const data = await getRes.json();
@@ -540,15 +540,15 @@ async function backupToGithub() {
     }
 
     // 2. PUT file update
-    const putRes = await fetch(\`https://api.github.com/repos/\${GITHUB_REPO}/contents/\${pathInRepo}\`, {
+    const putRes = await fetch(`https://api.github.com/repos/${GITHUB_REPO}/contents/${pathInRepo}`, {
       method: 'PUT',
       headers: {
-        'Authorization': \`Bearer \${GITHUB_TOKEN}\`,
+        'Authorization': `Bearer ${GITHUB_TOKEN}`,
         'Content-Type': 'application/json',
         'User-Agent': 'BiddingMaster-Bot'
       },
       body: JSON.stringify({
-        message: \`Auto-backup JSON logs for \${today}\`,
+        message: `Auto-backup JSON logs for ${today}`,
         content: encodedContent,
         branch: branchName,
         sha: fileSha
@@ -556,7 +556,7 @@ async function backupToGithub() {
     });
 
     if (putRes.ok) {
-      console.log(\`✅ System successfully backed up \${logs.length} logs as JSON to GitHub branch '\${branchName}'!\`);
+      console.log(`✅ System successfully backed up ${logs.length} logs as JSON to GitHub branch '${branchName}'!`);
     } else {
       console.error('❌ Failed to push JSON to GitHub', await putRes.text());
     }
