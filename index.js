@@ -13,6 +13,12 @@ const GITHUB_REPO = process.env.GITHUB_REPO || 'donjonhardcore/biddingmaster';
 let logs = [];
 const activeClients = new Map();
 
+// In-memory set of logIds already processed this session.
+// Populated from disk on startup, updated on every accepted entry.
+// Prevents duplicate entries when the client re-flushes its outbox after
+// a network hiccup or extension reload.
+const seenLogIds = new Set();
+
 // ── HTML Escape (XSS prevention) ──
 function escHtml(str) {
   if (str === null || str === undefined) return '';
@@ -53,7 +59,9 @@ function loadLogsFromDisk() {
     try {
       const data = fs.readFileSync(filePath, 'utf8');
       logs = JSON.parse(data);
-      console.log(`📂 Loaded ${logs.length} logs from ${filePath}`);
+      // Rebuild seenLogIds from disk so duplicates are caught even after restart
+      logs.forEach(l => { if (l.logId) seenLogIds.add(l.logId); });
+      console.log(`📂 Loaded ${logs.length} logs from ${filePath} (${seenLogIds.size} unique logIds indexed)`);
     } catch (e) {
       console.error('⚠️ Could not parse log file, starting fresh:', e.message);
       logs = [];
@@ -185,6 +193,18 @@ const server = http.createServer((req, res) => {
     req.on('end', () => {
       try {
         const logEntry = JSON.parse(body);
+
+        // ★ IDEMPOTENCY CHECK — reject duplicates by logId
+        if (logEntry.logId) {
+          if (seenLogIds.has(logEntry.logId)) {
+            // Already stored — acknowledge without writing
+            res.writeHead(409, { 'Content-Type': 'application/json' });
+            res.end(JSON.stringify({ status: 'duplicate' }));
+            return;
+          }
+          seenLogIds.add(logEntry.logId);
+        }
+
         logEntry.serverTime = new Date().toISOString();
         logEntry.clientIp = req.headers['x-forwarded-for']?.split(',')[0]?.trim() || req.socket.remoteAddress || 'Unknown';
         
@@ -300,6 +320,12 @@ const server = http.createServer((req, res) => {
     .btn-danger { background: #da3633; }
     .btn-danger:hover { background: #f85149; }
 
+    .filter-bar { background: #161b22; border: 1px solid #30363d; border-radius: 6px; padding: 12px 15px; margin-bottom: 20px; display: flex; align-items: center; gap: 15px; flex-wrap: wrap; }
+    .filter-label { color: #8b949e; font-size: 14px; font-weight: 600; }
+    .filter-btn { padding: 6px 12px; background: transparent; border: 1px solid #30363d; color: #c9d1d9; border-radius: 20px; cursor: pointer; font-size: 13px; transition: all 0.2s; }
+    .filter-btn:hover { border-color: #8b949e; }
+    .filter-btn.active { background: #1f6feb; border-color: #1f6feb; color: white; }
+
     .clients-panel { background: #161b22; border: 1px solid #30363d; border-radius: 6px; padding: 15px; margin-bottom: 20px; }
     .clients-panel h3 { margin: 0 0 10px 0; color: #7ee787; font-size: 16px; display: flex; align-items: center; gap: 8px; }
     .client-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 10px; }
@@ -323,9 +349,9 @@ const server = http.createServer((req, res) => {
     <div>
       <h1>Bidding Master Dashboard</h1>
       <div style="color: #8b949e; font-size: 14px;">
-        📅 Viewing: <strong style="color: #58a6ff;">${viewDate}</strong>
-        ${viewDate === getDateStr() ? ' (Today — Live)' : ' (Historical)'}
-        &nbsp;|&nbsp; Port: ${PORT}
+        📅 Viewing: <strong style="color: #58a6ff;">\${viewDate}</strong>
+        \${viewDate === getDateStr() ? ' (Today — Live)' : ' (Historical)'}
+        &nbsp;|&nbsp; Port: \${PORT}
       </div>
     </div>
     <div style="display: flex; gap: 8px;">
@@ -337,19 +363,19 @@ const server = http.createServer((req, res) => {
   <!-- Stats -->
   <div class="stats-row">
     <div class="stat-card">
-      <div class="val">${viewLogs.length}</div>
+      <div class="val">\${viewLogs.length}</div>
       <div class="lbl">Log Entries</div>
     </div>
     <div class="stat-card">
-      <div class="val">${viewLogs.filter(l => l.type === 'DETECT').length}</div>
+      <div class="val">\${viewLogs.filter(l => l.type === 'DETECT').length}</div>
       <div class="lbl">🚨 Detections</div>
     </div>
     <div class="stat-card">
-      <div class="val">${activeClients.size}</div>
+      <div class="val">\${activeClients.size}</div>
       <div class="lbl">🖥️ Active Now</div>
     </div>
     <div class="stat-card">
-      <div class="val">${availableDates.length}</div>
+      <div class="val">\${availableDates.length}</div>
       <div class="lbl">📁 Days Stored</div>
     </div>
   </div>
@@ -358,56 +384,113 @@ const server = http.createServer((req, res) => {
   <div class="date-panel">
     <h3>📅 Log History</h3>
     <div class="date-links">
-      ${availableDates.length === 0
+      \${availableDates.length === 0
         ? '<span style="color: #8b949e;">No historical logs yet. Logs will appear here after the first detection.</span>'
-        : availableDates.map(d => `
-          <a href="/dashboard?date=${d}" class="btn btn-sm btn-outline ${d === viewDate ? 'active' : ''}">${d}${d === getDateStr() ? ' (Today)' : ''}</a>
-        `).join('')}
+        : availableDates.map(d => \`
+          <a href="/dashboard?date=\${d}" class="btn btn-sm btn-outline \${d === viewDate ? 'active' : ''}">\${d}\${d === getDateStr() ? ' (Today)' : ''}</a>
+        \`).join('')}
     </div>
   </div>
 
   <!-- Active Clients -->
   <div class="clients-panel">
-    <h3><span class="dot"></span> Active Extensions (${activeClients.size})</h3>
-    ${activeClients.size === 0
+    <h3><span class="dot"></span> Active Extensions (\${activeClients.size})</h3>
+    \${activeClients.size === 0
       ? '<div style="color: #8b949e; font-size: 14px;">No extensions connected. Ensure Bidding Master is running on the portal.</div>'
-      : `<div class="client-list">
-          ${Array.from(activeClients.entries()).map(([id, data]) => `
+      : \`<div class="client-list">
+          \${Array.from(activeClients.entries()).map(([id, data]) => \`
             <div class="client-badge">
-              <div class="id">🖥️ ${escHtml(id)}</div>
-              <div class="ip">${escHtml(data.ip)}</div>
+              <div class="id">🖥️ \${escHtml(id)}</div>
+              <div class="ip">\${escHtml(data.ip)}</div>
             </div>
-          `).join('')}
-        </div>`}
+          \`).join('')}
+        </div>\`}
+  </div>
+
+  <!-- Time Filters -->
+  <div class="filter-bar">
+    <span class="filter-label">⏱️ Time Slot Filters:</span>
+    <button class="filter-btn active" data-slot="all" onclick="filterLogs('all')">All Logs</button>
+    <button class="filter-btn" data-slot="slot-1" onclick="filterLogs('slot-1')">9 AM - 12 PM</button>
+    <button class="filter-btn" data-slot="slot-2" onclick="filterLogs('slot-2')">12 PM - 3 PM</button>
+    <button class="filter-btn" data-slot="slot-3" onclick="filterLogs('slot-3')">3 PM - 6 PM</button>
+    <button class="filter-btn" data-slot="other" onclick="filterLogs('other')">Odd Timings</button>
   </div>
 
   <!-- Logs -->
   <h3 style="color: #c9d1d9; margin-bottom: 15px;">
-    ${viewDate === getDateStr() ? '📡 Recent Event Logs' : '📜 Logs for ' + viewDate}
-    <span style="color: #8b949e; font-size: 14px; font-weight: normal;"> (${viewLogs.length} entries)</span>
+    \${viewDate === getDateStr() ? '📡 Recent Event Logs' : '📜 Logs for ' + viewDate}
+    <span style="color: #8b949e; font-size: 14px; font-weight: normal;"> (<span id="visible-count">\${viewLogs.length}</span> entries)</span>
   </h3>
   <div id="logs-container">
-    ${viewLogs.length === 0 ? '<p style="color:#8b949e; font-style: italic;">No logs for this date.</p>' : ''}
-    ${viewLogs.slice().reverse().map(l => `
-      <div class="log-entry ${escHtml(l.type ? l.type.toLowerCase() : '')}">
+    \${viewLogs.length === 0 ? '<p style="color:#8b949e; font-style: italic;">No logs for this date.</p>' : ''}
+    \${viewLogs.slice().reverse().map(l => {
+      // Determine time slot based on IST hour (0-23)
+      let slotClass = 'other';
+      if (l.serverTime) {
+        const d = new Date(l.serverTime);
+        const options = { timeZone: 'Asia/Kolkata', hour: '2-digit', hour12: false };
+        const istHourStr = d.toLocaleString('en-IN', options);
+        let hour = parseInt(istHourStr, 10);
+        // Handle potential '24' for midnight from Intl API
+        if (hour === 24) hour = 0;
+        
+        if (hour >= 9 && hour < 12) slotClass = 'slot-1';
+        else if (hour >= 12 && hour < 15) slotClass = 'slot-2';
+        else if (hour >= 15 && hour < 18) slotClass = 'slot-3';
+      }
+
+      return \`
+      <div class="log-entry \${escHtml(l.type ? l.type.toLowerCase() : '')}" data-slot="\${slotClass}">
         <div class="meta">
-          <span>🕒 ${l.timestamp || (l.serverTime ? new Date(l.serverTime).toLocaleString('en-IN', { timeZone: 'Asia/Kolkata', day: '2-digit', month: 'short', year: 'numeric', hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: true }) + ' IST' : '?')}</span>
-          <span>🖥️ ${escHtml(l.clientId || 'Unknown')}</span>
-          <span>🏷️ ${escHtml(l.type || 'INFO')}</span>
+          <span>🕒 \${l.timestamp || (l.serverTime ? new Date(l.serverTime).toLocaleString('en-IN', { timeZone: 'Asia/Kolkata', day: '2-digit', month: 'short', year: 'numeric', hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: true }) + ' IST' : '?')}</span>
+          <span title="Client ID">🖥️ \${escHtml(l.clientId || 'Unknown')}</span>
+          <span title="Event Type">🏷️ \${escHtml(l.type || 'INFO')}</span>
+          <span title="Client IP Address">🌐 \${escHtml(l.clientIp || 'Unknown IP')}</span>
+          \${l.logId ? \`<span title="Unique Log ID">🔑 ID: \${escHtml(l.logId.split('-')[0])}...</span>\` : ''}
         </div>
-        <div style="font-weight:600; font-size:15px; color: ${l.type === 'DETECT' ? '#ff7b72' : '#c9d1d9'}">${escHtml(l.message || '')}</div>
-        ${l.data ? `<pre>${escHtml(JSON.stringify(l.data, null, 2))}</pre>` : ''}
+        <div style="font-weight:600; font-size:15px; color: \${l.type === 'DETECT' ? '#ff7b72' : '#c9d1d9'}">\${escHtml(l.message || '')}</div>
+        \${l.data ? \`<pre>\${escHtml(JSON.stringify(l.data, null, 2))}</pre>\` : ''}
       </div>
-    `).join('')}
+    \`}).join('')}
   </div>
 
   <script>
-    // Auto-refresh only on today's view
-    ${viewDate === getDateStr() ? 'setInterval(() => location.reload(), 5000);' : ''}
+    // Filtering logic
+    function filterLogs(slot) {
+      // Update buttons
+      document.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
+      document.querySelector('.filter-btn[data-slot="' + slot + '"]').classList.add('active');
+
+      // Filter entries
+      const entries = document.querySelectorAll('.log-entry');
+      let count = 0;
+      entries.forEach(entry => {
+        if (slot === 'all' || entry.getAttribute('data-slot') === slot) {
+          entry.style.display = 'block';
+          count++;
+        } else {
+          entry.style.display = 'none';
+        }
+      });
+      document.getElementById('visible-count').textContent = count;
+    }
+
+    // Auto-refresh only on today's view if "all" is selected
+    const isToday = \${viewDate === getDateStr() ? 'true' : 'false'};
+    if (isToday) {
+      setInterval(() => {
+        const activeSlot = document.querySelector('.filter-btn.active').getAttribute('data-slot');
+        // Only refresh if looking at 'all', otherwise you lose focus while filtering
+        if (activeSlot === 'all') {
+          location.reload();
+        }
+      }, 7000);
+    }
   </script>
 </body>
 </html>
-    `);
+    \`);
   }
   else {
     res.writeHead(404);
@@ -418,9 +501,9 @@ const server = http.createServer((req, res) => {
 server.listen(PORT, () => {
   console.log('======================================================');
   console.log('| 🚀 Bidding Master Backend v2.1 — Persistent Logs  |');
-  console.log(`| 📡 Port: ${PORT}                                     |`);
-  console.log(`| 📁 Log Dir: ${LOG_DIR}`);
-  console.log(`| 📅 Today: ${getDateStr()}                            |`);
+  console.log(\`| 📡 Port: \${PORT}                                     |\`);
+  console.log(\`| 📁 Log Dir: \${LOG_DIR}\`);
+  console.log(\`| 📅 Today: \${getDateStr()}                            |\`);
   console.log('| 📊 Dashboard: /                                    |');
   console.log('| 📜 API: /logs, /logs/YYYY-MM-DD, /dates, /clear   |');
   console.log('======================================================');
@@ -443,13 +526,13 @@ async function backupToGithub() {
   try {
     const jsonContent = JSON.stringify(logs, null, 2);
     const encodedContent = Buffer.from(jsonContent).toString('base64');
-    const pathInRepo = `logs/logs-${today}.json`;
+    const pathInRepo = \`logs/logs-\${today}.json\`;
     const branchName = 'logs'; 
     
     // 1. Get SHA if file exists
     let fileSha = undefined;
-    const getRes = await fetch(`https://api.github.com/repos/${GITHUB_REPO}/contents/${pathInRepo}?ref=${branchName}`, {
-      headers: { 'Authorization': `Bearer ${GITHUB_TOKEN}`, 'User-Agent': 'BiddingMaster-Bot' }
+    const getRes = await fetch(\`https://api.github.com/repos/\${GITHUB_REPO}/contents/\${pathInRepo}?ref=\${branchName}\`, {
+      headers: { 'Authorization': \`Bearer \${GITHUB_TOKEN}\`, 'User-Agent': 'BiddingMaster-Bot' }
     });
     if (getRes.ok) {
       const data = await getRes.json();
@@ -457,15 +540,15 @@ async function backupToGithub() {
     }
 
     // 2. PUT file update
-    const putRes = await fetch(`https://api.github.com/repos/${GITHUB_REPO}/contents/${pathInRepo}`, {
+    const putRes = await fetch(\`https://api.github.com/repos/\${GITHUB_REPO}/contents/\${pathInRepo}\`, {
       method: 'PUT',
       headers: {
-        'Authorization': `Bearer ${GITHUB_TOKEN}`,
+        'Authorization': \`Bearer \${GITHUB_TOKEN}\`,
         'Content-Type': 'application/json',
         'User-Agent': 'BiddingMaster-Bot'
       },
       body: JSON.stringify({
-        message: `Auto-backup JSON logs for ${today}`,
+        message: \`Auto-backup JSON logs for \${today}\`,
         content: encodedContent,
         branch: branchName,
         sha: fileSha
@@ -473,7 +556,7 @@ async function backupToGithub() {
     });
 
     if (putRes.ok) {
-      console.log(`✅ System successfully backed up ${logs.length} logs as JSON to GitHub branch '${branchName}'!`);
+      console.log(\`✅ System successfully backed up \${logs.length} logs as JSON to GitHub branch '\${branchName}'!\`);
     } else {
       console.error('❌ Failed to push JSON to GitHub', await putRes.text());
     }
